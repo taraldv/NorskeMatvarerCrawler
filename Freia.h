@@ -1,7 +1,9 @@
 #ifndef FREIA_H
 #define FREIA_H
 
-class Freia{
+//#include "Request.h"
+
+class Freia/*: public Request*/ {
 public:
 	Freia();
 };
