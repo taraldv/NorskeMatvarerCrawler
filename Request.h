@@ -9,16 +9,17 @@
 #include <cstring>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 class Request{
-/* alt brukes av extended classes */
+/* alt brukes av extended classes, skulle vært abstract */
 protected:
 	char *url;
-	//size_t grow_buffer(void *contents, size_t sz, size_t nmemb, void *ctx);
+
 	htmlDocPtr getXMLDocFromURL(char*urlpointer);
 	xmlNodeSetPtr getRegexNodes(xmlChar*regex,char*urlpointer);
-	std::vector<std::string> getURLsFromNodeSet(xmlNodeSetPtr set);
-	//vector<string> getURLsFromVector(vector<string> inputVektor);
+	std::vector<std::string> getContentFromNodeSet(xmlNodeSetPtr set);
+	void removeDuplicateStringsFromVector(std::vector<std::string>&vektorAlias);
 	Request(char *url);
 };
 

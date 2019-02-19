@@ -7,6 +7,12 @@ typedef struct {
 	size_t size;
 } memory;
 
+void Request::removeDuplicateStringsFromVector(vector<string>&vektorAlias){
+	sort(vektorAlias.begin(),vektorAlias.end());
+	vektorAlias.erase(unique(vektorAlias.begin(),vektorAlias.end()),vektorAlias.end());
+}
+
+/* kopiert fra crawler eksempel libcurl */
 size_t grow_buffer(void *contents, size_t sz, size_t nmemb, void *ctx){
 	size_t realsize = sz * nmemb;
 	memory *mem = (memory*) ctx;
@@ -36,57 +42,35 @@ htmlDocPtr Request::getXMLDocFromURL(char*urlpointer){
 	curl_easy_perform(curl);
 
 	int opts = HTML_PARSE_NOBLANKS | HTML_PARSE_NOERROR | HTML_PARSE_NOWARNING | HTML_PARSE_NONET;
-  /* genererer xmlDoc fra memory */
 	htmlDocPtr doc = htmlReadMemory(mem->buf, mem->size, urlpointer, NULL, opts);
 	curl_easy_cleanup(curl);
+	free(mem->buf);
+	free(mem);
 	return doc;
 }
 
+/* xml magic, finner alle valgt nodes og lager en ny nodeset med alle i */
 xmlNodeSetPtr Request::getRegexNodes(xmlChar*regex,char*urlpointer){
-  htmlDocPtr doc = getXMLDocFromURL(urlpointer);
-
-  /* xml magic, finner alle valgt nodes og lager en ny nodeset med alle i */
-  xmlChar *xpath = regex;
-  xmlXPathContextPtr context = xmlXPathNewContext(doc);
-  xmlXPathObjectPtr result = xmlXPathEvalExpression(xpath, context);
-  xmlXPathFreeContext(context);
-
-  
-  return result->nodesetval;
-
+	htmlDocPtr doc = getXMLDocFromURL(urlpointer);
+	xmlChar *xpath = regex;
+	xmlXPathContextPtr context = xmlXPathNewContext(doc);
+	xmlXPathObjectPtr result = xmlXPathEvalExpression(xpath, context);
+	xmlXPathFreeContext(context);
+	return result->nodesetval;
 }
 
-vector<string> Request::getURLsFromNodeSet(xmlNodeSetPtr set){
-  vector<string> vektor;
-  if(set){
-    for(int i = 0;i<set->nodeNr;i++){
-      const xmlNode *node = set->nodeTab[i]->xmlChildrenNode;
-      string tempString = (string)((char*)node->content);
-      /* hvis url er komplett, ellers legg til base url */
-      if(tempString.find("www")!=string::npos || tempString.find("http")!=string::npos){
-        vektor.push_back(tempString);
-      } else {
-        vektor.push_back("https://www.tine.no"+tempString);
-      }
-    }
-  }
-  return vektor;
+/* putter content fra hver node i set i en vektor */
+vector<string> Request::getContentFromNodeSet(xmlNodeSetPtr set){
+	vector<string> vektor;
+	if(set){
+		for(int i = 0;i<set->nodeNr;i++){
+			const xmlNode *node = set->nodeTab[i]->xmlChildrenNode;
+			string tempString = (string)((char*)node->content);
+			vektor.push_back(tempString);
+		}
+	}
+	return vektor;
 }
-
-/*
-vector<string> Request::getURLsFromVector(vector<string> inputVektor){
-  vector<string> outputVektor;
-  /* for hver string i inputVektor lag et nodeSet og add alle nye URLs til outputVektor */
-  /*for(unsigned int i = 0;i<inputVektor.size();i++){
-    xmlNodeSetPtr tempNodeSet = getRegexNodes((xmlChar*)"//a/@href",&inputVektor.at(i)[0u]);
-    vector<string> tempVector = getURLsFromNodeSet(tempNodeSet);
-    for(unsigned int j = 0;j<tempVector.size();j++){
-     outputVektor.push_back(tempVector.at(j));
-   }
- }
- return outputVektor;
-}*/
-
 
 
 

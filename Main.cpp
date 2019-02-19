@@ -1,13 +1,10 @@
-#include <libxml/HTMLparser.h>
-#include <libxml/xpath.h>
-#include <libxml/uri.h>
 #include <stdio.h>
 #include <cstring>
 #include <string>
 #include <vector>
 #include <iostream>
 #include <fstream>
-#include <algorithm>
+
 #include "Tine.h"
 
 using namespace std;
@@ -22,9 +19,6 @@ void writeVector(vector<string> vektor,string filNavn){
 }
 
 void removeUselessURLS(vector<string>&vektorAlias){
-  sort(vektorAlias.begin(),vektorAlias.end());
-  vektorAlias.erase(unique(vektorAlias.begin(),vektorAlias.end()),vektorAlias.end());
-
   /* erase tar bare iterator? så brukte det istedet for size() */
   for(vector<string>::iterator it = vektorAlias.end()-1; it!=vektorAlias.begin()-1;it--){
     string tempUrl = *it;
@@ -36,8 +30,12 @@ void removeUselessURLS(vector<string>&vektorAlias){
 
 int main(void){
 	Tine t;
-	vector<string> vektor = t.getInitialNodeList();
+	vector<string> vektor = t.getThirdIterationNodeList();
+	cout << vektor.size() << endl;
 	writeVector(vektor,"test.txt");
+
+
+
 /*
   char *baseURL = (char*)"https://www.tine.no/produkter";
 
