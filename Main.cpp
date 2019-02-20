@@ -30,7 +30,7 @@ void removeUselessURLS(vector<string>&vektorAlias){
 
 int main(void){
 	Tine t;
-	vector<string> vektor = t.getThirdIterationNodeList();
+	vector<string> vektor = t.getInitialNodeList();
 	cout << vektor.size() << endl;
 	writeVector(vektor,"test.txt");
 

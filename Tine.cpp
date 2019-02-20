@@ -4,16 +4,16 @@ using namespace std;
 
 
 /* sender url til Request konstruktor */
-Tine::Tine():Request((char*)"https://www.tine.no/"){
+Tine::Tine():Request((char*)"www.tine.no"){
 	initalNodeSet = getRegexNodes((xmlChar*)"//a/@href",url);
-	vector<string> initialVektor = getInitialNodeList();
+	/*vector<string> initialVektor = getInitialNodeList();
 	for(size_t i = 0; i<initialVektor.size();i++){
 		secondIterationNodeSet.push_back(getRegexNodes((xmlChar*)"//a/@href",&initialVektor.at(i)[0u]));
 	}
 	vector<string> secondVektor = getSecondIterationNodeList();
 	for(size_t j = 0; j<secondVektor.size();j++){
 		thirdIterationNodeSet.push_back(getRegexNodes((xmlChar*)"//a/@href",&secondVektor.at(j)[0u]));
-	}
+	}*/
 }
 
 bool relativeURL(string url){
