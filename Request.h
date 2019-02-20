@@ -15,6 +15,7 @@
 class Request{
 protected:
 	xmlChar* urlRegex = (xmlChar*)"//a/@href";
+	xmlChar* tableRegex = (xmlChar*)"//table";
 	xmlNodeSetPtr getRegexNodes(xmlChar* regex,std::string url);
 	//xmlNodeSetPtr getRegexNodes();
 	std::vector<std::string> getContentFromNodeSet(xmlNodeSetPtr set);

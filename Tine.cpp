@@ -72,6 +72,21 @@ void onlyKeepUsefulTineLinks(vector<string>&vektorAlias){
 }
 
 
+void Tine::getTables(){
+	for(size_t i = 0;i<newLinks.size();i++){
+		string tempURL = newLinks.at(i);
+		xmlNodeSetPtr set = getRegexNodes(tableRegex,tempURL);
+		if(set){
+			cout << (xmlNode*)set.type << endl;
+			//const xmlNode *node = set->nodeTab[0]->xmlChildrenNode;
+			//string tempString = (string)((char*)node->content);
+			//cout << tempString << endl;
+		} else {
+			cout << "didnt find table?" << endl;
+		}
+	}
+}
+
 void Tine::runCrawler(int numberOfIterations){
 	for(int i=0;i<numberOfIterations;i++){
 		vector<string> sumNyeLinks;
@@ -84,7 +99,6 @@ void Tine::runCrawler(int numberOfIterations){
 			}
 			/* hvis ikke besøkt, henter html dokument, legges til besøkt liste og sletter */
 			xmlNodeSetPtr set = getRegexNodes(urlRegex,tempURL);
-			//xmlNodeSetPtr set = getRegexNodes();
 			visitedLinks.push_back(tempURL);
 			newLinks.pop_back();
 

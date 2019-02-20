@@ -58,6 +58,7 @@ xmlNodeSetPtr Request::getRegexNodes(xmlChar *regex,string url){
 	xmlXPathObjectPtr result = xmlXPathEvalExpression(xpath, context);
 	xmlXPathFreeContext(context);
 	return result->nodesetval;
+	//http://xmlsoft.org/html/libxml-xpath.html#xmlNodeSet
 }
 
 vector<string> Request::getContentFromNodeSet(xmlNodeSetPtr set){

@@ -14,6 +14,7 @@ public:
 	void runCrawler(int iterations);
 	std::vector<std::string> getvisitedLinks();
 	std::vector<std::string> getNewLinks();
+	void getTables();
 };
 
 #endif
