@@ -28,7 +28,8 @@ size_t grow_buffer(void *contents, size_t sz, size_t nmemb, void *ctx){
 	return realsize;
 }
 
-htmlDocPtr getXMLDocFromURL(char*urlpointer){
+htmlDocPtr getXMLDocFromURL(string url){
+	char *urlpointer = &url[0u];
 	CURL *curl = curl_easy_init();
 	curl_easy_setopt(curl, CURLOPT_URL, urlpointer);
 
@@ -50,11 +51,9 @@ htmlDocPtr getXMLDocFromURL(char*urlpointer){
 }
 
 /* xml magic, finner alle valgt nodes og lager en ny nodeset med alle i */
-xmlNodeSetPtr Request::getRegexNodes(/*xmlChar *regex,string url*/){
-	//htmlDocPtr doc = getXMLDocFromURL(&url[0u]);
-	//xmlChar *xpath = regex;
-	htmlDocPtr doc = getXMLDocFromURL((char*)"https:://www.tine.no");
-	xmlChar *xpath = (xmlChar*)"//a/@href";
+xmlNodeSetPtr Request::getRegexNodes(xmlChar *regex,string url){
+	htmlDocPtr doc = getXMLDocFromURL(url);
+	xmlChar *xpath = regex;
 	xmlXPathContextPtr context = xmlXPathNewContext(doc);
 	xmlXPathObjectPtr result = xmlXPathEvalExpression(xpath, context);
 	xmlXPathFreeContext(context);

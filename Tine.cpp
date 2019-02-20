@@ -5,7 +5,7 @@ using namespace std;
 
 /* sender url til Request konstruktor */
 Tine::Tine(){
-	newLinks.push_back("www.tine.no");
+	newLinks.push_back("https://www.tine.no/");
 	/*initalNodeSet = getRegexNodes((xmlChar*)"//a/@href",url);
 	vector<string> initialVektor = getInitialNodeList();
 	
@@ -46,17 +46,13 @@ void Tine::runCrawler(size_t numberOfIterations){
 				continue;
 			}
 			/* hvis ikke besøkt, henter html dokument, legges til besøkt liste og sletter */
-			cout << tempURL << endl;
-			//xmlNodeSetPtr set = getRegexNodes(urlRegex,tempURL);
-			xmlNodeSetPtr set = getRegexNodes();
-			cout << set << endl;
+			xmlNodeSetPtr set = getRegexNodes(urlRegex,tempURL);
+			//xmlNodeSetPtr set = getRegexNodes();
 			visitedLinks.push_back(tempURL);
 			newLinks.pop_back();
 
 			vector<string> newURLs = getContentFromNodeSet(set);
 			sumNyeLinks.insert(sumNyeLinks.end(),newURLs.begin(),newURLs.end());
-			cout << sumNyeLinks.size() << endl;
-			cout << newURLs.size() << endl;
 		}
 		/* her skal newLinks være tom, så vi legger til sumNyeLinks */
 		newLinks.insert(newLinks.end(),sumNyeLinks.begin(),sumNyeLinks.end());

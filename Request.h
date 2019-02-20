@@ -10,12 +10,13 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <iostream>
 
 class Request{
 protected:
 	xmlChar* urlRegex = (xmlChar*)"//a/@href";
-	//xmlNodeSetPtr getRegexNodes(xmlChar* regex,std::string url);
-	xmlNodeSetPtr getRegexNodes();
+	xmlNodeSetPtr getRegexNodes(xmlChar* regex,std::string url);
+	//xmlNodeSetPtr getRegexNodes();
 	std::vector<std::string> getContentFromNodeSet(xmlNodeSetPtr set);
 	void removeDuplicateStringsFromVector(std::vector<std::string>&vektorAlias);
 	Request();
