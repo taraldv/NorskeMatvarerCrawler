@@ -6,14 +6,14 @@
 
 class Tine: public Request{
 private:
-	xmlNodeSetPtr initalNodeSet;
-	std::vector<xmlNodeSetPtr> secondIterationNodeSet;
-	std::vector<xmlNodeSetPtr> thirdIterationNodeSet;
+	std::vector<std::string> visitedLinks;
+	std::vector<std::string> newLinks;
+	bool alreadyVisited(std::string url);
 public:
 	Tine();
-	std::vector<std::string> getInitialNodeList();
-	std::vector<std::string> getSecondIterationNodeList();
-	std::vector<std::string> getThirdIterationNodeList();
+	void runCrawler(size_t iterations);
+	std::vector<std::string> getvisitedLinks();
+	std::vector<std::string> getNewLinks();
 };
 
 #endif

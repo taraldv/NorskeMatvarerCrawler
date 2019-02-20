@@ -10,30 +10,32 @@
 using namespace std;
 
 void writeVector(vector<string> vektor,string filNavn){
-  ofstream outputFile;
-  outputFile.open(filNavn);
-  for(unsigned int i=0;i<vektor.size();i++){
-    outputFile << vektor.at(i) << endl;
-  }
-  outputFile.close();
+	ofstream outputFile;
+	outputFile.open(filNavn);
+	for(unsigned int i=0;i<vektor.size();i++){
+		outputFile << vektor.at(i) << endl;
+	}
+	outputFile.close();
 }
 
 void removeUselessURLS(vector<string>&vektorAlias){
   /* erase tar bare iterator? så brukte det istedet for size() */
-  for(vector<string>::iterator it = vektorAlias.end()-1; it!=vektorAlias.begin()-1;it--){
-    string tempUrl = *it;
-    if(tempUrl.find("produkter")==string::npos){
-      vektorAlias.erase(it);
-    }
-  }
+	for(vector<string>::iterator it = vektorAlias.end()-1; it!=vektorAlias.begin()-1;it--){
+		string tempUrl = *it;
+		if(tempUrl.find("produkter")==string::npos){
+			vektorAlias.erase(it);
+		}
+	}
 }
 
 int main(void){
 	Tine t;
-	vector<string> vektor = t.getInitialNodeList();
-	cout << vektor.size() << endl;
-	writeVector(vektor,"test.txt");
-
+	t.runCrawler(1);
+	vector<string> visited = t.getvisitedLinks();
+	vector<string> newLinks = t.getNewLinks();
+	//cout << vektor.size() << endl;
+	writeVector(visited,"1IterasjonVisited.txt");
+	writeVector(newLinks,"1IterasjonNewLinks.txt");
 
 
 /*
@@ -54,6 +56,6 @@ int main(void){
 
   curl_global_cleanup();
 */
-  return 0;
+	return 0;
 }
 

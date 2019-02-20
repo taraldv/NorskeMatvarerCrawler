@@ -28,7 +28,8 @@ size_t grow_buffer(void *contents, size_t sz, size_t nmemb, void *ctx){
 	return realsize;
 }
 
-htmlDocPtr Request::getXMLDocFromURL(char*urlpointer){
+htmlDocPtr getXMLDocFromURL(string url){
+	char *urlpointer = &url[0u];
 	CURL *curl = curl_easy_init();
 	curl_easy_setopt(curl, CURLOPT_URL, urlpointer);
 
@@ -50,8 +51,8 @@ htmlDocPtr Request::getXMLDocFromURL(char*urlpointer){
 }
 
 /* xml magic, finner alle valgt nodes og lager en ny nodeset med alle i */
-xmlNodeSetPtr Request::getRegexNodes(xmlChar*regex,char*urlpointer){
-	htmlDocPtr doc = getXMLDocFromURL(urlpointer);
+xmlNodeSetPtr Request::getRegexNodes(xmlChar *regex,string url){
+	htmlDocPtr doc = getXMLDocFromURL(url);
 	xmlChar *xpath = regex;
 	xmlXPathContextPtr context = xmlXPathNewContext(doc);
 	xmlXPathObjectPtr result = xmlXPathEvalExpression(xpath, context);
@@ -59,7 +60,6 @@ xmlNodeSetPtr Request::getRegexNodes(xmlChar*regex,char*urlpointer){
 	return result->nodesetval;
 }
 
-/* putter content fra hver node i set i en vektor */
 vector<string> Request::getContentFromNodeSet(xmlNodeSetPtr set){
 	vector<string> vektor;
 	if(set){
@@ -72,8 +72,22 @@ vector<string> Request::getContentFromNodeSet(xmlNodeSetPtr set){
 	return vektor;
 }
 
+/* putter content fra hver node i set i en vektor */
+/*vector<string> Request::getContentFromNodeSet(vector<xmlNodeSetPtr> nodeSetVektor){
+	vector<string> vektor;
+	for(size_t i=0;i<nodeSetVektor.size();i++){
+		xmlNodeSetPtr set = nodeSetVektor.at(i);
+		vector<string> tempVektor;
+		for(int j = 0;j<set->nodeNr;j++){
+			const xmlNode *node = set->nodeTab[j]->xmlChildrenNode;
+			string tempString = (string)((char*)node->content);
+			tempVektor.push_back(tempString);
+		}
+		vektor.insert(vektor.end(),tempVektor.begin(),tempVektor.end());
+	}
+	return vektor;
+}*/
 
 
-Request::Request(char*url){
-	this->url = url;
-}
+
+Request::Request(){}

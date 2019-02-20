@@ -10,17 +10,16 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <iostream>
 
 class Request{
-/* alt brukes av extended classes, skulle vært abstract */
 protected:
-	char *url;
-
-	htmlDocPtr getXMLDocFromURL(char*urlpointer);
-	xmlNodeSetPtr getRegexNodes(xmlChar*regex,char*urlpointer);
+	xmlChar* urlRegex = (xmlChar*)"//a/@href";
+	xmlNodeSetPtr getRegexNodes(xmlChar* regex,std::string url);
+	//xmlNodeSetPtr getRegexNodes();
 	std::vector<std::string> getContentFromNodeSet(xmlNodeSetPtr set);
 	void removeDuplicateStringsFromVector(std::vector<std::string>&vektorAlias);
-	Request(char *url);
+	Request();
 };
 
 #endif
