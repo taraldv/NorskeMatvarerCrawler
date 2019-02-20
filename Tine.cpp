@@ -5,12 +5,13 @@ using namespace std;
 
 /* sender url til Request konstruktor */
 Tine::Tine(){
-	newLinks.push_back("https://www.tine.no/");
+	newLinks.push_back("http://www.tine.no");
 }
 
 bool Tine::alreadyVisited(string url){
 	for(size_t x = 0;x<visitedLinks.size();x++){
-		if(visitedLinks.at(x).compare(url)){
+		/* compare returnerer 0 hvis like seff */
+		if(!url.compare(visitedLinks.at(x))){
 			return true;
 		}
 	}
@@ -25,16 +26,6 @@ bool relativeURL(string url){
 
 bool malformedURL(string url){
 	return (url.at(0)== '/' && url.at(1) == '/');
-}
-
-/* må visst had https i tillegg */
-void addHTTPS(vector<string>&vektorAlias){
-	for(size_t i = 0;i<vektorAlias.size();i++){
-		/* hvis https ikke finnes i string */
-		if(vektorAlias.at(i).find("https")==string::npos){
-			vektorAlias.at(i) = "https://"+vektorAlias.at(i);
-		}
-	}
 }
 
 /* 
@@ -61,7 +52,7 @@ void fiksURLs(vector<string>&vektorAlias){
 bool stringCheck(string s){
 	string invalidWords[] = {"sporsmal","tine-handel","Driftsledelse","tjenester","tine-ravare","nettsider","arsrapport",
 	"instagram","facebook","kontakt","presserom","twitter","pinterest","praktisk-informasjon","medlemsp","kalender","jobb-i-tine",
-	"hjelp-og-brukerstotte","sunt-kosthold","fagprat","aktuelt","helse","om-oss","oppskrifter","medlem"};
+	"hjelp-og-brukerstotte","sunt-kosthold","fagprat","aktuelt","helse","om-oss","oppskrifter","medlem","english","sponsing","smartidrettsmat"};
 	for(size_t i=0;i<sizeof(invalidWords)/sizeof(*invalidWords);i++){
 		if(s.find(invalidWords[i])!=string::npos){
 			return true;
@@ -81,12 +72,11 @@ void onlyKeepUsefulTineLinks(vector<string>&vektorAlias){
 }
 
 
-void Tine::runCrawler(size_t numberOfIterations){
-	for(size_t i=0;i<numberOfIterations;i++){
+void Tine::runCrawler(int numberOfIterations){
+	for(int i=0;i<numberOfIterations;i++){
 		vector<string> sumNyeLinks;
 		while(!newLinks.empty()){
 			string tempURL = newLinks.back();
-
 			/* sletter og går til neste link hvis den allerede er besøkt */
 			if(alreadyVisited(tempURL)){
 				newLinks.pop_back();
@@ -104,9 +94,9 @@ void Tine::runCrawler(size_t numberOfIterations){
 			removeDuplicateStringsFromVector(newURLs);
 			fiksURLs(newURLs);
 			onlyKeepUsefulTineLinks(newURLs);
-			addHTTPS(newURLs);
 			sumNyeLinks.insert(sumNyeLinks.end(),newURLs.begin(),newURLs.end());
 		}
+		removeDuplicateStringsFromVector(sumNyeLinks);
 		/* her skal newLinks være tom, så vi legger til sumNyeLinks */
 		newLinks.insert(newLinks.end(),sumNyeLinks.begin(),sumNyeLinks.end());
 	}

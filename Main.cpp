@@ -30,12 +30,12 @@ void removeUselessURLS(vector<string>&vektorAlias){
 
 int main(void){
 	Tine t;
-	t.runCrawler(1);
+	t.runCrawler(2);
 	vector<string> visited = t.getvisitedLinks();
 	vector<string> newLinks = t.getNewLinks();
 	//cout << vektor.size() << endl;
-	writeVector(visited,"1IterasjonVisited.txt");
-	writeVector(newLinks,"1IterasjonNewLinks.txt");
+	writeVector(visited,"2IterasjonVisited.txt");
+	writeVector(newLinks,"2IterasjonNewLinks.txt");
 
 
 /*

@@ -32,7 +32,7 @@ htmlDocPtr getXMLDocFromURL(string url){
 	char *urlpointer = &url[0u];
 	CURL *curl = curl_easy_init();
 	curl_easy_setopt(curl, CURLOPT_URL, urlpointer);
-
+	curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
   /* memory magic, kopi fra crawler eksempel*/
 	memory *mem = (memory*)malloc(sizeof(memory));
 	mem->size = 0;

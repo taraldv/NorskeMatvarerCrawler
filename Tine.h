@@ -11,7 +11,7 @@ private:
 	bool alreadyVisited(std::string url);
 public:
 	Tine();
-	void runCrawler(size_t iterations);
+	void runCrawler(int iterations);
 	std::vector<std::string> getvisitedLinks();
 	std::vector<std::string> getNewLinks();
 };
