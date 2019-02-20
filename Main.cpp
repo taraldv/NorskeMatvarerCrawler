@@ -34,8 +34,8 @@ int main(void){
 	vector<string> visited = t.getvisitedLinks();
 	vector<string> newLinks = t.getNewLinks();
 	//cout << vektor.size() << endl;
-	writeVector(visited,"visited.txt");
-	writeVector(newLinks,"newLinks.txt");
+	writeVector(visited,"1IterasjonVisited.txt");
+	writeVector(newLinks,"1IterasjonNewLinks.txt");
 
 
 /*

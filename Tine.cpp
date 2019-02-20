@@ -6,23 +6,6 @@ using namespace std;
 /* sender url til Request konstruktor */
 Tine::Tine(){
 	newLinks.push_back("https://www.tine.no/");
-	/*initalNodeSet = getRegexNodes((xmlChar*)"//a/@href",url);
-	vector<string> initialVektor = getInitialNodeList();
-	
-	for(size_t i = 0; i<initialVektor.size();i++){
-		secondIterationNodeSet.push_back(getRegexNodes((xmlChar*)"//a/@href",&initialVektor.at(i)[0u]));
-	}
-	
-	vector<string> secondVektor = getSecondIterationNodeList();
-	for(size_t j = 0; j<secondVektor.size();j++){
-		
-		for(size_t x = 0;x<initialVektor.size();x++){
-			if(initialVektor.at(x).compare(secondVektor.at(j))){
-				break;
-			}
-		}
-		thirdIterationNodeSet.push_back(getRegexNodes((xmlChar*)"//a/@href",&secondVektor.at(j)[0u]));
-	}*/
 }
 
 bool Tine::alreadyVisited(string url){
@@ -34,30 +17,7 @@ bool Tine::alreadyVisited(string url){
 	return false;
 }
 
-void Tine::runCrawler(size_t numberOfIterations){
-	for(size_t i=0;i<numberOfIterations;i++){
-		vector<string> sumNyeLinks;
-		while(!newLinks.empty()){
-			string tempURL = newLinks.back();
 
-			/* sletter og går til neste link hvis den allerede er besøkt */
-			if(alreadyVisited(tempURL)){
-				newLinks.pop_back();
-				continue;
-			}
-			/* hvis ikke besøkt, henter html dokument, legges til besøkt liste og sletter */
-			xmlNodeSetPtr set = getRegexNodes(urlRegex,tempURL);
-			//xmlNodeSetPtr set = getRegexNodes();
-			visitedLinks.push_back(tempURL);
-			newLinks.pop_back();
-
-			vector<string> newURLs = getContentFromNodeSet(set);
-			sumNyeLinks.insert(sumNyeLinks.end(),newURLs.begin(),newURLs.end());
-		}
-		/* her skal newLinks være tom, så vi legger til sumNyeLinks */
-		newLinks.insert(newLinks.end(),sumNyeLinks.begin(),sumNyeLinks.end());
-	}
-}
 
 bool relativeURL(string url){
 	return (url.at(0) == '/' && url.at(1) != '/');
@@ -65,6 +25,16 @@ bool relativeURL(string url){
 
 bool malformedURL(string url){
 	return (url.at(0)== '/' && url.at(1) == '/');
+}
+
+/* må visst had https i tillegg */
+void addHTTPS(vector<string>&vektorAlias){
+	for(size_t i = 0;i<vektorAlias.size();i++){
+		/* hvis https ikke finnes i string */
+		if(vektorAlias.at(i).find("https")==string::npos){
+			vektorAlias.at(i) = "https://"+vektorAlias.at(i);
+		}
+	}
 }
 
 /* 
@@ -111,43 +81,36 @@ void onlyKeepUsefulTineLinks(vector<string>&vektorAlias){
 }
 
 
-/* henter en vektor med URLS for hver URL i initialList */
-/*
-vector<string> Tine::getThirdIterationNodeList(){
-	vector<string> v;
-	for(size_t i=0;i<thirdIterationNodeSet.size();i++){
-		vector<string> tempVektor = getContentFromNodeSet(thirdIterationNodeSet.at(i));
-		v.insert(v.end(),tempVektor.begin(),tempVektor.end());
+void Tine::runCrawler(size_t numberOfIterations){
+	for(size_t i=0;i<numberOfIterations;i++){
+		vector<string> sumNyeLinks;
+		while(!newLinks.empty()){
+			string tempURL = newLinks.back();
+
+			/* sletter og går til neste link hvis den allerede er besøkt */
+			if(alreadyVisited(tempURL)){
+				newLinks.pop_back();
+				continue;
+			}
+			/* hvis ikke besøkt, henter html dokument, legges til besøkt liste og sletter */
+			xmlNodeSetPtr set = getRegexNodes(urlRegex,tempURL);
+			//xmlNodeSetPtr set = getRegexNodes();
+			visitedLinks.push_back(tempURL);
+			newLinks.pop_back();
+
+			vector<string> newURLs = getContentFromNodeSet(set);
+
+			/* fikser links før de legges til sum*/
+			removeDuplicateStringsFromVector(newURLs);
+			fiksURLs(newURLs);
+			onlyKeepUsefulTineLinks(newURLs);
+			addHTTPS(newURLs);
+			sumNyeLinks.insert(sumNyeLinks.end(),newURLs.begin(),newURLs.end());
+		}
+		/* her skal newLinks være tom, så vi legger til sumNyeLinks */
+		newLinks.insert(newLinks.end(),sumNyeLinks.begin(),sumNyeLinks.end());
 	}
-	removeDuplicateStringsFromVector(v);
-	fiksURLs(v);
-	onlyKeepUsefulTineLinks(v);
-	return v;
 }
-*/
-/* henter en vektor med URLS for hver URL i initialList */
-/*
-vector<string> Tine::getSecondIterationNodeList(){
-	vector<string> v;
-	for(size_t i=0;i<secondIterationNodeSet.size();i++){
-		vector<string> tempVektor = getContentFromNodeSet(secondIterationNodeSet.at(i));
-		v.insert(v.end(),tempVektor.begin(),tempVektor.end());
-	}
-	removeDuplicateStringsFromVector(v);
-	fiksURLs(v);
-	onlyKeepUsefulTineLinks(v);
-	return v;
-}
-*/
-/*
-vector<string> Tine::getInitialNodeList(){
-	vector<string> v = getContentFromNodeSet(initalNodeSet);
-	removeDuplicateStringsFromVector(v);
-	fiksURLs(v);
-	onlyKeepUsefulTineLinks(v);
-	return v;
-}
-*/
 
 vector<string> Tine::getvisitedLinks(){
 	return visitedLinks;
