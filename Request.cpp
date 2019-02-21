@@ -28,7 +28,7 @@ size_t grow_buffer(void *contents, size_t sz, size_t nmemb, void *ctx){
 	return realsize;
 }
 
-htmlDocPtr getXMLDocFromURL(string url){
+htmlDocPtr Request::getXMLDocFromURL(string url){
 	char *urlpointer = &url[0u];
 	CURL *curl = curl_easy_init();
 	curl_easy_setopt(curl, CURLOPT_URL, urlpointer);
@@ -50,12 +50,20 @@ htmlDocPtr getXMLDocFromURL(string url){
 	return doc;
 }
 
-/* xml magic, finner alle valgt nodes og lager en ny nodeset med alle i */
-xmlNodeSetPtr Request::getRegexNodes(xmlChar *regex,string url){
-	htmlDocPtr doc = getXMLDocFromURL(url);
+
+xmlNodeSetPtr Request::getRegexNodes(xmlChar *regex,htmlDocPtr doc){
+	//htmlDocPtr doc = getXMLDocFromURL(url);
+
+	/* https://www.w3schools.com/xml/xpath_syntax.asp */
 	xmlChar *xpath = regex;
+
+	/* http://xmlsoft.org/html/libxml-xpath.html#xmlXPathContext */
 	xmlXPathContextPtr context = xmlXPathNewContext(doc);
+
+	/* http://xmlsoft.org/html/libxml-xpath.html#xmlXPathObject */
 	xmlXPathObjectPtr result = xmlXPathEvalExpression(xpath, context);
+
+
 	xmlXPathFreeContext(context);
 	return result->nodesetval;
 	//http://xmlsoft.org/html/libxml-xpath.html#xmlNodeSet

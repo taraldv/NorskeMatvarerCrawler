@@ -14,7 +14,10 @@ public:
 	void runCrawler(int iterations);
 	std::vector<std::string> getvisitedLinks();
 	std::vector<std::string> getNewLinks();
-	void getTables();
+	char* getTitle(htmlDocPtr doc);
+	void getTableData(htmlDocPtr doc);
+	void nyTest();
+	std::string* getTableRowCellContent(xmlNode *row);
 };
 
 #endif

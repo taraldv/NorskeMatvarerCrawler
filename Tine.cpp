@@ -2,15 +2,13 @@
 
 using namespace std;
 
-
-/* sender url til Request konstruktor */
 Tine::Tine(){
 	newLinks.push_back("http://www.tine.no");
 }
 
 bool Tine::alreadyVisited(string url){
 	for(size_t x = 0;x<visitedLinks.size();x++){
-		/* compare returnerer 0 hvis like seff */
+		/* compare returnerer 0 hvis like */
 		if(!url.compare(visitedLinks.at(x))){
 			return true;
 		}
@@ -71,21 +69,140 @@ void onlyKeepUsefulTineLinks(vector<string>&vektorAlias){
 	}
 }
 
+/* returnerer NULL hvis tittel ikke finnes */
+char* Tine::getTitle(htmlDocPtr doc){
+	xmlNodeSetPtr h1Title = getRegexNodes((xmlChar*)"//h1[@class='title']",doc);
+	if(h1Title){
+		xmlNodePtr* arr = h1Title->nodeTab;
+		if(h1Title->nodeNr){
+			xmlNode *titleNode = arr[0]->xmlChildrenNode;
+			/* xmlNodeGetContent kan også bli NULL */
+			return (char*)xmlNodeGetContent(titleNode);
+		}
+	}
+	return NULL;
+}
 
-void Tine::getTables(){
+
+string* Tine::getTableRowCellContent(xmlNode *row){
+	/* heap alloc */
+	string *data = new string[2];
+	xmlNode *rowTDNode = row->children;
+	cout << row->name << endl;
+	int index = 0;
+	while(rowTDNode!=row->last){
+		if(rowTDNode->type==1){
+			data[index] = (char*)xmlNodeGetContent(rowTDNode);
+			index++;
+		}
+		rowTDNode = rowTDNode->next;
+	}
+	return data;
+}
+
+void Tine::getTableData(htmlDocPtr doc){
+	xmlNodeSetPtr tableRows = getRegexNodes((xmlChar*)"//tr[@class='nutrient-table__row']",doc);
+	//vector<string[2]> vArr;
+	if(tableRows){
+		xmlNodePtr* rowArray = tableRows->nodeTab;
+		for(int i=0;i<tableRows->nodeNr;i++){
+			//xmlNode *rowNode = ->xmlChildrenNode;
+			string* k = getTableRowCellContent(rowArray[i]);
+			cout << k[0] << endl;
+			delete[] k;
+			//vArr.push_back();
+		}
+	}
+	//cout << vArr.size() << endl;
+}
+
+void Tine::nyTest(){
 	for(size_t i = 0;i<newLinks.size();i++){
 		string tempURL = newLinks.at(i);
-		xmlNodeSetPtr set = getRegexNodes(tableRegex,tempURL);
+		htmlDocPtr doc = getXMLDocFromURL(tempURL);
+		char* text = getTitle(doc);
+		if(text){
+			cout << "url: "<< tempURL << endl;
+			cout << "title: "<< text <<endl;
+			getTableData(doc);
+		}
+			//cout << length << endl;
+
+			//xmlNode **nodeArr = h1Title->nodeTab;
+			//cout << nodeArr << nodeArr.length << endl;
+			/*if(nodeArr){
+				xmlNode *titleNode = nodeArr[0]->xmlChildrenNode;
+			}*/
+			/*if(titleNode){
+				
+				xmlChar* text = xmlNodeGetContent(titleNode);
+				if(text){
+					string s = (string)((char*)text);
+					cout << s << endl;
+				}
+			}*/
+	}
+
+}
+
+/*void Tine::getTables(){
+	for(size_t i = 0;i<newLinks.size();i++){
+		string tempURL = newLinks.at(i);
+		//cout << tempURL << " : ";
+		htmlDocPtr doc = getXMLDocFromURL(tempURL);
+		xmlNodeSetPtr set = getRegexNodes(urlRegex,doc);
 		if(set){
-			cout << (xmlNode*)set.type << endl;
+			if(set->nodeNr>0){
+				const xmlNode *tBody = set->nodeTab[0]->xmlChildrenNode;
+				const xmlNode *tRow = tBody->xmlChildrenNode;
+
+				int rows = 0;
+				while(tRow!=tBody->last){
+					cout << "rowNr: " << rows << endl;
+					const xmlNode *tData = tRow->xmlChildrenNode;
+					int tds = 0;
+					while(tData!=tRow->last){
+						cout << "tdNr: " << tds << endl;
+						cout << "type: " << tData->type << endl;
+						const xmlNode *elem = (xmlNode*)tData;
+						xmlChar* text = xmlNodeGetContent(elem);
+						if(text){
+							string s = (string)((char*)text);
+							if(s.length()>0){
+								cout << s << endl;
+							}
+						}*/
+						/*cout << elem->type << endl;
+						xmlElementContent *stuff = elem->content;
+						if(stuff){
+							cout << stuff->name << endl;
+						}*/
+						/*xmlChar* stuff = tData->content;
+						if(stuff){
+							cout << (string)((char*)stuff) << endl;
+						}*/
+						/*tds++;
+						tData = tData->next;
+					}
+					rows++;
+					tRow = tRow->next;
+				}*/
+				//cout << "url: " << tempURL << endl;
+				//cout << "content: " << node->content << endl;
+				//cout << "type: " << node->type << endl;
+				//cout << "name: " << node->name << endl;
+				//string tempString = (string)((char*)node->content);
+				//cout << tempString << endl;
+			//}
+			//cout << set->nodeNr << endl;
 			//const xmlNode *node = set->nodeTab[0]->xmlChildrenNode;
 			//string tempString = (string)((char*)node->content);
 			//cout << tempString << endl;
-		} else {
+		/*} else {
 			cout << "didnt find table?" << endl;
 		}
 	}
-}
+}*/
 
 void Tine::runCrawler(int numberOfIterations){
 	for(int i=0;i<numberOfIterations;i++){
@@ -98,7 +215,8 @@ void Tine::runCrawler(int numberOfIterations){
 				continue;
 			}
 			/* hvis ikke besøkt, henter html dokument, legges til besøkt liste og sletter */
-			xmlNodeSetPtr set = getRegexNodes(urlRegex,tempURL);
+			htmlDocPtr doc = getXMLDocFromURL(tempURL);
+			xmlNodeSetPtr set = getRegexNodes(urlRegex,doc);
 			visitedLinks.push_back(tempURL);
 			newLinks.pop_back();
 

@@ -15,6 +15,3 @@ Tine.o : Tine.h
 	$(CC) -c Tine.cpp $(CPPFLAGS)
 clean:
 	rm -f core $(PROG) $(OBJS)
-
-#curlTest:
-	#g++ curlTest.cpp -lcurl -I/usr/include/libxml2/ -lxml2 -o curl.exe & curl.exe & rm curl.exe
