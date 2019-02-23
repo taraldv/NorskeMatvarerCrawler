@@ -3,7 +3,7 @@
 using namespace std;
 
 Tine::Tine(){
-	newLinks.push_back("http://www.reuters.com");
+	newLinks.push_back("http://www.tine.no");
 }
 
 bool Tine::alreadyVisited(string url){
@@ -222,42 +222,34 @@ void removeDuplicateStringsFromVector(vector<string>&vektorAlias){
 	vektorAlias.erase(unique(vektorAlias.begin(),vektorAlias.end()),vektorAlias.end());
 }
 
-
-
 void Tine::runCrawler(int numberOfIterations){
 	for(int i=0;i<numberOfIterations;i++){
-
-		int startTime = clock();
-
-		cout << newLinks.size() << endl;
-		Threading th(newLinks);
-		th.executeThreads();
-		vector<htmlDocPtr> docList = th.getDocList();
-		visitedLinks.insert(visitedLinks.end(),newLinks.begin(),newLinks.end());
-		removeDuplicateStringsFromVector(visitedLinks);
-		newLinks.clear();
-
-		int endTime = clock();
-
-		cout << "urls: " << docList.size() << " seconds: " << (endTime - startTime)/double(CLOCKS_PER_SEC)  << endl;
-
 		vector<string> sumNyeLinks;
-		while(!docList.empty()){
-			htmlDocPtr doc = docList.back();
+		while(!newLinks.empty()){
+			string tempURL = newLinks.back();
+			/* sletter og går til neste link hvis den allerede er besøkt */
+			if(alreadyVisited(tempURL)){
+				newLinks.pop_back();
+				continue;
+			}
+			/* hvis ikke besøkt, henter html dokument, legges til besøkt liste og sletter */
+			Request req(tempURL);
+			htmlDocPtr doc = req.getXMLDoc();
 			Parser par(doc);
 			xmlNodeSetPtr set = par.getRegexNodes((xmlChar*)"//a/@href");
-			docList.pop_back();
+			visitedLinks.push_back(tempURL);
+			newLinks.pop_back();
 
 			vector<string> newURLs = getContentFromNodeSet(set);
 
-			// fikser links før de legges til sum
+			/* fikser links før de legges til sum*/
 			removeDuplicateStringsFromVector(newURLs);
 			fiksURLs(newURLs);
 			onlyKeepUsefulTineLinks(newURLs);
 			sumNyeLinks.insert(sumNyeLinks.end(),newURLs.begin(),newURLs.end());
 		}
 		removeDuplicateStringsFromVector(sumNyeLinks);
-		// her skal newLinks være tom, så vi legger til sumNyeLinks 
+		/* her skal newLinks være tom, så vi legger til sumNyeLinks */
 		newLinks.insert(newLinks.end(),sumNyeLinks.begin(),sumNyeLinks.end());
 	}
 }
