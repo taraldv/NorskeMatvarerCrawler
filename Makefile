@@ -2,7 +2,7 @@ PROG = crawler
 CC = g++
 CPPFLAGS = -Wall -g -I/usr/include/libxml2/
 LDFLAGS = -lcurl -lxml2 
-OBJS = Main.o Request.o Freia.o Tine.o TabellData.o Parser.o Threading.o
+OBJS = Main.o Request.o Freia.o Tine.o TabellData.o Parser.o
 $(PROG) : $(OBJS)
 	$(CC) -o $(PROG) $(OBJS) $(LDFLAGS)
 Main.o :
@@ -17,7 +17,5 @@ TabellData.o : TabellData.h
 	$(CC) -c TabellData.cpp $(CPPFLAGS)
 Parser.o : Parser.h
 	$(CC) -c Parser.cpp $(CPPFLAGS)
-Threading.o : Threading.h
-	$(CC) -c Threading.cpp $(CPPFLAGS)
 clean:
 	rm -f core $(PROG) $(OBJS)

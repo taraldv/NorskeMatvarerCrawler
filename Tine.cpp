@@ -3,7 +3,7 @@
 using namespace std;
 
 Tine::Tine(){
-	newLinks.push_back("http://www.reuters.com");
+	newLinks.push_back("http://www.tine.no");
 }
 
 bool Tine::alreadyVisited(string url){
@@ -126,7 +126,7 @@ void Tine::getTableData(Parser parser){
 	//cout << vArr.size() << endl;
 }
 
-void Tine::nyTest(){
+/*void Tine::nyTest(){
 	for(size_t i = 0;i<newLinks.size();i++){
 		string tempURL = newLinks.at(i);
 		Request req(tempURL);
@@ -153,9 +153,9 @@ void Tine::nyTest(){
 					cout << s << endl;
 				}
 			}*/
-	}
+	//}
 
-}
+//}
 
 /*void Tine::getTables(){
 	for(size_t i = 0;i<newLinks.size();i++){
@@ -229,13 +229,9 @@ void Tine::runCrawler(int numberOfIterations){
 
 		int startTime = clock();
 
-		cout << newLinks.size() << endl;
-		Threading th(newLinks);
-		th.executeThreads();
-		vector<htmlDocPtr> docList = th.getDocList();
-		visitedLinks.insert(visitedLinks.end(),newLinks.begin(),newLinks.end());
-		removeDuplicateStringsFromVector(visitedLinks);
-		newLinks.clear();
+		Request r(newLinks);
+		vector<htmlDocPtr> docList = r.getDocList();
+	
 
 		int endTime = clock();
 

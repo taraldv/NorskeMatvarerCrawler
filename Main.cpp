@@ -31,7 +31,7 @@ void removeUselessURLS(vector<string>&vektorAlias){
 
 int main(void){
 	Tine t;
-	t.runCrawler(2);
+	t.runCrawler(3);
   //t.nyTest();
 	//vector<string> visited = t.getvisitedLinks();
 	//vector<string> newLinks = t.getNewLinks();

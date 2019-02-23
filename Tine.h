@@ -3,7 +3,6 @@
 
 #include "Request.h"
 #include "Parser.h"
-#include "Threading.h"
 #include <string>
 #include <vector>
 #include <algorithm>
