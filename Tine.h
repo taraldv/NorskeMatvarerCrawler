@@ -11,14 +11,11 @@
 
 class Tine{
 private:
-	std::vector<std::string> visitedLinks;
-	std::vector<std::string> newLinks;
-	bool alreadyVisited(std::string url);
+	std::vector<std::string> links;
 public:
 	Tine();
 	void runCrawler(int iterations);
-	std::vector<std::string> getvisitedLinks();
-	std::vector<std::string> getNewLinks();
+	std::vector<std::string> getLinks();
 	char* getTitle(Parser parser);
 	void getTableData(Parser parser);
 	void nyTest();

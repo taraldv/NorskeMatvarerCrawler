@@ -44,17 +44,17 @@ CURL *make_handle(char *url)
 	curl_easy_setopt(handle, CURLOPT_FOLLOWLOCATION, 1L);
 
   /* For completeness */
-	curl_easy_setopt(handle, CURLOPT_ACCEPT_ENCODING, "");
-	curl_easy_setopt(handle, CURLOPT_TIMEOUT, 5L);
-	curl_easy_setopt(handle, CURLOPT_MAXREDIRS, 10L);
-	curl_easy_setopt(handle, CURLOPT_CONNECTTIMEOUT, 2L);
-	curl_easy_setopt(handle, CURLOPT_COOKIEFILE, "");
-	curl_easy_setopt(handle, CURLOPT_FILETIME, 1L);
-	curl_easy_setopt(handle, CURLOPT_USERAGENT, "mini crawler");
+	//curl_easy_setopt(handle, CURLOPT_ACCEPT_ENCODING, "");
+	curl_easy_setopt(handle, CURLOPT_TIMEOUT, 10L);
+	//curl_easy_setopt(handle, CURLOPT_MAXREDIRS, 10L);
+	curl_easy_setopt(handle, CURLOPT_CONNECTTIMEOUT, 10L);
+	//curl_easy_setopt(handle, CURLOPT_COOKIEFILE, "");
+	//curl_easy_setopt(handle, CURLOPT_FILETIME, 1L);
+	//curl_easy_setopt(handle, CURLOPT_USERAGENT, "mini crawler");
 	curl_easy_setopt(handle, CURLOPT_HTTPAUTH, CURLAUTH_ANY);
-	curl_easy_setopt(handle, CURLOPT_UNRESTRICTED_AUTH, 1L);
+	//curl_easy_setopt(handle, CURLOPT_UNRESTRICTED_AUTH, 1L);
 	curl_easy_setopt(handle, CURLOPT_PROXYAUTH, CURLAUTH_ANY);
-	curl_easy_setopt(handle, CURLOPT_EXPECT_100_TIMEOUT_MS, 0L);
+	//curl_easy_setopt(handle, CURLOPT_EXPECT_100_TIMEOUT_MS, 0L);
 	return handle;
 } 
 
@@ -86,17 +86,31 @@ void Request::emptyHandle(CURLM *multi_handle){
 	int still_running = 1;
 	while(still_running) {
 		int numfds;
-		curl_multi_wait(multi_handle, NULL, 0, 1000, &numfds);
+		//curl_multi_wait(multi_handle, NULL, 0, 1000, &numfds);
+
+		/* endrer still_running til 0 hvis multi_handle er tom */
 		curl_multi_perform(multi_handle, &still_running);
+
 		CURLMsg *m = NULL;
 		while((m = curl_multi_info_read(multi_handle, &msgs_left))) {
 			if(m->msg == CURLMSG_DONE) {
 				CURL *handle = m->easy_handle;
 				char *url;
 				memory *mem;
+				char *ctype;
+				long res_status;
+				curl_easy_getinfo(handle, CURLINFO_CONTENT_TYPE, &ctype);
 				curl_easy_getinfo(handle, CURLINFO_PRIVATE, &mem);
 				curl_easy_getinfo(handle, CURLINFO_EFFECTIVE_URL, &url);
-				docList.push_back(getDocFromHandle(multi_handle, mem, url));
+				curl_easy_getinfo(handle, CURLINFO_RESPONSE_CODE, &res_status);
+				if(res_status == 200) {
+					if(ctype != NULL && strstr(ctype, "text/html")){
+						htmlDocPtr tempDoc = getDocFromHandle(multi_handle, mem, url);
+						if(tempDoc){
+							docList.push_back(tempDoc);
+						}
+					}
+				}
 				curl_multi_remove_handle(multi_handle, handle);
 				curl_easy_cleanup(handle);
 				free(mem->buf);

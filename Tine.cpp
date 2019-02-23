@@ -3,17 +3,7 @@
 using namespace std;
 
 Tine::Tine(){
-	newLinks.push_back("http://www.tine.no");
-}
-
-bool Tine::alreadyVisited(string url){
-	for(size_t x = 0;x<visitedLinks.size();x++){
-		/* compare returnerer 0 hvis like */
-		if(!url.compare(visitedLinks.at(x))){
-			return true;
-		}
-	}
-	return false;
+	links.push_back("http://www.tine.no");
 }
 
 vector<string> getContentFromNodeSet(xmlNodeSetPtr set){
@@ -58,7 +48,7 @@ void fiksURLs(vector<string>&vektorAlias){
 
 /* fjerner URL som inneholder disse ordene */
 bool stringCheck(string s){
-	string invalidWords[] = {"sporsmal","tine-handel","Driftsledelse","tjenester","tine-ravare","nettsider","arsrapport",
+	string invalidWords[] = {"sporsmal","tine-handel","Driftsledelse","tjenester","tine-ravare","nettsider","arsrapport","om-tine",
 	"instagram","facebook","kontakt","presserom","twitter","pinterest","praktisk-informasjon","medlemsp","kalender","jobb-i-tine",
 	"hjelp-og-brukerstotte","sunt-kosthold","fagprat","aktuelt","helse","om-oss","oppskrifter","medlem","english","sponsing","smartidrettsmat"};
 	for(size_t i=0;i<sizeof(invalidWords)/sizeof(*invalidWords);i++){
@@ -126,36 +116,40 @@ void Tine::getTableData(Parser parser){
 	//cout << vArr.size() << endl;
 }
 
-/*void Tine::nyTest(){
-	for(size_t i = 0;i<newLinks.size();i++){
-		string tempURL = newLinks.at(i);
-		Request req(tempURL);
-		htmlDocPtr doc = req.getXMLDoc();
+void Tine::nyTest(){
+	Request r(links);
+	cout << links.size() << endl;
+	vector<htmlDocPtr> docList = r.getDocList();
+	cout << docList.size() << endl;
+	/*for(size_t i = 0;i<docList.size();i++){
+		htmlDocPtr doc = docList.at(i);
 		Parser par(doc);
 		char* text = getTitle(par);
+		cout << "url: "<< doc->URL << endl;
 		if(text){
-			cout << "url: "<< tempURL << endl;
 			cout << "title: "<< text <<endl;
 			getTableData(par);
-		}
+		} else {
+			cout << "NULL" << endl;
+		}*/
 			//cout << length << endl;
 
 			//xmlNode **nodeArr = h1Title->nodeTab;
 			//cout << nodeArr << nodeArr.length << endl;
-			/*if(nodeArr){
-				xmlNode *titleNode = nodeArr[0]->xmlChildrenNode;
-			}*/
-			/*if(titleNode){
-				
-				xmlChar* text = xmlNodeGetContent(titleNode);
-				if(text){
-					string s = (string)((char*)text);
-					cout << s << endl;
-				}
-			}*/
+		/*if(nodeArr){
+			xmlNode *titleNode = nodeArr[0]->xmlChildrenNode;
+		}
+		if(titleNode){
+
+			xmlChar* text = xmlNodeGetContent(titleNode);
+			if(text){
+				string s = (string)((char*)text);
+				cout << s << endl;
+			}
+		}*/
 	//}
 
-//}
+}
 
 /*void Tine::getTables(){
 	for(size_t i = 0;i<newLinks.size();i++){
@@ -226,14 +220,13 @@ void removeDuplicateStringsFromVector(vector<string>&vektorAlias){
 
 void Tine::runCrawler(int numberOfIterations){
 	for(int i=0;i<numberOfIterations;i++){
-
 		/* request går igjennom string vektor og lager htmlDoc vector */
-		Request r(newLinks);
+		cout << "i: " << i << ", links: " << links.size() << endl;
+		int startTime = clock();
+		Request r(links);
 		vector<htmlDocPtr> docList = r.getDocList();
-		visitedLinks.insert(visitedLinks.end(),newLinks.begin(),newLinks.end());
-		newLinks.clear();
-
-
+		int endTime = clock();
+		cout << "Requests Execution Time : " << (endTime - startTime)/double(CLOCKS_PER_SEC) << endl;
 		vector<string> sumNyeLinks;
 
 		/* for hver htmlDoc så hentes alle URL nodes og legges i sumNyeLinks */
@@ -253,13 +246,11 @@ void Tine::runCrawler(int numberOfIterations){
 		}
 		removeDuplicateStringsFromVector(sumNyeLinks);
 		
-		newLinks.insert(newLinks.end(),sumNyeLinks.begin(),sumNyeLinks.end());
+		links.insert(links.end(),sumNyeLinks.begin(),sumNyeLinks.end());
+		removeDuplicateStringsFromVector(links);
 	}
 }
 
-vector<string> Tine::getvisitedLinks(){
-	return visitedLinks;
-};
-vector<string> Tine::getNewLinks(){
-	return newLinks;
+vector<string> Tine::getLinks(){
+	return links;
 };
