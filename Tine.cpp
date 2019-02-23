@@ -227,17 +227,16 @@ void removeDuplicateStringsFromVector(vector<string>&vektorAlias){
 void Tine::runCrawler(int numberOfIterations){
 	for(int i=0;i<numberOfIterations;i++){
 
-		int startTime = clock();
-
+		/* request går igjennom string vektor og lager htmlDoc vector */
 		Request r(newLinks);
 		vector<htmlDocPtr> docList = r.getDocList();
-	
+		visitedLinks.insert(visitedLinks.end(),newLinks.begin(),newLinks.end());
+		newLinks.clear();
 
-		int endTime = clock();
-
-		cout << "urls: " << docList.size() << " seconds: " << (endTime - startTime)/double(CLOCKS_PER_SEC)  << endl;
 
 		vector<string> sumNyeLinks;
+
+		/* for hver htmlDoc så hentes alle URL nodes og legges i sumNyeLinks */
 		while(!docList.empty()){
 			htmlDocPtr doc = docList.back();
 			Parser par(doc);
@@ -253,7 +252,7 @@ void Tine::runCrawler(int numberOfIterations){
 			sumNyeLinks.insert(sumNyeLinks.end(),newURLs.begin(),newURLs.end());
 		}
 		removeDuplicateStringsFromVector(sumNyeLinks);
-		// her skal newLinks være tom, så vi legger til sumNyeLinks 
+		
 		newLinks.insert(newLinks.end(),sumNyeLinks.begin(),sumNyeLinks.end());
 	}
 }
