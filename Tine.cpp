@@ -16,7 +16,17 @@ bool Tine::alreadyVisited(string url){
 	return false;
 }
 
-
+vector<string> getContentFromNodeSet(xmlNodeSetPtr set){
+	vector<string> vektor;
+	if(set){
+		for(int i = 0;i<set->nodeNr;i++){
+			const xmlNode *node = set->nodeTab[i]->xmlChildrenNode;
+			string tempString = (string)((char*)node->content);
+			vektor.push_back(tempString);
+		}
+	}
+	return vektor;
+}
 
 bool relativeURL(string url){
 	return (url.at(0) == '/' && url.at(1) != '/');
@@ -70,8 +80,8 @@ void onlyKeepUsefulTineLinks(vector<string>&vektorAlias){
 }
 
 /* returnerer NULL hvis tittel ikke finnes */
-char* Tine::getTitle(htmlDocPtr doc){
-	xmlNodeSetPtr h1Title = getRegexNodes((xmlChar*)"//h1[@class='title']",doc);
+char* Tine::getTitle(Parser parser){
+	xmlNodeSetPtr h1Title = parser.getRegexNodes((xmlChar*)"//h1[@class='title']");
 	if(h1Title){
 		xmlNodePtr* arr = h1Title->nodeTab;
 		if(h1Title->nodeNr){
@@ -100,8 +110,8 @@ string* Tine::getTableRowCellContent(xmlNode *row){
 	return data;
 }
 
-void Tine::getTableData(htmlDocPtr doc){
-	xmlNodeSetPtr tableRows = getRegexNodes((xmlChar*)"//tr[@class='nutrient-table__row']",doc);
+void Tine::getTableData(Parser parser){
+	xmlNodeSetPtr tableRows = parser.getRegexNodes((xmlChar*)"//tr[@class='nutrient-table__row']");
 	//vector<string[2]> vArr;
 	if(tableRows){
 		xmlNodePtr* rowArray = tableRows->nodeTab;
@@ -119,12 +129,14 @@ void Tine::getTableData(htmlDocPtr doc){
 void Tine::nyTest(){
 	for(size_t i = 0;i<newLinks.size();i++){
 		string tempURL = newLinks.at(i);
-		htmlDocPtr doc = getXMLDocFromURL(tempURL);
-		char* text = getTitle(doc);
+		Request req(tempURL);
+		htmlDocPtr doc = req.getXMLDoc();
+		Parser par(doc);
+		char* text = getTitle(par);
 		if(text){
 			cout << "url: "<< tempURL << endl;
 			cout << "title: "<< text <<endl;
-			getTableData(doc);
+			getTableData(par);
 		}
 			//cout << length << endl;
 
@@ -204,6 +216,12 @@ void Tine::nyTest(){
 	}
 }*/
 
+
+void removeDuplicateStringsFromVector(vector<string>&vektorAlias){
+	sort(vektorAlias.begin(),vektorAlias.end());
+	vektorAlias.erase(unique(vektorAlias.begin(),vektorAlias.end()),vektorAlias.end());
+}
+
 void Tine::runCrawler(int numberOfIterations){
 	for(int i=0;i<numberOfIterations;i++){
 		vector<string> sumNyeLinks;
@@ -215,8 +233,10 @@ void Tine::runCrawler(int numberOfIterations){
 				continue;
 			}
 			/* hvis ikke besøkt, henter html dokument, legges til besøkt liste og sletter */
-			htmlDocPtr doc = getXMLDocFromURL(tempURL);
-			xmlNodeSetPtr set = getRegexNodes(urlRegex,doc);
+			Request req(tempURL);
+			htmlDocPtr doc = req.getXMLDoc();
+			Parser par(doc);
+			xmlNodeSetPtr set = par.getRegexNodes((xmlChar*)"//a/@href");
 			visitedLinks.push_back(tempURL);
 			newLinks.pop_back();
 

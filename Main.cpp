@@ -5,6 +5,7 @@
 #include <iostream>
 #include <fstream>
 
+#include "Request.h"
 #include "Tine.h"
 
 using namespace std;

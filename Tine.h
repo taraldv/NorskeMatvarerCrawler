@@ -2,9 +2,13 @@
 #define TINE_H
 
 #include "Request.h"
+#include "Parser.h"
+#include <string>
+#include <vector>
+#include <algorithm>
 #include <iostream>
 
-class Tine: public Request{
+class Tine{
 private:
 	std::vector<std::string> visitedLinks;
 	std::vector<std::string> newLinks;
@@ -14,8 +18,8 @@ public:
 	void runCrawler(int iterations);
 	std::vector<std::string> getvisitedLinks();
 	std::vector<std::string> getNewLinks();
-	char* getTitle(htmlDocPtr doc);
-	void getTableData(htmlDocPtr doc);
+	char* getTitle(Parser parser);
+	void getTableData(Parser parser);
 	void nyTest();
 	std::string* getTableRowCellContent(xmlNode *row);
 };
