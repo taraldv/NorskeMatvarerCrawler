@@ -32,11 +32,13 @@ void removeUselessURLS(vector<string>&vektorAlias){
 int main(void){
 	Tine t;
 	t.runCrawler(3);
-
-	vector<string> links = t.getLinks();
+  	t.nyTest();
+	//vector<string> visited = t.getvisitedLinks();
+	//vector<string> newLinks = t.getNewLinks();
 	//cout << vektor.size() << endl;
-	writeVector(links,"all.txt");
-	//t.nyTest();
+	//writeVector(visited,"2IterasjonVisited.txt");
+	//writeVector(newLinks,"2IterasjonNewLinks.txt");
+
 
 /*
   char *baseURL = (char*)"https://www.tine.no/produkter";

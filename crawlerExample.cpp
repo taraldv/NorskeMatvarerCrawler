@@ -25,7 +25,7 @@ int max_total = 20000;
 int max_requests = 500;
 int max_link_per_page = 5;
 int follow_relative_links = 0;
-char *start_page = "https://www.reuters.com";
+char *start_page = (char*)"https://www.reuters.com/";
 
 #include <libxml/HTMLparser.h>
 #include <libxml/xpath.h>
@@ -52,7 +52,7 @@ size_t grow_buffer(void *contents, size_t sz, size_t nmemb, void *ctx)
 {
   size_t realsize = sz * nmemb;
   memory *mem = (memory*) ctx;
-  char *ptr = realloc(mem->buf, mem->size + realsize);
+  char *ptr = (char*)realloc(mem->buf, mem->size + realsize);
   if(!ptr) {
     /* out of memory */
     printf("not enough memory (realloc returned NULL)\n");
@@ -73,9 +73,9 @@ CURL *make_handle(char *url)
   curl_easy_setopt(handle, CURLOPT_URL, url);
 
   /* buffer body */
-  memory *mem = malloc(sizeof(memory));
+  memory *mem = (memory*)malloc(sizeof(memory));
   mem->size = 0;
-  mem->buf = malloc(1);
+  mem->buf = (char*)malloc(1);
   curl_easy_setopt(handle, CURLOPT_WRITEFUNCTION, grow_buffer);
   curl_easy_setopt(handle, CURLOPT_WRITEDATA, mem);
   curl_easy_setopt(handle, CURLOPT_PRIVATE, mem);
@@ -100,7 +100,7 @@ CURL *make_handle(char *url)
 size_t follow_links(CURLM *multi_handle, memory *mem, char *url)
 {
   int opts = HTML_PARSE_NOBLANKS | HTML_PARSE_NOERROR | \
-             HTML_PARSE_NOWARNING | HTML_PARSE_NONET;
+  HTML_PARSE_NOWARNING | HTML_PARSE_NONET;
   htmlDocPtr doc = htmlReadMemory(mem->buf, mem->size, url, NULL, opts);
   if(!doc)
     return 0;
@@ -147,17 +147,10 @@ int is_html(char *ctype)
 
 int main(void)
 {
-  signal(SIGINT, sighandler);
-  LIBXML_TEST_VERSION;
   curl_global_init(CURL_GLOBAL_DEFAULT);
   CURLM *multi_handle = curl_multi_init();
   curl_multi_setopt(multi_handle, CURLMOPT_MAX_TOTAL_CONNECTIONS, max_con);
   curl_multi_setopt(multi_handle, CURLMOPT_MAX_HOST_CONNECTIONS, 6L);
-
-  /* enables http/2 if available */
-#ifdef CURLPIPE_MULTIPLEX
-  curl_multi_setopt(multi_handle, CURLMOPT_PIPELINING, CURLPIPE_MULTIPLEX);
-#endif
 
   /* sets html start page */
   curl_multi_add_handle(multi_handle, make_handle(start_page));

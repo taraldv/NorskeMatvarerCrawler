@@ -1,4 +1,5 @@
 https://www.tine.no
+https://www.tine.no/om-tine
 https://www.tine.no/produkter
 www.tine.no/b%C3%A6rekraft
 www.tine.no/bondens-side
@@ -39,18 +40,6 @@ www.tine.no/merkevarer/tine-yoghurt
 www.tine.no/merkevarer/tinemelk
 www.tine.no/merkevarer/yt
 www.tine.no/nye-produkter
+www.tine.no/om-tine
 www.tine.no/produkter
-www.tine.no/produkter/barer
-www.tine.no/produkter/bunner
-www.tine.no/produkter/cottage-cheese-og-kesam
-www.tine.no/produkter/creme-fraiche-og-r%C3%B8mme
-www.tine.no/produkter/desserter
-www.tine.no/produkter/flote
-www.tine.no/produkter/gr%C3%B8t
-www.tine.no/produkter/juice-og-fruktdrikk
-www.tine.no/produkter/melk
-www.tine.no/produkter/ost
-www.tine.no/produkter/smor
-www.tine.no/produkter/treningsmat-og-drikke
-www.tine.no/produkter/yoghurt
 www.tine.no/skolelyst
