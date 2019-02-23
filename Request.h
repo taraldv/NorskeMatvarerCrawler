@@ -5,16 +5,15 @@
 #include <libxml/HTMLparser.h>
 #include <cstring>
 #include <string>
-#include <vector>
+
 
 class Request{
 private:
-	std::vector<htmlDocPtr> docList;
-	void emptyHandle(CURLM *multi_handle);
+	htmlDocPtr doc;
 	//size_t grow_buffer(void *contents, size_t sz, size_t nmemb, void *ctx);
 public:
-	Request(std::vector<std::string> urlList);
-	std::vector<htmlDocPtr> getDocList();
+	Request(std::string url);
+	htmlDocPtr getXMLDoc();
 };
 
 #endif
