@@ -5,9 +5,8 @@
 #include <string>
 #include <vector>
 
-#include "Request.h"
-#include "Table.h"
-#include "Tine.h"
+#include "http/Table.h"
+#include "nettsider/Tine.h"
 
 using namespace std;
 

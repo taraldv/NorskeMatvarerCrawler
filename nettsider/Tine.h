@@ -6,7 +6,6 @@
 class Tine : public Nettside {
   private:
     bool stringCheck(std::string s);
-
   public:
     Tine();
 };

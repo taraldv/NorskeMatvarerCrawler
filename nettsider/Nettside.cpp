@@ -24,10 +24,6 @@ vector<string> Nettside::getContentFromNodeSet(xmlNodeSetPtr set) {
     return vektor;
 }
 
-bool Nettside::relativeURL(string url) { return (url.at(0) == '/' && url.at(1) != '/'); }
-
-bool Nettside::malformedURL(string url) { return (url.at(0) == '/' && url.at(1) == '/'); }
-
 /*
         2 typer feil:
         relative urls som mangler www.tine.no fremst
@@ -38,7 +34,7 @@ void Nettside::fiksURLs(vector<string> &vektorAlias) {
         string tempString = vektorAlias.at(i);
         try {
             if (relativeURL(tempString)) {
-                vektorAlias.at(i) = "www.tine.no" + tempString;
+                vektorAlias.at(i) = baseURL + tempString;
             } else if (malformedURL(tempString)) {
                 vektorAlias.at(i) = tempString.substr(2);
             }
@@ -48,18 +44,20 @@ void Nettside::fiksURLs(vector<string> &vektorAlias) {
     }
 }
 
-
-
 /* fjerner alle URL som IKKE har tine i seg || stringCheck */
-void Nettside::onlyKeepUsefulTineLinks(vector<string> &vektorAlias) {
+void Nettside::onlyKeepUsefulLinks(vector<string> &vektorAlias) {
     for (vector<string>::iterator it = vektorAlias.end() - 1;
          it != vektorAlias.begin() - 1; it--) {
         string tempUrl = *it;
-        if (tempUrl.find("tine") == string::npos || stringCheck(tempUrl)) {
+        if (tempUrl.find(base) == string::npos || stringCheck(tempUrl)) {
             vektorAlias.erase(it);
         }
     }
 }
+
+bool Nettside::relativeURL(string url) { return (url.at(0) == '/' && url.at(1) != '/'); }
+
+bool Nettside::malformedURL(string url) { return (url.at(0) == '/' && url.at(1) == '/'); }
 
 /* returnerer NULL hvis tittel ikke finnes */
 char* Nettside::getTitle(Parser parser) {
@@ -145,7 +143,7 @@ vector<Table> Nettside::getTables() {
     return tables;
 }
 
-void Nettside::removeDuplicateStringsFromVector(vector<string> &vektorAlias) {
+void Nettside::removeDuplicateStrings(vector<string> &vektorAlias) {
     sort(vektorAlias.begin(), vektorAlias.end());
     vektorAlias.erase(unique(vektorAlias.begin(), vektorAlias.end()),
                       vektorAlias.end());
@@ -173,13 +171,13 @@ void Nettside::runCrawler(int numberOfIterations) {
             vector<string> newURLs = getContentFromNodeSet(set);
 
             /* fikser links før de legges til sum*/
-            removeDuplicateStringsFromVector(newURLs);
+            removeDuplicateStrings(newURLs);
             fiksURLs(newURLs);
-            onlyKeepUsefulTineLinks(newURLs);
+            onlyKeepUsefulLinks(newURLs);
             sumNyeLinks.insert(sumNyeLinks.end(), newURLs.begin(),
                                newURLs.end());
         }
-        removeDuplicateStringsFromVector(sumNyeLinks);
+        removeDuplicateStrings(sumNyeLinks);
         /* her skal newLinks være tom, så vi legger til sumNyeLinks */
         newLinks.insert(newLinks.end(), sumNyeLinks.begin(), sumNyeLinks.end());
     }

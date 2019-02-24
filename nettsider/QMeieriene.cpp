@@ -1,14 +1,16 @@
-#include "Tine.h"
+#include "QMeieriene.h"
 
 using namespace std;
 
-Tine::Tine() {
+QMeieriene::QMeieriene() {
+	base = "tine";
+	baseURL = "www.tine.no";
     newLinks.push_back("http://www.tine.no");
     newLinks.push_back("https://www.tine.no/merkevarer/cultura");
 }
 
 /* fjerner URL som inneholder disse ordene */
-bool Tine::stringCheck(string s) {
+bool QMeieriene::stringCheck(string s) {
     string invalidWords[] = {"sporsmal",      "tine-handel",
                              "Driftsledelse", "tjenester",
                              "tine-ravare",   "nettsider",
@@ -30,3 +32,4 @@ bool Tine::stringCheck(string s) {
     }
     return false;
 }
+
