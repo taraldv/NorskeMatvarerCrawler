@@ -36,43 +36,21 @@ void writeTables(vector<Table> tables, string filNavn) {
 }
 
 int main(void) {
-    QMeieriene q;
-    //Tine t;
-    // t.runCrawler(1);
-    // vector<Table> tables = t.getTables();
-    // cout << tables.size() << endl;
-    // writeTables(tables, "tinetabell.txt");
+    //QMeieriene q;
+    //q.runCrawler(4);
+    // vector<Table> tables = q.getTables();
+    // cout << "Tables: " << tables.size() << endl;
+    // writeTables(tables, "qTabell.txt");
 
-    vector<string> visited = q.getvisitedLinks();
-    vector<string> newLinks = q.getNewLinks();
+    //vector<string> visited = q.getvisitedLinks();
+   // vector<string> newLinks = q.getNewLinks();
     // cout << vektor.size() << endl;
-     writeVector(visited,"visited.txt");
-     writeVector(newLinks,"new.txt");
+    //writeVector(visited, "visited.txt");
+    //writeVector(newLinks, "new.txt");
 
-    /*
-      char *baseURL = (char*)"https://www.tine.no/produkter";
+	Tine t;
+	t.runCrawler(5);
+	writeTables(t.getTables(),"tineData.txt");
 
-      xmlNodeSetPtr initialNodeSet =
-     getRegexNodes((xmlChar*)"//a/@href",baseURL); vector<string> big =
-     getURLsFromVector(getURLsFromNodeSet(initialNodeSet));
-
-      removeUselessURLS(big);
-     
-
-
-
-
-
-
-      writeVector(big,"urls.txt");
-
-      for(unsigned int i=0;i<big.size();i++){
-        xmlNodeSetPtr tableNode =
-     getRegexNodes((xmlChar*)"//table",&big.at(i)[0u]); cout << tableNode <<
-     endl;
-      }
-
-      curl_global_cleanup();
-    */
     return 0;
 }
