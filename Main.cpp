@@ -6,6 +6,7 @@
 #include <vector>
 
 #include "http/Table.h"
+#include "nettsider/QMeieriene.h"
 #include "nettsider/Tine.h"
 
 using namespace std;
@@ -29,23 +30,24 @@ void writeTables(vector<Table> tables, string filNavn) {
         for (size_t j = 0; j < data.size(); j++) {
             outputFile << fork.at(j) << ": " << data.at(j) << endl;
         }
-		outputFile << endl;
+        outputFile << endl;
     }
     outputFile.close();
 }
 
 int main(void) {
-    Tine t;
-    //t.runCrawler(1);
-    vector<Table> tables = t.getTables();
-	cout << tables.size() << endl;
-    writeTables(tables, "tinetabell.txt");
+    QMeieriene q;
+    //Tine t;
+    // t.runCrawler(1);
+    // vector<Table> tables = t.getTables();
+    // cout << tables.size() << endl;
+    // writeTables(tables, "tinetabell.txt");
 
-     //vector<string> visited = t.getvisitedLinks();
-     //vector<string> newLinks = t.getNewLinks();
+    vector<string> visited = q.getvisitedLinks();
+    vector<string> newLinks = q.getNewLinks();
     // cout << vektor.size() << endl;
-    // writeVector(visited,"2IterasjonVisited.txt");
-    // writeVector(newLinks,"2IterasjonNewLinks.txt");
+     writeVector(visited,"visited.txt");
+     writeVector(newLinks,"new.txt");
 
     /*
       char *baseURL = (char*)"https://www.tine.no/produkter";
@@ -56,6 +58,7 @@ int main(void) {
 
       removeUselessURLS(big);
      
+
 
 
 

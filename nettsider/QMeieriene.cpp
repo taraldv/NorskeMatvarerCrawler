@@ -3,9 +3,9 @@
 using namespace std;
 
 QMeieriene::QMeieriene() {
-	base = "tine";
-	baseURL = "www.tine.no";
-    newLinks.push_back("http://www.tine.no");
+	base = "q-meieriene";
+	baseURL = "www.q-meieriene.no";
+    newLinks.push_back("https://www.q-meieriene.no/");
     newLinks.push_back("https://www.tine.no/merkevarer/cultura");
 }
 
