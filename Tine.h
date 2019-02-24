@@ -3,6 +3,7 @@
 
 #include "Request.h"
 #include "Parser.h"
+#include "Table.h"
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -19,8 +20,8 @@ public:
 	std::vector<std::string> getvisitedLinks();
 	std::vector<std::string> getNewLinks();
 	char* getTitle(Parser parser);
-	void getTableData(Parser parser);
-	void nyTest();
+	std::vector<std::string *> getTableData(Parser parser);
+	std::vector<Table> getTables();
 	std::string* getTableRowCellContent(xmlNode *row);
 };
 
