@@ -9,7 +9,7 @@ class Table {
 	std::string title;
 	std::vector<std::string> forkVektor;
 	std::vector<std::string> dataVektor;
-	
+	std::string fixString(std::string s);
   public:
     Table(std::string tittel,std::vector<std::string*> data);
 	std::vector<std::string> getDataVektor();

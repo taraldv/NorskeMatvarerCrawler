@@ -30,6 +30,7 @@ void writeTables(vector<Table> tables, string filNavn) {
         for (size_t j = 0; j < data.size(); j++) {
             outputFile << fork.at(j) << ": " << data.at(j) << endl;
         }
+		outputFile << endl;
     }
     outputFile.close();
 }
@@ -37,8 +38,9 @@ void writeTables(vector<Table> tables, string filNavn) {
 int main(void) {
     Tine t;
 
-    // t.runCrawler(2);
+    t.runCrawler(2);
     vector<Table> tables = t.getTables();
+	cout << tables.size() << endl;
     writeTables(tables, "tabell.txt");
 
     // vector<string> visited = t.getvisitedLinks();

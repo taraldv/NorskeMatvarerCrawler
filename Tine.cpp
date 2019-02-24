@@ -117,8 +117,7 @@ string *Tine::getTableRowCellContent(xmlNode *row) {
         }
         rowTDNode = rowTDNode->next;
     }
-	cout << "rows found: " << index << endl;
-	delete row;
+    delete row;
     return data;
 }
 
@@ -139,15 +138,15 @@ vector<string *> Tine::getTableData(Parser parser) {
             // cout << k[1] << endl;
             // delete[] k;
         }
-		delete rowArray;
+        delete rowArray;
     }
-	delete tableRows;
+    delete tableRows;
     return vArr;
 }
 
 vector<Table> Tine::getTables() {
-    cout << newLinks.size() << endl;
-	vector<Table> tables;
+    //cout << newLinks.size() << endl;
+    vector<Table> tables;
     for (size_t i = 0; i < newLinks.size(); i++) {
         string tempURL = newLinks.at(i);
         Request req(tempURL);
@@ -155,76 +154,23 @@ vector<Table> Tine::getTables() {
         if (doc) {
             Parser par(doc);
             char *text = getTitle(par);
+
+			/* sjekker om siden har en tittel */
             if (text) {
                 string tittel = (string)text;
-				delete text;
+                delete text;
                 vector<string *> data = getTableData(par);
 
-                Table table (tittel, data);
-				//cout << "table created" << endl;
-                tables.push_back(table);
-				//cout << "table push" << endl;
+				/* sjekker om siden har en tabell */
+                if (data.size() > 0) {
+                    Table table(tittel, data);
+                    tables.push_back(table);
+                }
             }
         }
     }
-	//cout << "noe galt her?";
-   return tables;
+    return tables;
 }
-
-/*void Tine::getTables(){
-        for(size_t i = 0;i<newLinks.size();i++){
-                string tempURL = newLinks.at(i);
-                //cout << tempURL << " : ";
-                htmlDocPtr doc = getXMLDocFromURL(tempURL);
-                xmlNodeSetPtr set = getRegexNodes(urlRegex,doc);
-                if(set){
-                        if(set->nodeNr>0){
-                                const xmlNode *tBody =
-   set->nodeTab[0]->xmlChildrenNode; const xmlNode *tRow =
-   tBody->xmlChildrenNode;
-
-                                int rows = 0;
-                                while(tRow!=tBody->last){
-                                        cout << "rowNr: " << rows << endl;
-                                        const xmlNode *tData =
-   tRow->xmlChildrenNode; int tds = 0; while(tData!=tRow->last){ cout << "tdNr:
-   " << tds << endl; cout << "type: " << tData->type << endl; const xmlNode
-   *elem = (xmlNode*)tData; xmlChar* text = xmlNodeGetContent(elem); if(text){
-                                                        string s =
-   (string)((char*)text); if(s.length()>0){ cout << s << endl;
-                                                        }
-                                                }*/
-/*cout << elem->type << endl;
-xmlElementContent *stuff = elem->content;
-if(stuff){
-        cout << stuff->name << endl;
-}*/
-/*xmlChar* stuff = tData->content;
-if(stuff){
-        cout << (string)((char*)stuff) << endl;
-}*/
-/*tds++;
-tData = tData->next;
-}
-rows++;
-tRow = tRow->next;
-}*/
-// cout << "url: " << tempURL << endl;
-// cout << "content: " << node->content << endl;
-// cout << "type: " << node->type << endl;
-// cout << "name: " << node->name << endl;
-// string tempString = (string)((char*)node->content);
-// cout << tempString << endl;
-//}
-// cout << set->nodeNr << endl;
-// const xmlNode *node = set->nodeTab[0]->xmlChildrenNode;
-// string tempString = (string)((char*)node->content);
-// cout << tempString << endl;
-/*} else {
-        cout << "didnt find table?" << endl;
-}
-}
-}*/
 
 void removeDuplicateStringsFromVector(vector<string> &vektorAlias) {
     sort(vektorAlias.begin(), vektorAlias.end());
