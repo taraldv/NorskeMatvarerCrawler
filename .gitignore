@@ -1,2 +1,4 @@
-
-urls.txt
+*.exe
+*.o
+*.txt
+*.json
