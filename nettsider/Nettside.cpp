@@ -18,6 +18,7 @@ vector<string> Nettside::getContentFromNodeSet(xmlNodeSetPtr set) {
         for (int i = 0; i < set->nodeNr; i++) {
             const xmlNode *node = set->nodeTab[i]->xmlChildrenNode;
             string tempString = (string)((char *)node->content);
+			delete node;
             vektor.push_back(tempString);
         }
     }
@@ -79,8 +80,6 @@ string *Nettside::getTableRowCellContent(xmlNode *row) {
     return data;
 }
 
-
-
 vector<Table> Nettside::getTables() {
     vector<string> merged;
 
@@ -95,7 +94,7 @@ vector<Table> Nettside::getTables() {
         Request req(tempURL);
         htmlDocPtr doc = req.getXMLDoc();
         if (doc) {
-            Parser par(doc);
+            Parser *par = new Parser(doc);
             char *text = getTitle(par);
 
             /* sjekker om siden har en tittel */
@@ -110,6 +109,7 @@ vector<Table> Nettside::getTables() {
                     tables.push_back(table);
                 }
             }
+            delete par;
         }
     }
     return tables;
@@ -135,12 +135,17 @@ void Nettside::runCrawler(int numberOfIterations) {
              * og sletter */
             Request req(tempURL);
             htmlDocPtr doc = req.getXMLDoc();
-            Parser par(doc);
-            xmlNodeSetPtr set = par.getRegexNodes((xmlChar *)"//a/@href");
+
+            Parser *par = new Parser(doc);
+            xmlNodeSetPtr set = par->getRegexNodes((xmlChar *)"//a/@href");
+            delete par;
+
             visitedLinks.push_back(tempURL);
             newLinks.pop_back();
 
             vector<string> newURLs = getContentFromNodeSet(set);
+			xmlXPathFreeNodeSet(set);
+
 
             /* fikser links før de legges til sum*/
             removeDuplicateStrings(newURLs);

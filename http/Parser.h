@@ -12,6 +12,7 @@ private:
 public:
 	Parser(htmlDocPtr doc);
 	xmlNodeSetPtr getRegexNodes(xmlChar* regex);
+	~Parser();
 };
 
 #endif

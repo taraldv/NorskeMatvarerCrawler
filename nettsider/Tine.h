@@ -6,10 +6,11 @@
 class Tine : public Nettside {
   private:
     bool stringCheck(std::string s);
-	std::vector<std::string *> getTableData(Parser parser);
+    std::vector<std::string *> getTableData(Parser *parser);
+
   public:
     Tine();
-	char *getTitle(Parser parser);
+    char *getTitle(Parser *parser);
 };
 
 #endif

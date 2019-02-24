@@ -2,6 +2,11 @@
 
 Parser::Parser(htmlDocPtr doc):doc(doc){}
 
+Parser::~Parser(){
+	xmlFreeDoc(doc);
+	//delete doc;
+}
+
 xmlNodeSetPtr Parser::getRegexNodes(xmlChar *regex){
 	//htmlDocPtr doc = getXMLDocFromURL(url);
 

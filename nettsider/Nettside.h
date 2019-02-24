@@ -29,11 +29,11 @@ class Nettside {
     void removeDuplicateStrings(std::vector<std::string> &vektorAlias);
 
     virtual bool stringCheck(std::string s) = 0;
-    virtual std::vector<std::string *> getTableData(Parser parser) = 0;
+    virtual std::vector<std::string *> getTableData(Parser *parser) = 0;
 
   public:
     void runCrawler(int iterations);
-    virtual char *getTitle(Parser parser) = 0;
+    virtual char *getTitle(Parser *parser) = 0;
     std::vector<Table> getTables();
 
     /* for debugging */

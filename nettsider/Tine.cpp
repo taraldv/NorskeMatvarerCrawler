@@ -34,9 +34,9 @@ bool Tine::stringCheck(string s) {
     return false;
 }
 
-vector<string *> Tine::getTableData(Parser parser) {
+vector<string *> Tine::getTableData(Parser *parser) {
     xmlNodeSetPtr tableRows =
-        parser.getRegexNodes((xmlChar *)"//tr[@class='nutrient-table__row']");
+        parser->getRegexNodes((xmlChar *)"//tr[@class='nutrient-table__row']");
     vector<string *> vArr;
     if (tableRows) {
         xmlNodePtr *rowArray = tableRows->nodeTab;
@@ -58,9 +58,9 @@ vector<string *> Tine::getTableData(Parser parser) {
 }
 
 /* returnerer NULL hvis tittel ikke finnes */
-char *Tine::getTitle(Parser parser) {
+char *Tine::getTitle(Parser *parser) {
     xmlNodeSetPtr h1Title =
-        parser.getRegexNodes((xmlChar *)"//h1[@class='title']");
+        parser->getRegexNodes((xmlChar *)"//h1[@class='title']");
     if (h1Title) {
         xmlNodePtr *arr = h1Title->nodeTab;
         if (h1Title->nodeNr) {
