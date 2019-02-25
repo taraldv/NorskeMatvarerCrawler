@@ -1,0 +1,4777 @@
+tittel: TINE Junior Fløtemysost
+energi: 1794 kJ (433 kcal)
+fett: 26 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 36 g
+-hvorav sukkerarter: 32 g
+protein: 11 g
+salt: 0,9 g
+vitamin A: 246 µg (31 %')
+tiamin: 0,18 mg (16 %')
+riboflavin: 1,01 mg (73 %')
+folat: 51 µg (26 %')
+vitamin B12: 1,9 µg (78 %')
+pantotensyre: 2,5 mg (42 %')
+kalium: 1410 mg (71 %')
+kalsium: 540 mg (68 %')
+fosfor: 603 mg (86 %')
+magnesium: 79 mg (21 %')
+jern: 10 mg (71 %')
+molybden: 29 µg (58 %')
+jod: 134 µg (90 %')
+
+tittel: Cultura® Økologisk Naturell
+energi: 175 kJ (42 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 4,4 g
+-hvorav sukkerarter: 4,4 g
+protein: 3,3 g
+salt: 0,1 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 180 mg (9 %')
+kalsium: 115 mg (14 %')
+fosfor: 90 mg (13 %')
+jod: 19 µg (13 %')
+
+tittel: Østavind®
+energi: 1643 kJ (396 kcal)
+fett: 32 g
+-hvorav mettede fettsyrer: 21 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,3 g
+vitamin A: 270 µg (34 %')
+folat: 31 µg (16 %')
+vitamin B12: 3,6 µg (144 %')
+kalsium: 675 mg (84 %')
+fosfor: 460 mg (66 %')
+sink: 4,0 mg (40 %')
+selen: 10 µg (19 %')
+
+tittel: Østavind® skivet
+energi: 1643 kJ (396 kcal)
+fett: 32 g
+-hvorav mettede fettsyrer: 21 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,3 g
+vitamin A: 270 µg (34 %')
+folat: 31 µg (16 %')
+vitamin B12: 3,6 µg (144 %')
+kalsium: 675 mg (84 %')
+fosfor: 460 mg (66 %')
+sink: 4,0 mg (40 %')
+selen: 10 µg (19 %')
+
+tittel: Balsfjord
+energi: 1649 kJ (398 kcal)
+fett: 34 g
+-hvorav mettede fettsyrer: 22 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 23 g
+salt: 1,0 g
+vitamin A: 260 µg (33 %')
+riboflavin: 0,26 mg (18 %')
+kalsium: 1000 mg (125 %')
+fosfor: 710 mg (101 %')
+magnesium: 63 mg (17 %')
+sink: 3,9 mg (39 %')
+selen: 9 µg (17 %')
+jod: 86 µg (57 %')
+
+tittel: Biola® Yoghurt blåbær/vanilje
+energi: 323 kJ (76 kcal)
+fett: 1,6 g
+-hvorav mettede fettsyrer: 1,1 g
+karbohydrat: 12 g
+-hvorav sukkerarter: 11 g
+kostfiber: 1,9 g
+protein: 3,8 g
+salt: 0,12 g
+vitamin D: 1,1 µg (22 %')
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (18 %')
+fosfor: 106 mg (15 %')
+
+tittel: Biola® fettfri syrnet melk Bringebær/Vanilje
+energi: 215 kJ (51 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 9,4 g
+-hvorav sukkerarter: 9,3 g
+protein: 3,1 g
+salt: 0,09 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® fettfri syrnet melk Jordbær
+energi: 220 kJ (52 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 9,7 g
+-hvorav sukkerarter: 9,4 g
+protein: 3,1 g
+salt: 0,1 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® fettfri syrnet melk Skogsbær
+energi: 209 kJ (49 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 9,0 g
+-hvorav sukkerarter: 8,7 g
+protein: 3,1 g
+salt: 0,09 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® Laktosefri fettfri syrnet melk Blåbær
+energi: 214 kJ (50 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 9,4 g
+-hvorav sukkerarter: 9,3 g
+protein: 3,0 g
+salt: 0,09 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® Mini Laktosefri fettfri syrnet melk Jordbær/Blåbær
+energi: 195 kJ (46 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 8,2 g
+-hvorav sukkerarter: 8,1 g
+protein: 3,0 g
+salt: 0,08 g
+vitamin D: 0,8 µg ( 16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® Mild Yoghurt
+energi: 283 kJ (67 kcal)
+fett: 1,9 g
+-hvorav mettede fettsyrer: 1,2 g
+karbohydrat: 8,1 g
+-hvorav sukkerarter: 8,1 g
+kostfiber: 1,8 g
+protein: 4,5 g
+salt: 0,14 g
+vitamin D: 1,3 µg (26 %')
+vitamin B12: 0,5 µg (18 %')
+kalsium: 165 mg (21 %')
+fosfor: 125 mg (16 %')
+
+tittel: Biola® Sesong fettfri syrnet melk Rips/Vanilje
+energi: 220 kJ (52 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 9,8 g
+-hvorav sukkerarter: 9,1 g
+protein: 3,0 g
+salt: 0,09 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® Sesong fettfri syrnet melk Solbær/Vanilje
+energi: 225 kJ (53 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 9,8 g
+protein: 2,9 g
+salt: 0,09 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® Frukt+Grønt Rødbet/Eple/Lime
+energi: 195 kJ (46 kcal)
+fett: 0,9 g
+-hvorav mettede fettsyrer: 0,7 g
+karbohydrat: 6,5 g
+-hvorav sukkerarter: 6,4 g
+protein: 3,0 g
+salt: 0,10 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® syrnet lettmelk Naturell
+energi: 173 kJ (41 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 4,8 g
+-hvorav sukkerarter: 4,8 g
+protein: 3,3 g
+salt: 0,10 g
+vitamin D: 0,9 µg (18 %')
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 170 mg (9 %')
+kalsium: 115 mg (17 %')
+fosfor: 97 mg (14 %')
+jod: 16 µg (11 %')
+
+tittel: Biola® fettfri syrnet melk Blåbær
+energi: 213 kJ (50 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 9,4 g
+-hvorav sukkerarter: 9,3 g
+protein: 3,0 g
+salt: 0,1 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® fettfri syrnet melk Bringebær
+energi: 215 kJ (51 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 9,4 g
+-hvorav sukkerarter: 9,2 g
+protein: 3,1 g
+salt: 0,1 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® UTEN tilsatt sukker Granateple/Bringebær
+energi: 139 kJ (33 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 4,7 g
+-hvorav sukkerarter: 4,6 g
+protein: 3,1 g
+salt: 0,09 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Biola® UTEN tilsatt sukker Mango
+energi: 143 kJ (34 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 5,1 g
+-hvorav sukkerarter: 5,0 g
+protein: 3,0 g
+salt: 0,09 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 140 mg (7 %')
+kalsium: 100 mg (13 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: Chevre Ramsløk Haukeli
+energi: 1308 kJ (316 kcal)
+fett: 28 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 1,0 g
+-hvorav sukkerarter: 1,0 g
+protein: 15 g
+salt: 1,1 g
+vitamin A: 320 µg (40 %')
+riboflavin: 0,56 mg (40 %')
+folat: 43 µg (22 %')
+fosfor: 190 mg (27 %')
+jod: 55 µg (37 %')
+
+tittel: Chevre Original Haukeli
+energi: 1382 kJ (334 kcal)
+fett: 30 g
+-hvorav mettede fettsyrer: 19 g
+karbohydrat: 1,0 g
+-hvorav sukkerarter: 1,0 g
+protein: 15 g
+salt: 1,1 g
+vitamin A: 320 µg (40 %')
+riboflavin: 0,56 mg (40 %')
+folat: 43 µg (22 %')
+fosfor: 190 mg (27 %')
+jod: 55 µg (37 %')
+
+tittel: Chevre Naturell Haukeli
+energi: 1308 kJ (316 kcal)
+fett: 28 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 1 g
+-hvorav sukkerarter: 1 g
+protein: 15 g
+salt: 1,1 g
+vitamin A: 210 µg (26 %')
+riboflavin: 0,53 mg (38 %')
+folat: 82 µg (41 %')
+vitamin B12: 0,8 µg (32 %')
+biotin: 10 µg (19 %')
+fosfor: 240 mg (34 %')
+selen: 9 µg (16 %')
+jod: 80 µg (53 %')
+
+tittel: Cultura® Økologisk Naturell
+energi: 175 kJ (42 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 4,4 g
+-hvorav sukkerarter: 4,4 g
+protein: 3,3 g
+salt: 0,1 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 180 mg (9 %')
+kalsium: 115 mg (14 %')
+fosfor: 90 mg (13 %')
+jod: 19 µg (13 %')
+
+tittel: Cultura® Økologisk Naturell
+energi: 175 kJ (42 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 4,4 g
+-hvorav sukkerarter: 4,4 g
+protein: 3,3 g
+salt: 0,1 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 180 mg (9 %')
+kalsium: 115 mg (14 %')
+fosfor: 90 mg (13 %')
+jod: 19 µg (13 %')
+
+tittel: Snøhetta
+energi: 1322 kJ (319 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 19 g
+salt: 1,5 g
+vitamin A: 270 µg (34 %')
+riboflavin: 0,33 mg (24 %')
+folat: 51 µg (26 %')
+vitamin B12: 1,7 µg (67 %')
+kalsium: 540 mg (68 %')
+fosfor: 390 mg (56 %')
+sink: 3,0 mg (30 %')
+selen: 11 µg (20 %')
+jod: 45 µg (30 %')
+
+tittel: E+® Plussdrikk Kaffe
+energi: 730 kJ (175 kcal)
+fett: 8,6 g
+-hvorav mettede fettsyrer: 3,4 g
+enumettede fettsyrer: 3,5 g
+flerumettede fettsyrer: 1,2 g
+karbohydrat: 17 g
+-hvorav sukkerarter: 12 g
+kostfiber: 0,1 g
+protein: 7,5 g
+salt: 0,3 g
+vitamin D: 1,3 µg (26 %')
+vitamin E: 1,0 mg (8 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (14 %')
+kalium: 198 µg (10 %')
+kalsium: 121 mg (15 %')
+jod: 14 µg (9 %')
+
+tittel: E+® Plussdrikk Kakao
+energi: 733 kJ (175 kcal)
+fett: 8,7 g
+-hvorav mettede fettsyrer: 3,5 g
+enumettede fettsyrer: 3,5 g
+flerumettede fettsyrer: 1,2 g
+karbohydrat: 17 g
+-hvorav sukkerarter: 10 g
+kostfiber: 0,6 g
+protein: 7,5 g
+salt: 0,3 g
+vitamin D: 1,3 µg (26 %')
+vitamin E: 1,0 mg (8 %')
+vitamin C: 9,4 mg (12 %')
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (14 %')
+kalium: 246 µg (12 %')
+kalsium: 121 mg (15 %')
+fosfor: 97 mg (14 %')
+jod: 14 µg (9 %')
+
+tittel: E+® Suppe Asparges
+energi: 626 kJ (150 kcal)
+fett: 11 g
+-hvorav mettede fettsyrer: 4,5 g
+enumettede fettsyrer: 4,0 g
+flerumettede fettsyrer: 1,3 g
+karbohydrat: 6,3 g
+-hvorav sukkerarter: 4,2 g
+protein: 7,5 g
+salt: 0,93 g
+vitamin E: 1,1 mg (9 %')
+riboflavin: 0,12 mg (9 %')
+vitamin B12: 0,4 µg (15 %')
+kalium: 182 mg (9 %')
+kalsium: 165 mg (21 %')
+fosfor: 68 mg (10 %')
+jod: 14 µg (10 %')
+
+tittel: E+® Kremet måltid Fersken og Aprikos
+energi: 990 kJ (237 kcal)
+fett: 15 g
+-hvorav mettede fettsyrer: 7,2 g
+enumettede fettsyrer: 5,2 g
+flerumettede fettsyrer: 1,4 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 18 g
+protein: 7,6 g
+salt: 0,13 g
+vitamin D: 2,9 µg (58 %')
+vitamin C: 12 mg (15 %')
+vitamin B12: 0,8 µg (32 %')
+
+tittel: E+® Kremet måltid Skogsbær
+energi: 995 kJ (239 kcal)
+fett: 15 g
+-hvorav mettede fettsyrer: 7,2 g
+enumettede fettsyrer: 5,2 g
+flerumettede fettsyrer: 1,4 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 18 g
+protein: 7,9 g
+salt: 0,14 g
+vitamin D: 1,5 µg (30 %')
+vitamin B12: 0,9 µg (34 %')
+fosfor: 110 mg (16 %')
+
+tittel: E+® Plussdrikk Blåbær
+energi: 733 kJ (175 kcal)
+fett: 8,2 g
+-hvorav mettede fettsyrer: 3,1 g
+enumettede fettsyrer: 3,4 g
+flerumettede fettsyrer: 1,2 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 15 g
+kostfiber: 0,2 g
+protein: 7,5 g
+salt: 0,4 g
+vitamin D: 1,3 µg (26 %')
+vitamin E: 1,0 mg (8 %')
+vitamin C: 9,4 mg (12 %')
+riboflavin: 0,11 mg (8 %')
+vitamin B12: 0,3 µg (12 %')
+kalsium: 112 mg (14 %')
+fosfor: 80 mg (11 %')
+jod: 12 µg (8 %')
+
+tittel: E+® Plussdrikk Bringebær
+energi: 734 kJ (175 kcal)
+fett: 8,1 g
+-hvorav mettede fettsyrer: 3,1 g
+enumettede fettsyrer: 3,4 g
+flerumettede fettsyrer: 1,2 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 15 g
+kostfiber: 0,2 g
+protein: 7,5 g
+salt: 0,4 g
+vitamin D: 1,3 µg (26 %')
+vitamin E: 1,0 mg (8 %')
+vitamin C: 9,4 mg (12 %')
+riboflavin: 0,11 mg (8 %')
+vitamin B12: 0,3 µg (12 %')
+kalsium: 100 mg (13 %')
+
+tittel: E+® Smoothie Jordbær, Eple, Drue og Banan
+energi: 625 kJ (150 kcal)
+fett: 8,9 g
+-hvorav mettede fettsyrer: 1,3 g
+karbohydrat: 9,9 g
+-hvorav sukkerarter: 9,5 g
+protein: 7,5 g
+salt: 0,40 g
+vitamin D: 1,6 µg (31 %')
+vitamin E: 2,0 mg (20 %')
+vitamin C: 17 mg (28 %')
+
+tittel: E+® Suppe Kylling og Karri
+energi: 626 kJ (150 kcal)
+fett: 10 g
+-hvorav mettede fettsyrer: 4,5 g
+enumettede fettsyrer: 3,9 g
+flerumettede fettsyrer: 1,2 g
+karbohydrat: 6,7 g
+-hvorav sukkerarter: 4,6 g
+protein: 7,5 g
+salt: 0,93 g
+vitamin E: 1,1 mg (9 %')
+riboflavin: 0,12 mg (9 %')
+vitamin B12: 0,4 µg (15 %')
+kalium: 182 mg (9 %')
+kalsium: 164 mg (20 %')
+fosfor: 68 mg (10 %')
+jod: 15 µg (10 %')
+
+tittel: Fryd Crème Kirsebær
+energi: 1385 kJ (335 kcal)
+fett: 31 g
+-hvorav mettede fettsyrer: 19 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 14 g
+salt: 2,2 g
+vitamin A: 160 µg (20 %')
+vitamin B12: 0,5 µg (20 %')
+kalsium: 390 mg (49 %')
+fosfor: 960 mg (137 %')
+sink: 2,3 mg (23 %')
+krom: 16 µg (40 %')
+
+tittel: Fryd® Brie Pepper
+energi: 1441 kJ (348 kcal)
+fett: 31 g
+-hvorav mettede fettsyrer: 20 g
+karbohydrat: 0,3 g
+-hvorav sukkerarter: 0,3 g
+protein: 17 g
+salt: 1,5 g
+vitamin A: 320 µg (40 %')
+riboflavin: 0,31 mg (22 %')
+folinsyre: 48 µg (24 %')
+vitamin B12: 1,6 µg (63 %')
+kalsium: 500 mg (63 %')
+fosfor: 370 mg (53 %')
+sink: 2,9 mg (29 %')
+selen: 10 µg (19 %')
+jod: 43 µg (29 %')
+
+tittel: Fryd® Crème Aprikos
+energi: 1370 kJ (331 kcal)
+fett: 29 g
+-hvorav mettede fettsyrer: 19 g
+karbohydrat: 2,0 g
+-hvorav sukkerarter: 2,0 g
+protein: 15 g
+salt: 2,0 g
+kalsium: 390 mg (49 %')
+
+tittel: Fryd® Crème Pepper
+energi: 1356 kJ (328 kcal)
+fett: 30 g
+-hvorav mettede fettsyrer: 19 g
+karbohydrat: 0,5 g
+-hvorav sukkerarter: 0,3 g
+protein: 14 g
+salt: 2,2 g
+kalsium: 390 mg (49 %')
+
+tittel: Fryd® Royal Blue
+energi: 1866 kJ (452 kcal)
+fett: 44 g
+-hvorav mettede fettsyrer: 28 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 14 g
+salt: 1,5 g
+vitamin A: 440 µg (55 %')
+riboflavin: 0,25 mg (18 %')
+folat: 39 µg (19 %')
+vitamin B12: 1,3 µg (51 %')
+kalsium: 410 mg (51 %')
+fosfor: 300 mg (43 %')
+sink: 2,3 mg (23 %')
+selen: 8 µg (15 %')
+jod: 35 µg (23 %')
+
+tittel: Fryd® Brie
+energi: 1490 kJ (360 kcal)
+fett: 32 g
+-hvorav mettede fettsyrer: 21 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 18 g
+salt: 1,5 g
+vitamin A: 320 µg (40 %')
+riboflavin: 0,31 mg (22 %')
+folat: 48 µg (24 %')
+vitamin B12: 1,6 µg (63 %')
+kalsium: 500 mg (63 %')
+fosfor: 370 mg (53 %')
+sink: 2,9 mg (29 %')
+selen: 10 µg (19 %')
+jod: 43 µg (29 %')
+
+tittel: Go'morgen® Shake Bringebær og Lime
+energi: 278 kJ (66 kcal)
+fett: 1,1 g
+-hvorav mettede fettsyrer: 0,7 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 10 g
+protein: 3,6 g
+salt: 0,13 g
+riboflavin: 0,13 mg (8 %')
+vitamin B12: 0,4 µg (44 %')
+kalsium: 117 mg (15 %')
+fosfor: 78 mg (10 %')
+jod: 17 µg (11 %')
+
+tittel: Go'morgen® Yoghurt Dragefrukt/Bringebær med granola
+energi: 546 kJ (130 kcal)
+fett: 4,1 g
+-hvorav mettede fettsyrer: 1,9 g
+karbohydrat: 17 g
+-hvorav sukkerarter: 11 g
+kostfiber: 2,3 g
+protein: 4,6 g
+salt: 0,11 g
+kalsium: 120 mg (15 %')
+
+tittel: Go'morgen® Yoghurt Jordbær med 4-kornmüsli
+energi: 518 kJ (123 kcal)
+fett: 3,3 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 19 g
+-hvorav sukkerarter: 12 g
+kostfiber: 1,1 g
+protein: 4,2 g
+salt: 0,1 g
+kalsium: 121 mg (15 %')
+
+tittel: Go'morgen® Müsli- og Nøttebar med Melkesjokolade og Kokos
+energi: 1777 kJ (426 kcal)
+fett: 21 g
+-hvorav mettede fettsyrer: 9,1 g
+karbohydrat: 35 g
+-hvorav sukkerarter: 16 g
+kostfiber: 16 g
+protein: 17 g
+salt: 0,36 g    energi 800 kJ (192 kcal)
+fett: 9 g
+-hvorav mettede fettsyrer: 4,1 g
+karbohydrat: 16 g
+-hvorav sukkerarter: 7 g
+kostfiber: 7 g
+protein: 8 g
+salt: 0,16 g
+
+tittel: Go'morgen® Müsli- og Nøttebar med Pekannøtt og Salt Karamell
+energi: 1781 kJ (427 kcal)
+fett: 21 g
+-hvorav mettede fettsyrer: 6,8 g
+karbohydrat: 41 g
+-hvorav sukkerarter: 17 g
+polyoler (sukkeralkoholer): 2,9 g
+kostfiber: 13 g
+protein: 14 g
+salt: 0,64 g   Per bar energi 801 kJ (192 kcal)
+fett: 9 g
+-hvorav mettede fettsyrer: 3,1 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 8 g
+polyoler (sukkeralkoholer): 1,3 g
+kostfiber: 6 g
+protein: 6 g
+salt: 0,29 g
+
+tittel: Go'morgen® Müsli- og Nøttebar med Sjokolade, Mandel og Peanøtt
+energi: 1785 kJ (428 kcal)
+fett: 21 g
+-hvorav mettede fettsyrer: 7,8 g
+karbohydrat: 34 g
+-hvorav sukkerarter: 15 g
+polyoler (sukkeralkoholer): 0,3 g
+kostfiber: 15 g
+protein: 18 g
+salt: 0,46 g    energi 803 kJ (193 kcal)
+fett: 9 g
+-hvorav mettede fettsyrer: 3,5 g
+karbohydrat: 15 g
+-hvorav sukkerarter: 7 g
+polyoler (sukkeralkoholer): 0,1 g
+kostfiber: 7 g
+protein: 8 g
+salt: 0,21 g
+
+tittel: Go'morgen® Müsli- og Nøttebar med Tranebær og Yoghurtsmak
+energi: 1765 kJ (422 kcal)
+fett: 19 g
+-hvorav mettede fettsyrer: 6,9 g
+karbohydrat: 45 g
+-hvorav sukkerarter: 19 g
+polyoler (sukkeralkoholer): 3,0 g
+kostfiber: 13 g
+protein: 13 g
+salt: 0,53 g   Per bar energi 794 kJ (190 kcal)
+fett: 8 g
+-hvorav mettede fettsyrer: 3,1 g
+karbohydrat: 20 g
+-hvorav sukkerarter: 8 g
+polyoler (sukkeralkoholer): 1,4 g
+kostfiber: 6 g
+protein: 6 g
+salt: 0,24 g
+
+tittel: Go'morgen® Yoghurt Mango/Banan med fruktmüsli
+energi: 557 kJ (133 kcal)
+fett: 4,2 g
+-hvorav mettede fettsyrer: 2,2 g
+karbohydrat: 19 g
+-hvorav sukkerarter: 13 g
+kostfiber: 2 g
+protein: 4,2 g
+salt: 0,1 g
+kalsium: 119 mg (15 %')
+
+tittel: Go'morgen® Yoghurt Melon/Pasjonsfrukt med 4-kornmüsli
+energi: 528 kJ (125 kcal)
+fett: 3,3 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 19 g
+-hvorav sukkerarter: 12 g
+kostfiber: 1,1 g
+protein: 4,2 g
+salt: 0,1 g
+kalsium: 121 mg (15 %')
+
+tittel: Go'morgen® Yoghurt Naturell med nøttecrüsli
+energi: 474 kJ (111 kcal)
+fett: 4,1 g
+-hvorav mettede fettsyrer: 1,3 g
+karbohydrat: 12 g
+-hvorav sukkerarter: 7,9 g
+kostfiber: 1,0 g
+protein: 5,7 g
+salt: 0,12 g
+kalsium: 146 mg (18 %')
+
+tittel: Go'morgen® Yoghurt Sitron/Ingefær med müsli
+energi: 533 kJ (127 kcal)
+fett: 4,4 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 17 g
+-hvorav sukkerarter: 12 g
+kostfiber: 0,8 g
+protein: 4,4 g
+salt: 0,14 g
+kalsium: 130 mg (16 %')
+
+tittel: Go'morgen® Yoghurt Skogsbær med 4-kornmüsli
+energi: 535 kJ (127 kcal)
+fett: 3,4 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 19 g
+-hvorav sukkerarter: 12,9 g
+kostfiber: 1,1 g
+protein: 4,2 g
+salt: 0,1 g
+kalsium: 121 mg (15 %')
+
+tittel: Go'morgen® Yoghurt UTEN Bringebær med müsli
+energi: 434 kJ (103 kcal)
+fett: 3,0 g
+-hvorav mettede fettsyrer: 1,2 g
+karbohydrat: 12 g
+-hvorav sukkerarter: 6,1 g
+kostfiber: 2,5 g
+protein: 5,6 g
+salt: 0,15 g
+kalsium: 138 mg (17 %')
+
+tittel: Go'morgen® Yoghurt UTEN Jordbær/Lime med müsli
+energi: 432 kJ (103 kcal)
+fett: 3,0 g
+-hvorav mettede fettsyrer: 1,2 g
+karbohydrat: 12 g
+-hvorav sukkerarter: 6,0 g
+kostfiber: 2,4 g
+protein: 5,5 g
+salt: 0,15 g
+kalsium: 136 mg (17 %')
+
+tittel: Go'morgen® Yoghurt UTEN Mango med müsli
+energi: 435 kJ (103 kcal)
+fett: 3,0 g
+-hvorav mettede fettsyrer: 1,1 g
+karbohydrat: 12 g
+-hvorav sukkerarter: 6,3 g
+kostfiber: 2,4 g
+protein: 5,6 g
+salt: 0,18 g
+kalsium: 138 mg (17 %')
+
+tittel: Go'morgen® Yoghurt UTEN Pasjonsfrukt/Guarana med granola
+energi: 444 kJ (106 kcal)
+fett: 4,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 5,3 g
+kostfiber: 2,3 g
+protein: 4,6 g
+salt: 0,14 g
+kalsium: 130 mg (16 %')
+
+tittel: Go'morgen® Yoghurt UTEN Pasjonsfrukt/Kokos med granola
+energi: 452 kJ (108 kcal)
+fett: 3,5 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 12 g
+-hvorav sukkerarter: 5,9 g
+kostfiber: 2,5 g
+protein: 5,6 g
+salt: 0,15 g
+kalsium: 136 mg (17 %')
+
+tittel: Go'morgen® Yoghurt UTEN Vanilje med nøttekrønsj
+energi: 460 kJ (110 kcal)
+fett: 4,5 g
+-hvorav mettede fettsyrer: 1,2 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 5,7 g
+kostfiber: 1,9 g
+protein: 5,8 g
+salt: 0,15 g
+kalsium: 138 mg (17 %')
+
+tittel: Go'morgen® Yoghurt Vanilje med havrecrisp
+energi: 547 kJ (130 kcal)
+fett: 4,5 g
+-hvorav mettede fettsyrer: 2,1 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 12 g
+kostfiber: 0,8 g
+protein: 4,4 g
+salt: 0,10 g
+kalsium: 121 mg (15 %')
+
+tittel: Go'morgen Vaniljeyoghurt med nøttemix
+energi: 658 kJ (157 kcal)
+fett: 8,8 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 13 g
+-hvorav sukkerarter: 11 g
+kostfiber: 1,0 g
+protein: 5,5 g
+salt: 0,10 g
+kalsium: 121 mg (15 %')
+
+tittel: Snøhetta
+energi: 1322 kJ (319 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 19 g
+salt: 1,5 g
+vitamin A: 270 µg (34 %')
+riboflavin: 0,33 mg (24 %')
+folat: 51 µg (26 %')
+vitamin B12: 1,7 µg (67 %')
+kalsium: 540 mg (68 %')
+fosfor: 390 mg (56 %')
+sink: 3,0 mg (30 %')
+selen: 11 µg (20 %')
+jod: 45 µg (30 %')
+
+tittel: Balsfjord
+energi: 1649 kJ (398 kcal)
+fett: 34 g
+-hvorav mettede fettsyrer: 22 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 23 g
+salt: 1,0 g
+vitamin A: 260 µg (33 %')
+riboflavin: 0,26 mg (18 %')
+kalsium: 1000 mg (125 %')
+fosfor: 710 mg (101 %')
+magnesium: 63 mg (17 %')
+sink: 3,9 mg (39 %')
+selen: 9 µg (17 %')
+jod: 86 µg (57 %')
+
+tittel: Kvitlin
+energi: 1612 kJ (389 kcal)
+fett: 33 g
+-hvorav mettede fettsyrer: 21 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 23 g
+salt: 1,5 g
+vitamin A: 230 µg (29 %')
+riboflavin: 0,26 mg (18 %')
+kalsium: 1000 mg (125 %')
+fosfor: 710 mg (101 %')
+magnesium: 63 mg (17 %')
+sink: 3,9 mg (39 %')
+selen: 9 µg (17 %')
+jod: 86 µg (57 %')
+
+tittel: TINE Ekte Hvit Geitost
+energi: 1555 kJ (375 kcal)
+fett: 31 g
+-hvorav mettede fettsyrer: 20 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 24 g
+salt: 1,2 g
+vitamin A: 230 µg (29 %')
+riboflavin: 0,26 mg (18 %')
+kalsium: 1000 mg (125 %')
+fosfor: 710 mg (101 %')
+magnesium: 63 mg (17 %')
+sink: 3,9 mg (39 %')
+selen: 9 µg (17 %')
+jod: 86 µg (58 %')
+
+tittel: Jarlsberg® Lettost 16% fett
+energi: 1119 kJ (268 kcal)
+fett: 16 g
+-hvorav mettede fettsyrer: 10 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 31 g
+salt: 1,0 g
+vitamin A: 160 µg (20 %')
+riboflavin: 0,44 mg (31 %')
+vitamin B12: 2,4 µg (95 %')
+kalsium: 910 mg (114 %')
+fosfor: 670 mg (96 %')
+sink: 5,0 mg (50 %')
+selen: 13 µg (24 %')
+jod: 57 µg (38 %')
+
+tittel: Jarlsberg® m/skorpe
+energi: 1512 kJ (364 kcal)
+fett: 28 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 28 g
+salt: 1,2 g
+vitamin A: 280 µg (35 %')
+riboflavin: 0,28 mg (20 %')
+vitamin B12: 2,3 µg (92 %')
+kalsium: 780 mg (98 %')
+fosfor: 560 mg (80 %')
+sink: 4,4 mg (44 %')
+selen: 13 µg (23 %')
+jod: 29 µg (19 %')
+
+tittel: Jarlsberg® Original
+energi: 1458 kJ (351 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,1 g
+vitamin A: 270 µg (34 %')
+riboflavin: 0,32 mg (23 %')
+folat: 36 µg (18 %')
+vitamin B12: 2,2 µg (88 %')
+kalsium: 770 mg (96 %')
+fosfor: 550 mg (79 %')
+sink: 4,2 mg (42 %')
+selen: 12 µg (22 %')
+jod: 32 µg (21 %')
+
+tittel: Jarlsberg® Original Staver
+energi: 1458 kJ (351 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,1 g
+vitamin A: 270 µg (34 %')
+riboflavin: 0,32 mg (23 %')
+folat: 36 µg (18 %')
+vitamin B12: 2,2 µg (88 %')
+kalsium: 770 mg (96 %')
+fosfor: 550 mg (79 %')
+sink: 4,2 mg (42 %')
+selen: 12 µg (22 %')
+jod: 32 µg (21 %')
+
+tittel: Jarlsberg® Revet
+energi: 1475 kJ (355 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 28 g
+salt: 1,1 g
+vitamin A: 270 µg (34 %')
+vitamin K: 45 µg (60 %')
+riboflavin: 0,32 mg (23 %')
+folat: 36 µg (18 %')
+vitamin B12: 2,2 µg (88 %')
+kalsium: 770 mg (96 %')
+fosfor: 550 mg (79 %')
+sink: 4,2 mg (42 %')
+selen: 12 µg (22 %')
+jod: 32 µg (21 %')
+
+tittel: Jarlsberg® Vellagret m/skorpe
+energi: 1512 kJ (364 kcal)
+fett: 28 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 28 g
+salt: 1,2 g
+vitamin A: 280 µg (35 %')
+riboflavin: 0,28 mg (20 %')
+vitamin B12: 2,3 µg (92 %')
+kalsium: 780 mg (98 %')
+fosfor: 560 mg (80 %')
+sink: 4,4 mg (44 %')
+jod: 29 µg (19 %')
+
+tittel: Kesam® Bringebær
+energi: 504 kJ (121 kcal)
+fett: 6,4 g
+-hvorav mettede fettsyrer: 4,1 g
+karbohydrat: 9,3 g
+-hvorav sukkerarter: 9,1 g
+protein: 6,1 g
+salt: 0,10 g
+vitamin K: 19 µg (26 %')
+kalsium: 120 mg (15 %')
+fosfor: 135 mg (19 %')
+
+tittel: Kesam® Lime
+energi: 503 kJ (120 kcal)
+fett: 6,5 g
+-hvorav mettede fettsyrer: 4,1 g
+karbohydrat: 9,1 g
+-hvorav sukkerarter: 8,8 g
+protein: 6,1 g
+salt: 0,10 g
+vitamin K: 19 µg (26 %')
+kalsium: 120 mg (15 %')
+fosfor: 135 mg (19 %')
+
+tittel: Kesam® Mager Naturell 300 g
+energi: 280 kJ (66 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,6 g
+karbohydrat: 4,3 g
+-hvorav sukkerarter: 4,3 g
+protein: 10 g
+salt: 0,10 g
+vitamin K: 33 µg (43 %')
+vitamin B12: 0,8 µg (33 %')
+biotin: 12 µg (24 %')
+kalsium: 125 mg (16 %')
+fosfor: 145 mg (21 %')
+
+tittel: Kesam® Original
+energi: 445 kJ (107 kcal)
+fett: 7,1 g
+-hvorav mettede fettsyrer: 4,6 g
+karbohydrat: 4,0 g
+-hvorav sukkerarter: 4,0 g
+protein: 6,7 g
+salt: 0,10 g
+vitamin K: 22 µg (29 %')
+kalsium: 135 mg (17 %')
+fosfor: 150 mg (21 %')
+
+tittel: Kesam® UTEN Mango & Pasjonsfrukt
+energi: 272 kJ (64 kcal)
+fett: 0,9 g
+-hvorav mettede fettsyrer: 0,5 g
+karbohydrat: 4,9 g
+-hvorav sukkerarter: 4,7 g
+protein: 9,1 g
+salt: 0,02 g
+vitamin K: 29 µg (39 %')
+vitamin B12: 0,7 µg (30 %')
+biotin: 11 µg (22 %')
+fosfor: 130 mg (19 %')
+
+tittel: Kesam® Vanilje
+energi: 489 kJ (117 kcal)
+fett: 6,5 g
+-hvorav mettede fettsyrer: 4,2 g
+karbohydrat: 8,3 g
+-hvorav sukkerarter: 8,1 g
+protein: 6,2 g
+salt: 0,10 g
+vitamin K: 20 µg (26 %')
+kalsium: 120 mg (15 %')
+fosfor: 138 mg (20 %')
+
+tittel: Kesam® Vanilje Mager
+energi: 335 kJ (79 kcal)
+fett: 0,9 g
+-hvorav mettede fettsyrer: 0,6 g
+karbohydrat: 8,5 g
+-hvorav sukkerarter: 8,3 g
+protein: 9,2 g
+salt: 0,10 g
+vitamin K: 30 µg (40 %')
+vitamin B12: 0,8 µg (33 %')
+biotin: 11 µg (22 %')
+fosfor: 133 mg (19 %')
+
+tittel: Kvitlin
+energi: 1612 kJ (389 kcal)
+fett: 33 g
+-hvorav mettede fettsyrer: 21 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 23 g
+salt: 1,5 g
+vitamin A: 230 µg (29 %')
+riboflavin: 0,26 mg (18 %')
+kalsium: 1000 mg (125 %')
+fosfor: 710 mg (101 %')
+magnesium: 63 mg (17 %')
+sink: 3,9 mg (39 %')
+selen: 9 µg (17 %')
+jod: 86 µg (57 %')
+
+tittel: Litago® Lett melk med jordbærsmak
+energi: 184 kJ (43 kcal)
+fett: 0,7 g
+-hvorav mettede fettsyrer: 0,4 g
+karbohydrat: 5,9 g
+-hvorav sukkerarter: 5,9 g
+protein: 3,4 g
+salt: 0,1 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 168 µg (8 %')
+kalsium: 118 mg (15 %')
+fosfor: 113 mg (16 %')
+jod: 16 µg (10 %')
+
+tittel: Litago® Lett Sjokolademelk
+energi: 193 kJ (46 kcal)
+fett: 0,8 g
+-hvorav mettede fettsyrer: 0,5 g
+karbohydrat: 6,0 g
+-hvorav sukkerarter: 5,9 g
+protein: 3,6 g
+salt: 0,1 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 205 µg (10 %')
+kalsium: 118 mg (15 %')
+fosfor: 119 mg (17 %')
+jod: 16 µg (10 %')
+
+tittel: Litago® Melk Jordbærsmak
+energi: 245 kJ (58 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,7 g
+karbohydrat: 8,6 g
+-hvorav sukkerarter: 8,5 g
+protein: 3,2 g
+salt: 0,1 g
+riboflavin: 0,14 mg (9 %')
+vitamin B12: 0,5 µg (20 %')
+kalsium: 110 mg (14 %')
+fosfor: 86 mg (12 %')
+jod: 15 µg (10 %')
+
+tittel: Litago® Original Sjokolademelk
+energi: 249 kJ (59 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 8,4 g
+-hvorav sukkerarter: 8,3 g
+protein: 3,6 g
+salt: 0,1 g
+riboflavin: 0,15 mg (10 %')
+vitamin B12: 0,5 µg (19 %')
+kalium: 201 µg (10 %')
+kalsium: 115 mg (14 %')
+fosfor: 116 mg (17 %')
+jod: 15 µg (10 %')
+
+tittel: Litago® Shake Jordbær- og Banansmak
+energi: 295 kJ (70 kcal)
+fett: 2,1 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 9,4 g
+-hvorav sukkerarter: 9,4 g
+protein: 3,4 g
+salt: 0,25 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (19 %')
+kalium: 183 mg (9 %')
+kalsium: 117 mg (15 %')
+fosfor: 108 mg (15 %')
+jod: 15 µg (10 %')
+
+tittel: Litago® Shake Sjokolade- og Karamellsmak
+energi: 293 kJ (70 kcal)
+fett: 2,0 g
+-hvorav mettede fettsyrer: 1,6 g
+karbohydrat: 9,4 g
+-hvorav sukkerarter: 9,3 g
+protein: 3,5 g
+salt: 0,23 g
+riboflavin: 0,16 mg (11 %')
+vitamin B12: 0,5 µg (19 %')
+kalium: 210 mg (11 %')
+kalsium: 117 mg (15 %')
+fosfor: 113 mg (16 %')
+jod: 15 µg (10 %')
+
+tittel: Litago® UTEN
+energi: 184 kJ (44 kcal)
+fett: 1,3 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 4,8 g
+-hvorav sukkerarter: 4,6 g
+kostfiber: 2,1 g
+protein: 3,3 g
+salt: 0,1 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (19 %')
+kalium: 202 µg (10 %')
+kalsium: 131 mg (16 %')
+fosfor: 92 mg (13 %')
+jod: 18 µg (12 %')
+
+tittel: Nå® Familiepizzabunn Italiensk
+energi: 1226 kJ (291 kcal)
+fett: 7,3 g
+-hvorav mettede fettsyrer: 3,2 g
+karbohydrat: 46 g
+-hvorav sukkerarter: 0,9 g
+kostfiber: 1,7 g
+protein: 9,4 g
+salt: 1,4 g
+
+tittel: Noisy® Eple/Drue
+energi: 123 kJ (29 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 6,8 g
+-hvorav sukkerarter: 6,8 g
+protein: 0 g
+salt: 0 g
+
+tittel: Noisy® Eple/Fersken/Pære
+energi: 112 kJ (26 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 6,1 g
+-hvorav sukkerarter: 5,6 g
+protein: 0 g
+salt: 0 g
+
+tittel: Noisy® Zero Mango/Pasjon
+energi: 13 kJ (3 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 0 g
+salt: 0 g
+
+tittel: Noisy® Zero Pære/Sitron
+energi: 11 kJ (3 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 0 g
+salt: 0 g
+
+tittel: Gamalost frå Vik
+energi: 940 kJ (221 kcal)
+fett: 0,6 g
+-hvorav mettede fettsyrer: 0,4 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 54 g
+salt: 0,05 g
+vitamin K: 54 µg (73 %')
+riboflavin: 0,75 mg (53 %')
+niacin: 2,5 mg (15 %')
+vitamin B12: 0,8 µg (31 %')
+biotin: 27 µg (54 %')
+pantotensyre: 1,3 mg (22 %')
+kalsium: 150 mg (19 %')
+fosfor: 530 mg (76 %')
+sink: 2,8 mg (28 %')
+selen: 20 µg (37 %')
+krom: 20 µg (50 %')
+molybden: 10 µg (19 %')
+jod: 44 µg (29 %')
+
+tittel: Gamalost frå Vik smørbar
+energi: 610 kJ (144 kcal)
+fett: 0,4 g
+-hvorav mettede fettsyrer: 0,3 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 35 g
+salt: 0,1 g
+vitamin K: 37 µg (49 %')
+riboflavin: 0,52 mg (37 %')
+vitamin B12: 0,5 µg (22 %')
+biotin: 19 µg (38 %')
+pantotensyre: 0,9 mg (15 %')
+fosfor: 370 mg (53 %')
+sink: 2,0 mg (20 %')
+selen: 14 µg (26 %')
+krom: 14 µg (35 %')
+jod: 24 µg (16 %')
+
+tittel: Mølsgomme
+energi: 990 kJ (236 kcal)
+fett: 10,6 g
+-hvorav mettede fettsyrer: 6,9 g
+karbohydrat: 24 g
+-hvorav sukkerarter: 17 g
+protein: 11 g
+salt: 0,3 g
+riboflavin: 0,48 mg (34 %')
+kalium: 545 mg (27 %')
+kalsium: 368 mg (46 %')
+fosfor: 328 mg (47 %')
+molybden: 11 µg (22 %')
+jod: 52 µg (35 %')
+
+tittel: Mylsa
+energi: 477 kJ (116 kcal)
+fett: 6,0 g
+-hvorav mettede fettsyrer: 3,9 g
+karbohydrat: 9,0 g
+-hvorav sukkerarter: 9,0 g
+protein: 6,0 g
+salt: 0,4 g
+kalsium: 200 mg (25 %')
+
+tittel: Namdalsgomme
+energi: 1213 kJ (289 kcal)
+fett: 12 g
+-hvorav mettede fettsyrer: 7,8 g
+karbohydrat: 35 g
+-hvorav sukkerarter: 26 g
+protein: 10 g
+salt: 0,6 g
+vitamin A: 114 µg (14 %')
+riboflavin: 0,73 mg (52 %')
+folat: 43 µg (21 %')
+vitamin B12: 1,1 µg (42 %')
+pantotensyre: 1,8 mg (29 %')
+kalium: 1007 mg (50 %')
+kalsium: 398 mg (50 %')
+fosfor: 402 mg (57 %')
+molybden: 18 µg (35 %')
+jod: 107 µg (71 %')
+
+tittel: Ryfylkegome
+energi: 980 kJ (230 kcal)
+fett: 9,0 g
+-hvorav mettede fettsyrer: 5,5 g
+karbohydrat: 30 g
+-hvorav sukkerarter: 21 g
+protein: 8 g
+salt: 0,3 g
+kalsium: 340 mg (42 %')
+
+tittel: Sunnmørssøst
+energi: 1074 kJ (256 kcal)
+fett: 12 g
+-hvorav mettede fettsyrer: 8 g
+karbohydrat: 26 g
+-hvorav sukkerarter: 19 g
+protein: 12 g
+salt: 0,4 g
+riboflavin: 0,55 mg (39 %')
+vitamin B12: 1,2 µg (49 %')
+kalium: 693 mg (35 %')
+kalsium: 500 mg (63 %')
+fosfor: 424 mg (61 %')
+molybden: 12 µg (24 %')
+jod: 76 µg (48 %')
+
+tittel: TINE Pultost Hedemark
+energi: 717 kJ (169 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,6 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 40 g
+salt: 2,3 g
+riboflavin: 0,89 mg (64 %')
+niacin: 2,9 mg (18 %')
+vitamin B12: 0,9 µg (37 %')
+biotin: 32 µg (64 %')
+pantotensyre: 1,6 mg (26 %')
+kalsium: 180 mg (23 %')
+fosfor: 630 mg (90 %')
+sink: 3,4 mg (34 %')
+selen: 24 µg (44 %')
+krom: 24 µg (60 %')
+molybden: 11 µg (23 %')
+jod: 42 µg (28 %')
+
+tittel: TINE Pultost Løiten
+energi: 536 kJ (126 kcal)
+fett: 0,7 g
+-hvorav mettede fettsyrer: 0,5 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 30 g
+salt: 2,0 g
+riboflavin: 0,57 mg (40 %')
+vitamin B12: 0,6 µg (24 %')
+biotin: 20 µg (41 %')
+pantotensyre: 1,0 mg (17 %')
+fosfor: 400 mg (57 %')
+sink: 2,2 mg (22 %')
+selen: 15 µg (28 %')
+krom: 15 µg (38 %')
+molybden: 7 µg (15 %')
+jod: 26 µg (17 %')
+
+tittel: TINE Pultost Lillehammer
+energi: 734 kJ (173 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,6 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 41 g
+salt: 2,3 g
+riboflavin: 0,89 mg (64 %')
+niacin: 2,9 mg (18 %')
+vitamin B12: 0,9 µg (37 %')
+biotin: 32 µg (64 %')
+pantotensyre: 1,6 mg (26 %')
+kalsium: 180 mg (23 %')
+fosfor: 630 mg (90 %')
+sink: 3,4 mg (34 %')
+selen: 24 µg (44 %')
+krom: 24 µg (60 %')
+molybden: 11 µg (23 %')
+jod: 42 µg (28 %')
+
+tittel: Norvegia® Original
+energi: 1458 kJ (351 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,2 g
+vitamin A: 300 µg (38 %')
+riboflavin: 0,31 mg (22 %')
+folat: 42 µg (21 %')
+vitamin B12: 2,4 µg (96 %')
+kalsium: 820 mg (103 %')
+fosfor: 590 mg (84 %')
+sink: 4,6 mg (46 %')
+selen: 11 µg (20,0 %')
+jod: 31 µg (20 %')
+
+tittel: Norvegia® Økologisk
+energi: 1458 kJ (351 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,2 g
+vitamin A: 270 µg (34 %')
+riboflavin: 0,30 mg (22 %')
+folat: 41 µg (21 %')
+vitamin B12: 2,4 µg (94 %')
+kalsium: 800 mg (100 %')
+fosfor: 580 mg (83 %')
+sink: 4,4 mg (44 %')
+jod: 30 µg (20 %')
+
+tittel: Norvegia® Ekstra Vellagret - fra ostehjul
+energi: 1495 kJ (360 kcal)
+fett: 28 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,2 g
+vitamin A: 260 µg (33 %')
+riboflavin: 0,29 mg (21 %')
+folat: 40 µg (20 %')
+vitamin B12: 2,3 µg (92 %')
+kalsium: 780 mg (98 %')
+fosfor: 570 mg (81 %')
+sink: 4,3 mg (43 %')
+jod: 29 µg (19 %')
+
+tittel: Norvegia® Fyldig
+energi: 1535 kJ (370 kcal)
+fett: 30 g
+-hvorav mettede fettsyrer: 19 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 25 g
+salt: 1,2 g
+vitamin A: 300 µg (38 %')
+riboflavin: 0,31 mg (22 %')
+vitamin B12: 2,2 µg (89 %')
+kalsium: 730 mg (91 %')
+fosfor: 550 mg (79 %')
+sink: 4,1 mg (41 %')
+jod: 41 µg (27 %')
+
+tittel: Norvegia® Lettost 16% fett
+energi: 1119 kJ (268 kcal)
+fett: 16 g
+-hvorav mettede fettsyrer: 10 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 31 g
+salt: 1,1 g
+vitamin A: 167 µg (20 %')
+tiamin: 0,24 mg (22 %')
+riboflavin: 0,26 mg (19 %')
+folat: 42 µg (20 %')
+vitamin B12: 2,4 µg (92 %')
+kalsium: 930 mg (108 %')
+fosfor: 680 mg (88 %')
+sink: 5,2 mg (48 %')
+selen: 10 µg (24 %')
+
+tittel: Norvegia® Lettost 16 % Staver
+energi: 1119 kJ (268 kcal)
+fett: 16 g
+-hvorav mettede fettsyrer: 10 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 31 g
+salt: 1,1 g
+vitamin A: 167 µg (20 %')
+tiamin: 0,24 mg (22 %')
+riboflavin: 0,26 mg (19 %')
+folat: 42 µg (20 %')
+vitamin B12: 2,4 µg (92 %')
+kalsium: 930 mg (108 %')
+fosfor: 680 mg (88 %')
+sink: 5,2 mg (48 %')
+selen: 10 µg (24 %')
+
+tittel: Norvegia® Original Staver
+energi: 1458 kJ (351 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,2 g
+vitamin A: 300 µg (38 %')
+riboflavin: 0,31 mg (22 %')
+folat: 42 µg (21 %')
+vitamin B12: 2,4 µg (96 %')
+kalsium: 820 mg (103 %')
+fosfor: 590 mg (84 %')
+sink: 4,6 mg (46 %')
+selen: 11 µg (20,0 %')
+jod: 31 µg (20 %')
+
+tittel: Norvegia® Revet
+energi: 1475 kJ (355 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 28 g
+salt: 1,2 g
+vitamin A: 300 µg (38 %')
+riboflavin: 0,31 mg (22 %')
+folinsyre: 42 µg (21 %')
+vitamin B12: 2,4 µg (96 %')
+kalsium: 820 mg (103 %')
+fosfor: 590 mg (84 %')
+sink: 4,6 mg (46 %')
+selen: 11 µg (20 %')
+jod: 31 µg (20 %')
+
+tittel: Norvegia® Revet (Coop)
+energi: 1475 kJ (355 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 28 g
+salt: 1,2 g
+vitamin A: 300 µg (38 %')
+riboflavin: 0,31 mg (22 %')
+folinsyre: 42 µg (21 %')
+vitamin B12: 2,4 µg (96 %')
+kalsium: 820 mg (103 %')
+fosfor: 590 mg (84 %')
+sink: 4,6 mg (46 %')
+selen: 11 µg (20 %')
+jod: 31 µg (20 %')
+
+tittel: Norvegia® Vellagret
+energi: 1458 kJ (351 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,2 g
+vitamin A: 280 µg (35 %')
+riboflavin: 0,31 mg (22 %')
+folat: 42 µg (21 %')
+vitamin B12: 2,4 µg (97 %')
+kalsium: 820 mg (103 %')
+fosfor: 600 mg (86 %')
+sink: 4,6 mg (46 %')
+jod: 31 µg (20 %')
+
+tittel: Norvegia® Vellagret - fra ostehjul
+energi: 1495 kJ (360 kcal)
+fett: 28 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,2 g
+vitamin A: 260 µg (33 %')
+riboflavin: 0,29 mg (21 %')
+folat: 40 µg (20 %')
+vitamin B12: 2,3 µg (92 %')
+kalsium: 780 mg (98 %')
+fosfor: 570 mg (81 %')
+sink: 4,3 mg (43 %')
+jod: 29 µg (19 %')
+
+tittel: Norzola
+energi: 1584 kJ (383 kcal)
+fett: 35 g
+-hvorav mettede fettsyrer: 23 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 17 g
+salt: 2,5 g
+vitamin A: 350 µg (44 %')
+riboflavin: 0,31 mg (22 %')
+folat: 47 µg (24 %')
+vitamin B12: 1,5 µg (62 %')
+kalsium: 500 mg (63 %')
+fosfor: 360 mg (51 %')
+sink: 2,8 mg (28 %')
+selen: 10 µg (18 %')
+jod: 42 µg (28 %')
+
+tittel: Piano® Sjokoladepudding UTEN tilsatt sukker
+energi: 270 kJ (64 kcal)
+fett: 2,8 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 6,2 g
+-hvorav sukkerarter: 4,2 g
+protein: 3,7 g
+salt: 0,12 g
+vitamin B12: 0,5 µg (18 %')
+
+tittel: Piano® Vaniljekrem til steking
+energi: 567 kJ (136 kcal)
+fett: 7,2 g
+-hvorav mettede fettsyrer: 4,5 g
+karbohydrat: 15 g
+-hvorav sukkerarter: 11 g
+protein: 2,9 g
+salt: 0,23 g
+vitamin B12: 0,4 µg (16 %')
+
+tittel: Piano® Melkesjokoladepudding
+energi: 488 kJ (116 kcal)
+fett: 3,4 g
+-hvorav mettede fettsyrer: 2,2 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 17 g
+protein: 3,1 g
+salt: 0,14 g
+vitamin B12: 0,4 µg (17 %')
+
+tittel: Piano® Rosa Gelé
+energi: 336 kJ (79 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 20 g
+-hvorav sukkerarter: 20 g
+protein: 0 g
+salt: 0,2 g
+
+tittel: Piano® Bringebærsaus
+energi: 297 kJ (70 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 17 g
+-hvorav sukkerarter: 15 g
+protein: 0,1 g
+salt: 0,1 g
+
+tittel: Piano® Duo yoghurt nøttetoffee og sjokocrisp
+energi: 670 kJ (160 kcal)
+fett: 7,9 g
+-hvorav mettede fettsyrer: 4,5 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 15 g
+kostfiber: 0,2 g
+protein: 3,9 g
+salt: 0,1 g
+
+tittel: Piano® Duo yoghurt sjokolade og sjokocrisp
+energi: 702 kJ (167 kcal)
+fett: 7,0 g
+-hvorav mettede fettsyrer: 4,3 g
+karbohydrat: 22 g
+-hvorav sukkerarter: 14 g
+kostfiber: 0,6 g
+protein: 3,7 g
+salt: 0,1 g
+
+tittel: Piano® Fyldig Vaniljesaus
+energi: 575 kJ (138 kcal)
+fett: 7,8 g
+-hvorav mettede fettsyrer: 4,3 g
+karbohydrat: 14 g
+-hvorav sukkerarter: 12 g
+protein: 2,7 g
+salt: 0,09 g
+vitamin B12: 0,4 µg (16 %')
+
+tittel: Piano® Rød Gelé
+energi: 327 kJ (77 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 19 g
+-hvorav sukkerarter: 19 g
+protein: 0 g
+salt: 0,2 g
+
+tittel: Piano® Karamellpudding
+energi: 528 kJ (126 kcal)
+fett: 5,8 g
+-hvorav mettede fettsyrer: 3,7 g
+karbohydrat: 16 g
+-hvorav sukkerarter: 14 g
+protein: 2,8 g
+salt: 0,14 g
+vitamin B12: 0,4 µg (16 %')
+
+tittel: Piano® Pudding med mandelsmak
+energi: 428 kJ (102 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 16 g
+-hvorav sukkerarter: 14 g
+protein: 2,9 g
+salt: 0,14 g
+vitamin B12: 0,4 µg (17 %')
+kalsium: 118 mg (15 %')
+
+tittel: Piano® Kakekrem med romsmak
+energi: 630 kJ (151 kcal)
+fett: 8,9 g
+-hvorav mettede fettsyrer: 5,6 g
+karbohydrat: 15 g
+-hvorav sukkerarter: 11 g
+protein: 2,7 g
+salt: 0,18 g
+vitamin B12: 0,4 µg (15 %')
+
+tittel: Piano® Sjokoladepudding
+energi: 509 kJ (121 kcal)
+fett: 3,9 g
+-hvorav mettede fettsyrer: 2,5 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 16 g
+protein: 3,3 g
+salt: 0,1 g
+vitamin B12: 0,4 µg (16 %')
+
+tittel: Piano® Sjokoladepudding med vaniljesaus
+energi: 595 kJ (142 kcal)
+fett: 6,1 g
+-hvorav mettede fettsyrer: 3,8 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 17 g
+protein: 3,4 g
+salt: 0,1 g
+
+tittel: Piano® Original Vaniljekrem
+energi: 616 kJ (148 kcal)
+fett: 8,6 g
+-hvorav mettede fettsyrer: 5,4 g
+karbohydrat: 15 g
+-hvorav sukkerarter: 11 g
+protein: 2,7 g
+salt: 0,18 g
+vitamin B12: 0,4 µg (16 %')
+
+tittel: Piano® Vaniljesaus
+energi: 615 kJ (147 kcal)
+fett: 8,4 g
+-hvorav mettede fettsyrer: 5,3 g
+karbohydrat: 15 g
+-hvorav sukkerarter: 13 g
+protein: 2,7 g
+salt: 0,09 g
+vitamin B12: 0,4 µg (16 %')
+
+tittel: Piano® Vaniljesaus UTEN tilsatt sukker
+energi: 398 kJ (96 kcal)
+fett: 5,2 g
+-hvorav mettede fettsyrer: 3,4 g
+karbohydrat: 6,2 g
+-hvorav sukkerarter: 4,2 g
+protein: 3,2 g
+salt: 0,10 g
+vitamin B12: 0,5 µg (18 %')
+kalsium: 123 mg (15 %')
+
+tittel: Port Salut
+energi: 1333 kJ (321 kcal)
+fett: 25 g
+-hvorav mettede fettsyrer: 16 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 24 g
+salt: 1,5 g
+vitamin A: 250 µg (31 %')
+riboflavin: 0,33 mg (23 %')
+folat: 65 µg (33 %')
+vitamin B12: 3,4 µg (137 %')
+kalsium: 720 mg (90 %')
+fosfor: 520 mg (74 %')
+sink: 4,0 mg (40 %')
+selen: 10 µg (18 %')
+molybden: 9 µg (18 %')
+jod: 42 µg (28 %')
+
+tittel: Ridder®
+energi: 1746 kJ (422 kcal)
+fett: 38 g
+-hvorav mettede fettsyrer: 25 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 20 g
+salt: 1,5 g
+vitamin A: 380 µg (48 %')
+riboflavin: 0,29 mg (20 %')
+folat: 57 µg (28 %')
+vitamin B12: 3,0 µg (119 %')
+kalsium: 620 mg (78 %')
+fosfor: 540 mg (77 %')
+sink: 3,5 mg (35 %')
+selen: 8 µg (15 %')
+molybden: 8 µg (15 %')
+jod: 30 µg (20 %')
+
+tittel: Ridder® Classic
+energi: 1746 kJ (422 kcal)
+fett: 38 g
+-hvorav mettede fettsyrer: 25 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 20 g
+salt: 1,5 g
+vitamin A: 380 µg (48 %')
+riboflavin: 0,29 mg (20 %')
+folat: 57 µg (28 %')
+vitamin B12: 3,0 µg (119 %')
+kalsium: 620 mg (78 %')
+fosfor: 540 mg (77 %')
+sink: 3,5 mg (35 %')
+selen: 8 µg (15 %')
+molybden: 8 µg (15 %')
+jod: 37 µg (25 %')
+
+tittel: Rislunsj™ Jordbær UTEN
+energi: 439 kJ (105 kcal)
+fett: 4,7 g
+-hvorav mettede fettsyrer: 2,9 g
+karbohydrat: 13 g
+-hvorav sukkerarter: 3,9 g
+kostfiber: 1,6 g
+protein: 3,0 g
+salt: 0,21 g
+
+tittel: Rislunsj Bringebær/Blåbær
+energi: 568 kJ (135 kcal)
+fett: 5,4 g
+-hvorav mettede fettsyrer: 3,3 g
+karbohydrat: 19 g
+-hvorav sukkerarter: 11 g
+protein: 2,9 g
+salt: 0,21 g
+
+tittel: Rislunsj Bringebær og rips
+energi: 602 kJ (143 kcal)
+fett: 5,4 g
+-hvorav mettede fettsyrer: 3,3 g
+karbohydrat: 21 g
+-hvorav sukkerarter: 13 g
+protein: 2,9 g
+salt: 0,2 g
+
+tittel: Rislunsj Jordbær
+energi: 580 kJ (138 kcal)
+fett: 5,4 g
+-hvorav mettede fettsyrer: 3,3 g
+karbohydrat: 19 g
+-hvorav sukkerarter: 12 g
+protein: 2,9 g
+salt: 0,2 g
+
+tittel: Rislunsj Pasjonsfrukt
+energi: 590 kJ (140 kcal)
+fett: 5,4 g
+-hvorav mettede fettsyrer: 3,3 g
+karbohydrat: 20 g
+-hvorav sukkerarter: 11 g
+kostfiber: 0,2 g
+protein: 2,9 g
+salt: 0,2 g    energi 885 kJ (210 kcal)
+fett: 8,1 g
+-hvorav mettede fettsyrer: 5,0 g
+karbohydrat: 30 g
+-hvorav sukkerarter: 17 g
+kostfiber: 0,3 g
+protein: 4,4 g
+salt: 0,3 g
+
+tittel: Selbu Blå
+energi: 1735 kJ (420 kcal)
+fett: 40 g
+-hvorav mettede fettsyrer: 26 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 15 g
+salt: 2,2 g
+vitamin A: 400 µg (50 %')
+riboflavin: 0,27 mg (20 %')
+folat: 42 µg (21 %')
+vitamin B12: 1,4 µg (55 %')
+kalsium: 440 mg (55 %')
+fosfor: 320 mg (46 %')
+sink: 2,5 mg (25 %')
+selen: 9 µg (16 %')
+jod: 37 µg (25 %')
+
+tittel: Selbu Blå Økologisk
+energi: 1698 kJ (411 kcal)
+fett: 39 g
+-hvorav mettede fettsyrer: 26 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 15 g
+salt: 2,2 g
+vitamin A: 350 µg (44 %')
+riboflavin: 0,23 mg (16 %')
+folat: 45 µg (23 %')
+vitamin B12: 1,2 µg (48 %')
+kalsium: 380 mg (48 %')
+fosfor: 280 mg (40 %')
+sink: 2,1 mg (21 %')
+selen: 8,7 µg (16 %')
+jod: 23 µg (15 %')
+
+tittel: Selbu Blå Kraftig
+energi: 1735 kJ (420 kcal)
+fett: 40 g
+-hvorav mettede fettsyrer: 26 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 15 g
+salt: 2,2 g
+vitamin A: 400 µg (50 %')
+riboflavin: 0,27 mg (20 %')
+folat: 42 µg (21 %')
+vitamin B12: 1,4 µg (55 %')
+kalsium: 440 mg (55 %')
+fosfor: 320 mg (46 %')
+sink: 2,5 mg (25 %')
+selen: 9 µg (16 %')
+jod: 37 µg (25 %')
+
+tittel: Snøfrisk® Dill
+energi: 984 kJ (238 kcal)
+fett: 23 g
+-hvorav mettede fettsyrer: 15 g
+karbohydrat: 2,0 g
+-hvorav sukkerarter: 2,0 g
+protein: 5,8 g
+salt: 1,4 g
+vitamin A: 230 µg (29 %')
+biotin: 9 µg (17 %')
+fosfor: 130 mg (19 %')
+jod: 39 µg (26 %')
+
+tittel: Snøfrisk® Kantarell
+energi: 987 kJ (239 kcal)
+fett: 23 g
+-hvorav mettede fettsyrer: 15 g
+karbohydrat: 2,0 g
+-hvorav sukkerarter: 2,0 g
+protein: 6,0 g
+salt: 1,3 g
+vitamin A: 230 µg (29 %')
+fosfor: 130 mg (19 %')
+jod: 39 µg (26 %')
+
+tittel: Snøfrisk® Lett Gressløk
+energi: 742 kJ (179 kcal)
+fett: 15 g
+-hvorav mettede fettsyrer: 10 g
+karbohydrat: 3,2 g
+-hvorav sukkerarter: 3,2 g
+protein: 7,8 g
+salt: 1,1 g
+vitamin A: 150 µg (19 %')
+fosfor: 110 mg (16 %')
+jod: 49 µg (33 %')
+
+tittel: Snøfrisk® Lett Naturell
+energi: 742 kJ (179 kcal)
+fett: 15 g
+-hvorav mettede fettsyrer: 10 g
+karbohydrat: 3,2 g
+-hvorav sukkerarter: 3,2 g
+protein: 7,8 g
+salt: 1,1 g
+vitamin A: 150 µg (19 %')
+fosfor: 110 mg (16 %')
+jod: 39 µg (26 %')
+
+tittel: Snøfrisk® Naturell
+energi: 1071 kJ (259 kcal)
+fett: 25 g
+-hvorav mettede fettsyrer: 16 g
+karbohydrat: 2,0 g
+-hvorav sukkerarter: 2,0 g
+protein: 6,6 g
+salt: 1,3 g
+vitamin A: 250 µg (31 %')
+fosfor: 130 mg (19 %')
+jod: 39 µg (26 %')
+
+tittel: Snøfrisk® Rødløk og Timian
+energi: 987 kJ (239 kcal)
+fett: 23 g
+-hvorav mettede fettsyrer: 15 g
+karbohydrat: 2,0 g
+-hvorav sukkerarter: 2,0 g
+protein: 6,0 g
+salt: 1,3 g
+vitamin A: 230 µg (29 %')
+fosfor: 130 mg (19 %')
+jod: 39 µg (26 %')
+
+tittel: Snøfrisk® Ramsløk og Hvitløk
+energi: 1058 kJ (256 kcal)
+fett: 25 g
+-hvorav mettede fettsyrer: 16 g
+karbohydrat: 2,3 g
+-hvorav sukkerarter: 2,3 g
+protein: 6,0 g
+salt: 1,3 g
+vitamin A: 230 µg (29 %')
+fosfor: 130 mg (19 %')
+jod: 39 µg (26 %')
+
+tittel: Sprett® Yoghurt Banan
+energi: 309 kJ (73 kcal)
+fett: 2,7 g
+-hvorav mettede fettsyrer: 1,8 g
+karbohydrat: 8,3 g
+-hvorav sukkerarter: 7,5 g
+protein: 3,9 g
+salt: 0,13 g
+vitamin D: 1,4 µg (28 %')
+vitamin B12: 0,4 µg (16 %')
+kalsium: 145 mg (18 %')
+fosfor: 107 mg (15 %')
+
+tittel: Sprett® Yoghurt Jordbær
+energi: 346 kJ (82 kcal)
+fett: 2,6 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 10 g
+protein: 3,8 g
+salt: 0,11 g
+vitamin D: 1,4 µg (26 %')
+vitamin B12: 0,4 µg (16 %')
+kalsium: 135 mg (17 %')
+
+tittel: Sprett® Yoghurt Favorittmiks
+energi: 346 kJ (82 kcal)
+fett: 2,6 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 10 g
+protein: 3,8 g
+salt: 0,11 g
+vitamin D: 1,4 µg (26 %')
+vitamin B12: 0,4 µg (16 %')
+kalsium: 135 mg (17 %')
+
+tittel: Sprett® Epledrikk
+energi: 132 kJ (32 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 7,7 g
+-hvorav sukkerarter: 7,4 g
+protein: 0 g
+salt: 0 g
+
+tittel: Sprett® Prim
+energi: 1201 kJ (285 kcal)
+fett: 8,0 g
+-hvorav mettede fettsyrer: 5,2 g
+karbohydrat: 46 g
+-hvorav sukkerarter: 43 g
+protein: 7,0 g
+salt: 0,8 g
+tiamin: 0,22 mg (20 %')
+riboflavin: 0,87 mg (62 %')
+folat: 52 µg (26 %')
+vitamin B12: 1,0 µg (40 %')
+pantotensyre: 2,3 mg (38 %')
+kalium: 1256 mg (63 %')
+kalsium: 343 mg (43 %')
+fosfor: 398 mg (57 %')
+jern: 10 mg (71 %')
+molybden: 22 µg (43 %')
+jod: 68 µg (45 %')
+
+tittel: Sprett® Tropisk drikk
+energi: 143 kJ (34 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 8,2 g
+-hvorav sukkerarter: 7,2 g
+protein: 0,2 g
+salt: 0 g
+
+tittel: Sprett® Yoghurt Banan
+energi: 309 kJ (73 kcal)
+fett: 2,7 g
+-hvorav mettede fettsyrer: 1,8 g
+karbohydrat: 8,3 g
+-hvorav sukkerarter: 7,5 g
+protein: 3,9 g
+salt: 0,13 g
+vitamin D: 1,4 µg (28 %')
+vitamin B12: 0,4 µg (16 %')
+kalsium: 145 mg (18 %')
+fosfor: 107 mg (15 %')
+
+tittel: Sprett® Yoghurt Blåbær
+energi: 334 kJ (79 kcal)
+fett: 2,5 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 9,7 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin D: 1,3 µg (26 %')
+vitamin B12: 0,4 µg (16 %')
+kalsium: 135 mg (17 %')
+
+tittel: Sprett® Yoghurt Frukt & Bær
+energi: 334 kJ (79 kcal)
+fett: 2,5 g
+-hvorav mettede fettsyrer: 1,7 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 9,7 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin D: 1,3 µg (26 %')
+vitamin B12: 0,4 µg (16 %')
+kalsium: 135 mg (17 %')
+
+tittel: Sprett® Yoghurt Frukt
+energi: 294 kJ (70 kcal)
+fett: 2,7 g
+-hvorav mettede fettsyrer: 1,8 g
+karbohydrat: 7,3 g
+-hvorav sukkerarter: 6,5 g
+protein: 3,9 g
+salt: 0,12 g
+vitamin D: 1,4 µg (28 %')
+vitamin B12: 0,4 µg (17 %')
+kalsium: 145 mg (18 %')
+fosfor: 107 mg (15 %')
+
+tittel: Styrk® fettfri melk
+energi: 172 kJ (41 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,1 g
+karbohydrat: 4,6 g
+-hvorav sukkerarter: 4,6 g
+protein: 5,3 g
+salt: 0,11 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,20 mg (13 %')
+vitamin B12: 0,8 µg (32 %')
+kalium: 190 mg (10 %')
+kalsium: 200 mg (25 %')
+fosfor: 150 mg (21 %')
+jod: 21 µg (14 %')
+
+tittel: Styrk® fettfri syrnet melk blåbær
+energi: 187 kJ (44 kcal)
+fett: 0,2 g
+-hvorav mettede fettsyrer: 0,0 g
+karbohydrat: 5,2 g
+-hvorav sukkerarter: 5,1 g
+protein: 4,9 g
+salt: 0,10 g
+vitamin D: 0,8 µg (16 %')
+vitamin K: 15 µg (20 %')
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 170 µg (9 %')
+kalsium: 130 mg (16 %')
+fosfor: 100 mg (14 %')
+jod: 13 µg (9 %')
+
+tittel: Styrk® fettfri melk kakao
+energi: 195 kJ (46 kcal)
+fett: 0,2 g
+-hvorav mettede fettsyrer: 0,1 g
+karbohydrat: 5,6 g
+-hvorav sukkerarter: 5,5 g
+protein: 5,4 g
+salt: 0,10 g
+vitamin D: 0,8 µg (16 %')
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,8 µg (32 %')
+kalium: 210 mg (11 %')
+kalsium: 170 mg (21 %')
+fosfor: 170 mg (24 %')
+jod: 20 µg (13 %')
+
+tittel: Sunniva® isTe Energidrikk Cola
+energi: 118 kJ (28 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 6,9 g
+-hvorav sukkerarter: 6,9 g
+protein: 0 g
+salt: 0,02 g
+
+tittel: Sunniva® isTe Fersken
+energi: 124 kJ (29 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 6,9 g
+-hvorav sukkerarter: 6,9 g
+protein: 0 g
+salt: 0,07 g
+
+tittel: Sunniva® isTe Guava
+energi: 115 kJ (27 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 6,4 g
+-hvorav sukkerarter: 6,4 g
+protein: 0 g
+salt: 0,04 g
+
+tittel: Sunniva® isTe Lime
+energi: 117 kJ (28 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 6,6 g
+-hvorav sukkerarter: 6,6 g
+protein: 0 g
+salt: 0,04 g
+
+tittel: Sunniva® isTe Zero Fersken
+energi: 4 kJ (1 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 0,1 g
+-hvorav sukkerarter: 0,1 g
+protein: 0 g
+salt: 0,08 g
+
+tittel: Sunniva® Original Appelsinjuice
+energi: 188 kJ (44 kcal)
+fett: 0,2 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 9,1 g
+-hvorav sukkerarter: 9,1 g
+protein: 0,7 g
+salt: 0 g
+kalium: 170 mg (8,5 %')
+
+tittel: Sunniva® Original Eplejuice med fruktkjøtt
+energi: 190 kJ (45 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 10,7 g
+-hvorav sukkerarter: 10,2 g
+protein: 0,1 g
+salt: 0 g
+
+tittel: Sunniva® Premium Pærejuice frå Italia og sumarens Bringebær frå Vik i Sogn
+energi: 178 kJ (42 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 9,9 g
+-hvorav sukkerarter: 9,3 g
+protein: 0,4 g
+salt: 0 g   pr. glass ca. 1,5 dl energi 267 kJ (63 kcal)
+fett: 0,2 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 14,9 g
+-hvorav sukkerarter: 14,0 g
+protein: 0,6 g
+salt: 0 g
+
+tittel: Sunniva® Original Appelsinjuice
+energi: 188 kJ (44 kcal)
+fett: 0,2 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 9,1 g
+-hvorav sukkerarter: 9,1 g
+protein: 0,7 g
+salt: 0 g
+vitamin C: 30 mg (37,5 %')
+kalium: 152 mg (7,6 %')
+
+tittel: Sunniva® Original Appelsinjuice m/fruktkjøtt
+energi: 188 kJ (44 kcal)
+fett: 0,2 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 9,1 g
+-hvorav sukkerarter: 9,1 g
+protein: 0,7 g
+salt: 0 g
+vitamin C: 30 mg (37,5 %')
+kalium: 152 mg (7,6 %')
+
+tittel: Sunniva® Original Eplejuice
+energi: 190 kJ (45 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 10,5 g
+-hvorav sukkerarter: 10,0 g
+protein: 0,1 g
+salt: 0 g
+riboflavin: 0,20 mg (14,3 %')
+
+tittel: Sunniva® Original Tropisk
+energi: 202 kJ (48 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,1 g
+karbohydrat: 11,1 g
+-hvorav sukkerarter: 10,7 g
+protein: 0,4 g
+salt: 0 g   pr. glass ca. 1,5 dl:  energi 303 kJ (72 kcal)
+fett: 0,2 g
+-hvorav mettede fettsyrer: 0,2 g
+karbohydrat: 16,7 g
+-hvorav sukkerarter: 16,1 g
+protein: 0,6 g
+salt: 0 g
+
+tittel: Sunniva® Premium Sesongens Eple frå Hardanger
+energi: 188 kJ (45 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 11,0 g
+-hvorav sukkerarter: 10,5 g
+protein: 0 g
+salt: 0 g   pr. glass ca. 1,5 dl energi 282 kJ (68 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 16,5 g
+-hvorav sukkerarter: 15,8 g
+protein: 0 g
+salt: 0 g
+
+tittel: Sunniva® Presset Appelsin fra Valencia
+energi: 196 kJ (46 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 10,4 g
+-hvorav sukkerarter: 8,5 g
+protein: 0,7 g
+salt: 0 g
+vitamin C: 40 mg (50 %')
+folinsyre: 22 µg (11 %')
+
+tittel: Sunniva® Presset Appelsinjuice med fruktkjøtt
+energi: 181 kJ (43 kcal)
+fett: 0,2 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 8,8 g
+-hvorav sukkerarter: 8,8 g
+protein: 0,7 g
+salt: 0 g
+vitamin C: 30 mg (37,5 %')
+folinsyre: 22 µg (11 %')
+
+tittel: Sunniva® Presset Eple og Mango
+energi: 199 kJ (47 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 11,3 g
+-hvorav sukkerarter: 10,4 g
+protein: 0,2 g
+salt: 0 g   pr. glass ca. 1,5 dl energi 299 kJ (71 kcal)
+fett: 0,2 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 17,0 g
+-hvorav sukkerarter: 15,6 g
+protein: 0,3 g
+salt: 0 g
+
+tittel: Sunniva® Presset Eplejuice fra Sydtyrol
+energi: 192 kJ (45 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 9,7 g
+protein: 0,1 g
+salt: 0 g   pr. glass ca. 1,5 dl energi 288 kJ (68 kcal)
+fett: 0,2 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 17 g
+-hvorav sukkerarter: 14,6 g
+protein: 0,2 g
+salt: 0 g
+
+tittel: Sunniva® Presset Pink Lady®
+energi: 192 kJ (45 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 11,0 g
+-hvorav sukkerarter: 9,7 g
+protein: 0,1 g
+salt: 0 g
+
+tittel: Sunniva® Presset Grapefrukt
+energi: 160 kJ (37 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 7,6 g
+-hvorav sukkerarter: 7,6 g
+protein: 0,5 g
+salt: 0 g
+vitamin C: 20 mg (25 %')
+
+tittel: Sunniva® Presset Tropisk
+energi: 216 kJ (51 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 12 g
+-hvorav sukkerarter: 11 g
+protein: 0 g
+salt: 0 g   1 glass ca 1,5 dl energi 324 kJ (77 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 18 g
+-hvorav sukkerarter: 17 g
+protein: 0 g
+salt: 0 g
+
+tittel: Sunniva® Frukt- og Grønnsaksjuice Eple og Bringebær
+energi: 172 kJ (42 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 9,0 g
+-hvorav sukkerarter: 7,8 g
+protein: 0 g
+salt: 0,1 g
+vitamin A: 70 µg (8,8 %')
+kalium: 170 mg (8,5 %')
+
+tittel: Sunniva® Frukt- og Grønnsaksjuice Eple og Gulrot
+energi: 172 kJ (41 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 9,0 g
+-hvorav sukkerarter: 8,0 g
+protein: 0,5 g
+salt: 0,1 g
+vitamin A: 77 µg (9,6 %')
+folinsyre: 17 µg (8,6 %')
+kalium: 190 mg (9,5 %')
+
+tittel: Sveitser Original
+energi: 1512 kJ (364 kcal)
+fett: 28 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 28 g
+salt: 1,3 g
+vitamin A: 273 µg (34 %')
+riboflavin: 0,27 mg (19 %')
+vitamin B12: 2,3 µg (92 %')
+kalsium: 790 mg (99 %')
+fosfor: 600 mg (86 %')
+sink: 4,5 mg (45 %')
+selen: 12 µg (22 %')
+jod: 36 µg (24 %')
+
+tittel: Sveitser Vellagret
+energi: 1512 kJ (364 kcal)
+fett: 28 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 28 g
+salt: 1,3 g
+vitamin A: 273 µg (34 %')
+riboflavin: 0,27 mg (19 %')
+vitamin B12: 2,3 µg (92 %')
+kalsium: 790 mg (99 %')
+fosfor: 600 mg (86 %')
+sink: 4,5 mg (45 %')
+jod: 45 µg (30 %')
+
+tittel: TINE Økologisk Brie
+energi: 1544 kJ (373 kcal)
+fett: 33 g
+-hvorav mettede fettsyrer: 22 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 19 g
+salt: 1,5 g
+vitamin A: 330 µg (41 %')
+riboflavin: 0,33 mg (24 %')
+folat: 50 µg (25 %')
+vitamin B12: 1,7 µg (67 %')
+kalsium: 540 mg (68 %')
+fosfor: 390 mg (56 %')
+sink: 3,0 mg (30 %')
+selen: 11 µg (20 %')
+jod: 46 µg (31 %')
+
+tittel: TINE Norsk Alpeost
+energi: 1578 kJ (380 kcal)
+fett: 30 g
+-hvorav mettede fettsyrer: 19 g
+karbohydrat: 0,5 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,20 g
+vitamin A: 280 µg (35 %')
+riboflavin: 0,24 mg (17 %')
+vitamin B12: 2,2 µg (88 %')
+kalsium: 810 mg (101 %')
+fosfor: 575 mg (82 %')
+sink: 4,2 mg (42 %')
+selen: 12 µg (22 %')
+jod: 28 µg (19 %')
+
+tittel: TINE Baconost smørbar
+energi: 887 kJ (213 kcal)
+fett: 17 g
+-hvorav mettede fettsyrer: 11 g
+karbohydrat: 0,2 g
+-hvorav sukkerarter: 0,1 g
+protein: 15 g
+salt: 2,4 g
+kalsium: 376 mg (47 %')
+
+tittel: TINE Ekte Geitost
+energi: 1836 kJ (440 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 36 g
+-hvorav sukkerarter: 29 g
+protein: 13 g
+salt: 0,8 g
+vitamin A: 339 µg (42 %')
+riboflavin: 1,47 mg (105 %')
+vitamin B12: 0,7 µg (27 %')
+pantotensyre: 1,2 mg (19 %')
+kalium: 1700 mg (85 %')
+kalsium: 553 mg (69 %')
+fosfor: 747 mg (107 %')
+magnesium: 95 mg (25 %')
+jod: 307 µg (204 %')
+
+tittel: TINE Fløtemysost Original
+energi: 1794 kJ (433 kcal)
+fett: 26 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 36 g
+-hvorav sukkerarter: 32 g
+protein: 11 g
+salt: 0,9 g
+vitamin A: 246 µg (31 %')
+tiamin: 0,18 mg (16 %')
+riboflavin: 1,01 mg (73 %')
+folat: 51 µg (26 %')
+vitamin B12: 1,9 µg (78 %')
+pantotensyre: 2,5 mg (42 %')
+kalium: 1410 mg (71 %')
+kalsium: 540 mg (68 %')
+fosfor: 603 mg (86 %')
+magnesium: 79 mg (21 %')
+molybden: 29 µg (58 %')
+jod: 134 µg (90 %')
+
+tittel: TINE Fløtemysost Lett 16% fett
+energi: 1556 kJ (371 kcal)
+fett: 16 g
+-hvorav mettede fettsyrer: 10 g
+karbohydrat: 44 g
+-hvorav sukkerarter: 41 g
+protein: 12 g
+salt: 0,9 g
+vitamin A: 155 µg (19 %')
+tiamin: 0,19 mg (17 %')
+riboflavin: 1,05 mg (75 %')
+folinsyre: 39 µg (19 %')
+vitamin B12: 1,5 µg (59 %')
+pantotensyre: 2,9 mg (48 %')
+kalium: 1452 mg (73 %')
+kalsium: 553 mg (69 %')
+fosfor: 565 mg (81 %')
+magnesium: 87 mg (23 %')
+selen: 8 µg (15 %')
+molybden: 25 µg (51 %')
+jod: 154 µg (103 %')
+
+tittel: TINE Gudbrandsdalsost Original
+energi: 1835 kJ (441 kcal)
+fett: 28 g
+-hvorav mettede fettsyrer: 19 g
+karbohydrat: 35 g
+-hvorav sukkerarter: 30 g
+protein: 10 g
+salt: 0,7 g
+vitamin A: 254 µg (32 %')
+riboflavin: 1,06 mg (76 %')
+vitamin B12: 1,3 µg (51 %')
+pantotensyre: 1,8 mg (30 %')
+kalium: 1221 mg (61 %')
+kalsium: 460 mg (58 %')
+fosfor: 510 mg (73 %')
+magnesium: 71 mg (19 %')
+selen: 10 µg (19 %')
+molybden: 20 µg (41 %')
+jod: 164 µg (110 %')
+
+tittel: TINE Gudbrandsdalsost Lett 16% fett
+energi: 1545 kJ (368 kcal)
+fett: 16 g
+-hvorav mettede fettsyrer: 11 g
+karbohydrat: 43 g
+-hvorav sukkerarter: 42 g
+protein: 12 g
+salt: 0,9 g
+vitamin A: 146 µg (18 %')
+tiamin: 0,16 mg (15 %')
+riboflavin: 1,09 mg (78 %')
+folinsyre: 39 µg (19 %')
+vitamin B12: 1,5 µg (58 %')
+pantotensyre: 2,2 mg (36 %')
+kalium: 1519 mg (76 %')
+kalsium: 594 mg (74 %')
+fosfor: 605 mg (86 %')
+magnesium: 92 mg (25 %')
+selen: 13 µg (24 %')
+molybden: 22 µg (44 %')
+jod: 189 µg (126 %')
+
+tittel: TINE Heidal Brunost
+energi: 1884 kJ (452 kcal)
+fett: 29 g
+-hvorav mettede fettsyrer: 19 g
+karbohydrat: 37 g
+-hvorav sukkerarter: 27 g
+protein: 11 g
+salt: 0,8 g
+vitamin A: 275 µg (34 %')
+riboflavin: 1,06 mg (76 %')
+pantotensyre: 1,7 mg (29 %')
+kalium: 1325 mg (66 %')
+kalsium: 549 mg (69 %')
+fosfor: 550 mg (79 %')
+magnesium: 82 mg (22 %')
+selen: 10 µg (19 %')
+molybden: 18 µg (35 %')
+jod: 174 µg (116 %')
+
+tittel: TINE Julebrunost
+energi: 1911 kJ (457 kcal)
+fett: 26 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 43 g
+-hvorav sukkerarter: 42 g
+protein: 12 g
+salt: 0,7 g
+vitamin A: 252 µg (32 %')
+riboflavin: 0,85 mg (60 %')
+folat: 31 µg (15 %')
+vitamin B12: 1,3 µg (51 %')
+pantotensyre: 2,3 mg (38 %')
+kalium: 1158 mg (58 %')
+kalsium: 482 mg (60 %')
+fosfor: 478 mg (68 %')
+magnesium: 71 mg (19 %')
+selen: 28 µg (51 %')
+molybden: 20 µg (41 %')
+jod: 123 µg (82 %')
+
+tittel: TINE Junior Fløtemysost
+energi: 1794 kJ (433 kcal)
+fett: 26 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 36 g
+-hvorav sukkerarter: 32 g
+protein: 11 g
+salt: 0,9 g
+vitamin A: 246 µg (31 %')
+tiamin: 0,18 mg (16 %')
+riboflavin: 1,01 mg (73 %')
+folat: 51 µg (26 %')
+vitamin B12: 1,9 µg (78 %')
+pantotensyre: 2,5 mg (42 %')
+kalium: 1410 mg (71 %')
+kalsium: 540 mg (68 %')
+fosfor: 603 mg (86 %')
+magnesium: 79 mg (21 %')
+jern: 10 mg (71 %')
+molybden: 29 µg (58 %')
+jod: 134 µg (90 %')
+
+tittel: TINE Bestemorost®
+energi: 1914 kJ (458 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 47 g
+-hvorav sukkerarter: 46 g
+protein: 9 g
+salt: 0,7 g
+vitamin A: 251 µg (31 %')
+riboflavin: 1,02 mg (73 %')
+vitamin B12: 1,2 µg (49 %')
+pantotensyre: 1,7 mg (29 %')
+kalium: 1179 mg (59 %')
+kalsium: 442 mg (55 %')
+fosfor: 490 mg (70 %')
+magnesium: 68 mg (18 %')
+selen: 10 µg (18 %')
+molybden: 20 µg (39 %')
+jod: 158 µg (105 %')
+
+tittel: TINE Innherred Brunost
+energi: 1832 kJ (439 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 39 g
+-hvorav sukkerarter: 38 g
+protein: 11 g
+salt: 0,7 g
+vitamin A: 257 µg (32 %')
+riboflavin: 0,86 mg (61 %')
+vitamin B12: 1,0 µg (40 %')
+pantotensyre: 1,8 mg (30 %')
+kalium: 1180 mg (59 %')
+kalsium: 475 mg (59 %')
+fosfor: 476 mg (68 %')
+magnesium: 71 mg (19 %')
+selen: 29 µg (53 %')
+molybden: 21 µg (41 %')
+jod: 125 µg (84 %')
+
+tittel: TINE Misvær Brunost
+energi: 1898 kJ (455 kcal)
+fett: 29 g
+-hvorav mettede fettsyrer: 19 g
+karbohydrat: 37 g
+-hvorav sukkerarter: 36 g
+protein: 12 g
+salt: 0,8 g
+vitamin A: 265 µg (33 %')
+tiamin: 0,19 mg (17 %')
+riboflavin: 0,97 mg (69 %')
+folat: 55 µg (27 %')
+vitamin B12: 1,7 µg (66 %')
+pantotensyre: 2,4 mg (40 %')
+kalium: 1350 mg (70 %')
+kalsium: 560 mg (70 %')
+fosfor: 561 mg (80 %')
+magnesium: 84 mg (22 %')
+selen: 10 µg (19 %')
+molybden: 18 µg (36 %')
+jod: 177 µg (118 %')
+
+tittel: TINE Stølstype Geitost
+energi: 1836 kJ (440 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 37 g
+-hvorav sukkerarter: 34 g
+protein: 13 g
+salt: 1,0 g
+vitamin A: 204 µg (25 %')
+riboflavin: 1,68 mg (120 %')
+folinsyre: 12 µg (17 %')
+vitamin B12: 0,4 µg (16 %')
+pantotensyre: 1,0 mg (17 %')
+kalium: 2007 mg (100 %')
+kalsium: 665 mg (83 %')
+fosfor: 838 mg (120 %')
+magnesium: 119 mg (32 %')
+jod: 307 µg (204 %')
+
+tittel: TINE Camembert
+energi: 1359 kJ (328 kcal)
+fett: 28 g
+-hvorav mettede fettsyrer: 18 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 19 g
+salt: 1,5 g
+vitamin A: 280 µg (35 %')
+riboflavin: 0,33 mg (24 %')
+folat: 51 µg (26 %')
+vitamin B12: 1,7 µg (67 %')
+kalsium: 540 mg (68 %')
+fosfor: 390 mg (56 %')
+sink: 3,0 mg (30 %')
+selen: 11 µg (20 %')
+jod: 45 µg (30 %')
+
+tittel: TINE Cottage Cheese Original
+energi: 400 kJ (96 kcal)
+fett: 4,3 g
+-hvorav mettede fettsyrer: 2,6 g
+karbohydrat: 1,5 g
+-hvorav sukkerarter: 1,5 g
+protein: 13 g
+salt: 0,4 g
+
+tittel: TINE Mager Cottage Cheese
+energi: 333 kJ (79 kcal)
+fett: 2,0 g
+-hvorav mettede fettsyrer: 1,3 g
+karbohydrat: 2,1 g
+-hvorav sukkerarter: 2,1 g
+protein: 13 g
+salt: 0,4 g
+
+tittel: TINE Mager Cottage Cheese & Yoghurt
+energi: 312 kJ (74 kcal)
+fett: 2,4 g
+-hvorav mettede fettsyrer: 1,6 g
+karbohydrat: 2,8 g
+-hvorav sukkerarter: 2,8 g
+protein: 10 g
+salt: 0,3 g
+fosfor: 190 mg (24 %')
+
+tittel: TINE Lett Crème Fraîche 18 %
+energi: 796 kJ (193 kcal)
+fett: 18 g
+-hvorav mettede fettsyrer: 11 g
+karbohydrat: 4,8 g
+-hvorav sukkerarter: 4,7 g
+protein: 2,8 g
+salt: 0,08 g
+vitamin A: 250 µg (31 %')
+
+tittel: TINE Lett Crème Fraîche 10 %
+energi: 511 kJ (123 kcal)
+fett: 10 g
+-hvorav mettede fettsyrer: 6,2 g
+karbohydrat: 5,2 g
+-hvorav sukkerarter: 5,1 g
+protein: 3,0 g
+salt: 0,09 g
+vitamin A: 138 µg (17 %')
+
+tittel: TINE Crème Fraîche Original
+energi: 1381 kJ (335 kcal)
+fett: 35 g
+-hvorav mettede fettsyrer: 22 g
+karbohydrat: 2,9 g
+-hvorav sukkerarter: 2,9 g
+protein: 2,2 g
+salt: 0,07 g
+vitamin A: 310 µg (39 %')
+
+tittel: TINE Ekte Hvit Geitost
+energi: 1555 kJ (375 kcal)
+fett: 31 g
+-hvorav mettede fettsyrer: 20 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 24 g
+salt: 1,2 g
+vitamin A: 230 µg (29 %')
+riboflavin: 0,26 mg (18 %')
+kalsium: 1000 mg (125 %')
+fosfor: 710 mg (101 %')
+magnesium: 63 mg (17 %')
+sink: 3,9 mg (39 %')
+selen: 9 µg (17 %')
+jod: 86 µg (58 %')
+
+tittel: TINE Kaffefløte
+energi: 493 kJ (119 kcal)
+fett: 10 g
+-hvorav mettede fettsyrer: 6,2 g
+karbohydrat: 4,1 g
+-hvorav sukkerarter: 4,1 g
+protein: 3,1 g
+salt: 0,09 g
+
+tittel: TINE Kremfløte
+energi: 1454 kJ (353 kcal)
+fett: 37 g
+-hvorav mettede fettsyrer: 24 g
+karbohydrat: 2,9 g
+-hvorav sukkerarter: 2,9 g
+protein: 2,1 g
+salt: 0,10 g
+vitamin A: 215 µg (27 %')
+
+tittel: TINE Kremfløte Økologisk
+energi: 1491 kJ (362 kcal)
+fett: 38 g
+-hvorav mettede fettsyrer: 25 g
+karbohydrat: 2,9 g
+-hvorav sukkerarter: 2,9 g
+protein: 2,1 g
+salt: 0,1 g
+vitamin A: 340 µg (43 %')
+
+tittel: TINE Kremtopp
+energi: 1345 kJ (326 kcal)
+fett: 33 g
+-hvorav mettede fettsyrer: 21 g
+karbohydrat: 5,1 g
+-hvorav sukkerarter: 5,0 g
+protein: 2,2 g
+salt: 0,03 g
+
+tittel: TINE Lett Matfløte
+energi: 493 kJ (119 kcal)
+fett: 10 g
+-hvorav mettede fettsyrer: 6,2 g
+karbohydrat: 4,1 g
+-hvorav sukkerarter: 4,1 g
+protein: 3,1 g
+salt: 0,09 g
+
+tittel: TINE Lett Piskbar Fløte
+energi: 1028 kJ (249 kcal)
+fett: 25 g
+-hvorav mettede fettsyrer: 16 g
+karbohydrat: 3,5 g
+-hvorav sukkerarter: 3,4 g
+protein: 2,6 g
+salt: 0,10 g
+vitamin A: 332 µg (42 %')
+
+tittel: TINE Matfløte
+energi: 778 kJ (188 kcal)
+fett: 18 g
+-hvorav mettede fettsyrer: 11 g
+karbohydrat: 3,7 g
+-hvorav sukkerarter: 3,7 g
+protein: 2,9 g
+salt: 0,08 g
+
+tittel: TINE Geitemelk
+energi: 254 kJ (61 kcal)
+fett: 3,6 g
+-hvorav mettede fettsyrer: 2,5 g
+karbohydrat: 4,0 g
+-hvorav sukkerarter: 4,0 g
+protein: 3,1 g
+salt: 0,1 g
+kalium: 200 mg (10 %')
+kalsium: 100 mg (12 %')
+fosfor: 110 mg (16 %')
+jod: 60 µg (40 %')
+
+tittel: TINE Gräddost
+energi: 1729 kJ (418 kcal)
+fett: 38 g
+-hvorav mettede fettsyrer: 25 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 19 g
+salt: 1,3 g
+vitamin A: 380 µg (48 %')
+riboflavin: 0,21 mg (15 %')
+vitamin B12: 1,7 µg (69 %')
+kalsium: 600 mg (75 %')
+fosfor: 430 mg (61 %')
+sink: 3,2 mg (32 %')
+jod: 42 µg (28 %')
+
+tittel: TINE IsKaffe Affogato
+energi: 258 kJ (61 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 9,2 g
+protein: 2,8 g
+salt: 0,34 g
+vitamin B12: 0,4 µg (17 %')
+kalsium: 90 mg (11 %')
+fosfor: 64 mg (9 %')
+jod: 13 µg (9 %')
+
+tittel: TINE IsKaffe Brasil
+energi: 337 kJ (80 kcal)
+fett: 2,7 g
+-hvorav mettede fettsyrer: 1,8 g
+karbohydrat: 12 g
+-hvorav sukkerarter: 8,8 g
+protein: 2,1 g
+salt: 0,3 g
+vitamin B12: 0,2 µg (10 %')
+kalsium: 73 mg (9 %')
+
+tittel: TINE IsKaffe Cappuccino UTEN tilsatt sukker
+energi: 174 kJ (41 kcal)
+fett: 1,1 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 5,0 g
+-hvorav sukkerarter: 5,0 g
+kostfiber: 1,8 g
+protein: 2,8 g
+salt: 0,22 g
+vitamin B12: 0,4 µg (15 %')
+kalsium: 104 mg (13 %')
+fosfor: 67 mg (10 %')
+jod: 14 µg (9 %')
+
+tittel: TINE IsKaffe Latte UTEN tilsatt sukker
+energi: 206 kJ (49 kcal)
+fett: 1,3 g
+-hvorav mettede fettsyrer: 0,9 g
+karbohydrat: 5,3 g
+-hvorav sukkerarter: 5,3 g
+kostfiber: 1,8 g
+protein: 3,3 g
+salt: 0,28 g
+vitamin B12: 0,5 µg (20 %')
+kalsium: 105 mg (13 %')
+fosfor: 76 mg (11 %')
+jod: 16 µg (11 %')
+
+tittel: TINE IsKaffe Mocha UTEN tilsatt sukker
+energi: 175 kJ (42 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,9 g
+karbohydrat: 4,8 g
+-hvorav sukkerarter: 4,6 g
+protein: 2,9 g
+salt: 0,29 g
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (15 %')
+kalsium: 94 mg (12 %')
+jod: 12 µg (8 %')
+
+tittel: TINE IsKaffe Gusto Nocciola
+energi: 210 kJ (50 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 7,8 g
+-hvorav sukkerarter: 7,8 g
+protein: 2,7 g
+salt: 0,28 g
+riboflavin: 0,12 mg (9 %')
+vitamin B12: 0,4 µg (14 %')
+kalsium: 89 mg (11 %')
+fosfor: 81 mg (12 %')
+jod: 11 µg (8 %')
+
+tittel: TINE IsKaffe Original Cappuccino
+energi: 246 kJ (58 kcal)
+fett: 1,1 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 9,5 g
+-hvorav sukkerarter: 9,5 g
+protein: 2,6 g
+salt: 0,3 g
+riboflavin: 0,12 mg (9 %')
+vitamin B12: 0,4 µg (14 %')
+kalsium: 100 mg (13 %')
+jod: 13 µg (9 %')
+
+tittel: TINE IsKaffe Original Mocha
+energi: 238 kJ (56 kcal)
+fett: 1,1 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 9,0 g
+-hvorav sukkerarter: 9,0 g
+protein: 2,6 g
+salt: 0,3 g
+riboflavin: 0,12 mg (9 %')
+vitamin B12: 0,4 µg (14 %')
+kalsium: 101 mg (13 %')
+jod: 13 µg (9 %')
+
+tittel: TINE Kefir Skogsbær
+energi: 234 kJ (55 kcal)
+fett: 1,1 g
+-hvorav mettede fettsyrer: 0,7 g
+karbohydrat: 8,6 g
+-hvorav sukkerarter: 8,6 g
+kostfiber: 0,3 g
+protein: 3,0 g
+salt: 0,09 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,3 µg (12 %')
+kalium: 154 mg (8 %')
+kalsium: 104 mg (13 %')
+fosfor: 81 mg (10 %')
+jod: 14 µg (9 %')
+
+tittel: TINE Kefir Økologisk
+energi: 235 kJ (56 kcal)
+fett: 3,0 g
+-hvorav mettede fettsyrer: 1,9 g
+karbohydrat: 4,0 g
+-hvorav sukkerarter: 4,0 g
+protein: 3,3 g
+salt: 0,10 g
+vitamin K: 10 µg (13 %')
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,3 µg (12 %')
+kalium: 171 mg (9 %')
+kalsium: 115 mg (14 %')
+fosfor: 100 mg (14 %')
+jod: 16 µg (11 %')
+
+tittel: TINE Kremgo’® Afrikansk Paprika
+energi: 1117 kJ (270 kcal)
+fett: 26 g
+-hvorav mettede fettsyrer: 16 g
+karbohydrat: 3,1 g
+-hvorav sukkerarter: 3,1 g
+protein: 6,0 g
+salt: 1,6 g
+vitamin A: 250 µg (31 %')
+fosfor: 110 mg (16 %')
+jod: 26 µg (17 %')
+
+tittel: TINE Kremgo’® Krydder
+energi: 1144 kJ (277 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 2,6 g
+-hvorav sukkerarter: 2,6 g
+protein: 5,9 g
+salt: 1,0 g
+vitamin A: 270 µg (34 %')
+fosfor: 120 mg (17 %')
+jod: 26 µg (17 %')
+
+tittel: TINE Kremgo’® Lett Krydder
+energi: 690 kJ (166 kcal)
+fett: 14 g
+-hvorav mettede fettsyrer: 9,0 g
+karbohydrat: 3,0 g
+-hvorav sukkerarter: 3,0 g
+protein: 7,3 g
+salt: 1,1 g
+vitamin A: 125 µg (16 %')
+vitamin B12: 0,6 µg (23 %')
+fosfor: 110 mg (16 %')
+
+tittel: TINE Kremgo’® Mandarin og Ananas
+energi: 1171 kJ (283 kcal)
+fett: 26 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 6,9 g
+-hvorav sukkerarter: 6,9 g
+protein: 5,4 g
+salt: 1,0 g
+vitamin A: 260 µg (33 %')
+fosfor: 120 mg (17 %')
+jod: 26 µg (17 %')
+
+tittel: TINE Kremgo’® Naturell
+energi: 1142 kJ (277 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 2,7 g
+-hvorav sukkerarter: 2,7 g
+protein: 5,7 g
+salt: 1,0 g
+vitamin A: 270 µg (34 %')
+fosfor: 120 mg (17 %')
+jod: 26 µg (17 %')
+
+tittel: TINE Kremgo’® Pepper
+energi: 1142 kJ (277 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 2,7 g
+-hvorav sukkerarter: 2,7 g
+protein: 5,7 g
+salt: 1,0 g
+vitamin A: 270 µg (34 %')
+fosfor: 120 mg (17 %')
+jod: 26 µg (17 %')
+
+tittel: TINE Kremgo’® Urter
+energi: 1145 kJ (277 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 2,7 g
+-hvorav sukkerarter: 2,7 g
+protein: 5,9 g
+salt: 1,0 g
+vitamin A: 270 µg (34 %')
+fosfor: 120 mg (17 %')
+jod: 26 µg (17 %')
+
+tittel: TINE Kulturmjølk
+energi: 254 kJ (61 kcal)
+fett: 3,5 g
+-hvorav mettede fettsyrer: 2,3 g
+karbohydrat: 4,0 g
+-hvorav sukkerarter: 4,0 g
+protein: 3,3 g
+salt: 0,10 g
+vitamin K: 10 µg (13 %')
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,3 µg (12 %')
+kalium: 171 mg (9 %')
+kalsium: 115 mg (14 %')
+fosfor: 100 mg (14 %')
+jod: 16 µg (11 %')
+
+tittel: TINE Skumma Kulturmjølk
+energi: 139 kJ (33 kcal)
+fett: 0,4 g
+-hvorav mettede fettsyrer: 0,3 g
+karbohydrat: 4,1 g
+-hvorav sukkerarter: 4,1 g
+protein: 3,2 g
+salt: 0,10 g
+vitamin K: 10 µg (13 %')
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,3 µg (12 %')
+kalium: 171 mg (9 %')
+kalsium: 115 mg (14 %')
+fosfor: 100 mg (14 %')
+jod: 16 µg (11 %')
+
+tittel: TINE Laktosefri Crème Fraîche
+energi: 1372 kJ (333 kcal)
+fett: 35 g
+-hvorav mettede fettsyrer: 21 g
+karbohydrat: 2,8 g
+-hvorav sukkerarter: 2,8 g
+protein: 2,2 g
+salt: 0,07 g
+vitamin A: 312 µg (39 %')
+
+tittel: TINE Laktosefri Helmelk 3,5 % fett
+energi: 237 kJ (57 kcal)
+fett: 3,5 g
+-hvorav mettede fettsyrer: 2,1 g
+karbohydrat: 3,0 g
+-hvorav sukkerarter: 3,0 g
+protein: 3,3 g
+salt: 0,1 g
+vitamin B12: 0,6 µg (10 %')
+kalsium: 134 mg (14 %')
+fosfor: 100 mg (11 %')
+
+tittel: Kesam® Mager Laktosefri
+energi: 280 kJ (66 kcal)
+fett: 1 g
+-hvorav mettede fettsyrer: 0,6 g
+karbohydrat: 4,3 g
+-hvorav sukkerarter: 4,3 g
+protein: 10 g
+salt: 0,10 g
+vitamin K: 37 µg (49 %')
+vitamin B12: 0,8 µg (33 %')
+biotin: 12 µg (24 %')
+kalsium: 125 mg (16 %')
+fosfor: 145 mg (18 %')
+
+tittel: TINE Laktosefri Kremfløte
+energi: 1459 kJ (354 kcal)
+fett: 37 g
+-hvorav mettede fettsyrer: 23 g
+karbohydrat: 3,1 g
+-hvorav sukkerarter: 2,9 g
+protein: 2,2 g
+salt: 0,06 g
+vitamin A: 213 µg (27 %')
+
+tittel: TINE Laktosefri Lettmelk 0,7 % fett
+energi: 139 kJ (33 kcal)
+fett: 0,7 g
+-hvorav mettede fettsyrer: 0,4 g
+karbohydrat: 3,1 g
+-hvorav sukkerarter: 3,1 g
+protein: 3,5 g
+salt: 0,1 g
+vitamin D: 0,4 µg (8 %')
+vitamin B12: 0,5 µg (20 %')
+kalsium: 115 mg (14 %')
+fosfor: 90 mg (13 %')
+jod: 17 µg (11 %')
+
+tittel: TINE Laktosefri Lettmelk 1,2 % fett
+energi: 157 kJ (37 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,7 g
+karbohydrat: 3,1 g
+-hvorav sukkerarter: 3,1 g
+protein: 3,5 g
+salt: 0,08 g
+vitamin B12: 0,5 µg (20 %')
+kalium: 150 mg (8 %')
+kalsium: 120 mg (15 %')
+fosfor: 92 mg (13 %')
+jod: 17 µg (11 %')
+
+tittel: TINE Laktosefri Lettrømme
+energi: 775 kJ (188 kcal)
+fett: 18 g
+-hvorav mettede fettsyrer: 11 g
+karbohydrat: 3,7 g
+-hvorav sukkerarter: 3,7 g
+protein: 2,8 g
+salt: 0,08 g
+vitamin A: 250 µg (31 %')
+
+tittel: TINE Laktosefri Matfløte
+energi: 853 kJ (207 kcal)
+fett: 20 g
+-hvorav mettede fettsyrer: 12 g
+karbohydrat: 3,9 g
+-hvorav sukkerarter: 3,9 g
+protein: 2,7 g
+salt: 0,1 g
+
+tittel: TINE Laktosefri Meierismør
+energi: 3051 kJ (742 kcal)
+fett: 82 g
+-hvorav mettede fettsyrer: 53 g
+enumettede fettsyrer: 19 g
+flerumettede fettsyrer: 2,0 g
+karbohydrat: 0,5 g
+-hvorav sukkerarter: 0,5 g
+protein: 0,5 g
+salt: 1,1 g
+vitamin A: 781 µg (98 %')
+vitamin D: 10 µg (200 %')
+vitamin E: 2,1 mg (18 %')
+
+tittel: TINE Laktosefri Yoghurt Blåbær og Vanilje
+energi: 353 kJ (84 kcal)
+fett: 2,9 g
+-hvorav mettede fettsyrer: 1,9 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 11 g
+protein: 3,5 g
+salt: 0,1 g
+vitamin B12: 0,4 µg (41 %')
+kalsium: 135 mg (17 %')
+
+tittel: TINE Laktosefri Yoghurt Naturell
+energi: 286 kJ (68 kcal)
+fett: 3,4 g
+-hvorav mettede fettsyrer: 2,3 g
+karbohydrat: 5,3 g
+-hvorav sukkerarter: 5,3 g
+protein: 4,1 g
+salt: 0,13 g
+vitamin B12: 0,5 µg (20 %')
+kalsium: 160 mg (20 %')
+
+tittel: TINE Milkshake Jordbær
+energi: 302 kJ (71 kcal)
+fett: 1,4 g
+-hvorav mettede fettsyrer: 0,9 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 10 g
+protein: 4,0 g
+salt: 0,1 g
+riboflavin: 0,16 mg (10 %')
+vitamin B12: 0,5 µg (19 %')
+kalsium: 131 mg (16 %')
+fosfor: 108 mg (13 %')
+jod: 15 µg (10 %')
+
+tittel: TINE Milkshake Sjokolade
+energi: 325 kJ (77 kcal)
+fett: 1,5 g
+-hvorav mettede fettsyrer: 0,9 g
+karbohydrat: 12 g
+-hvorav sukkerarter: 12 g
+protein: 4,1 g
+salt: 0,4 g
+riboflavin: 0,19 mg (12 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 241 mg (12 %')
+kalsium: 134 mg (17 %')
+fosfor: 106 mg (15 %')
+jod: 17 µg (11 %')
+
+tittel: TINE Nøkkel
+energi: 1458 kJ (351 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,5 g
+vitamin A: 270 µg (34 %')
+riboflavin: 0,30 mg (22 %')
+folat: 40 µg (20 %')
+vitamin B12: 2,4 µg (94 %')
+kalsium: 800 mg (100 %')
+fosfor: 580 mg (83 %')
+sink: 4,4 mg (44 %')
+selen: 10 µg (19 %')
+molybden: 8 µg (15 %')
+jod: 30 µg (20 %')
+
+tittel: TINE Nøkkel Lettost 16% fett
+energi: 1136 kJ (272 kcal)
+fett: 16 g
+-hvorav mettede fettsyrer: 10 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 32 g
+salt: 1,4 g
+vitamin A: 160 µg (20 %')
+riboflavin: 0,35 mg (25 %')
+folat: 48 µg (24 %')
+vitamin B12: 2,8 µg (111 %')
+kalsium: 940 mg (118 %')
+fosfor: 680 mg (97 %')
+sink: 5,2 mg (52 %')
+selen: 12 µg (22 %')
+krom: 7 µg (17 %')
+molybden: 9 µg (18 %')
+jod: 35 µg (23 %')
+
+tittel: TINE Nøkkel Lettost 17% fett - fra ostehjul
+energi: 1190 kJ (285 kcal)
+fett: 17 g
+-hvorav mettede fettsyrer: 11 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 33 g
+salt: 2,0 g
+vitamin A: 170 µg (21 %')
+riboflavin: 0,33 mg (24 %')
+folat: 45 µg (23 %')
+vitamin B12: 2,6 µg (104 %')
+kalsium: 880 mg (110 %')
+fosfor: 640 mg (91 %')
+sink: 4,9 mg (49 %')
+selen: 11 µg (20 %')
+krom: 6,2 µg (16 %')
+molybden: 8 µg (17 %')
+jod: 33 µg (22 %')
+
+tittel: TINE Norsk Edamer
+energi: 1475 kJ (355 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 28 g
+salt: 1,5 g
+vitamin A: 270 µg (34 %')
+riboflavin: 0,30 mg (22 %')
+folat: 41 µg (21 %')
+vitamin B12: 2,4 µg (94 %')
+kalsium: 800 mg (100 %')
+fosfor: 580 mg (83 %')
+sink: 4,4 mg (44 %')
+jod: 30 µg (20 %')
+
+tittel: TINE Norsk Edamer Vellagret
+energi: 1475 kJ (355 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 28 g
+salt: 1,5 g
+vitamin A: 270 µg (34 %')
+riboflavin: 0,30 mg (22 %')
+folat: 41 µg (21 %')
+vitamin B12: 2,4 µg (94 %')
+kalsium: 800 mg (100 %')
+fosfor: 580 mg (83 %')
+sink: 4,4 mg (44 %')
+jod: 30 µg (20 %')
+
+tittel: TINE Prim Original
+energi: 1197 kJ (284 kcal)
+fett: 8,0 g
+-hvorav mettede fettsyrer: 5,2 g
+karbohydrat: 46 g
+-hvorav sukkerarter: 42 g
+protein: 6,7 g
+salt: 0,8 g
+tiamin: 0,22 mg (20 %')
+riboflavin: 1,12 mg (80 %')
+folat: 32 µg (16 %')
+vitamin B12: 1,0 µg (40 %')
+pantotensyre: 2,1 mg (35 %')
+kalium: 1233 mg (62 %')
+kalsium: 363 mg (45 %')
+fosfor: 430 mg (61 %')
+magnesium: 67 mg (18 %')
+molybden: 24 µg (48 %')
+jod: 68 µg (46 %')
+
+tittel: TINE Prim Lett
+energi: 1077 kJ (255 kcal)
+fett: 4,0 g
+-hvorav mettede fettsyrer: 2,6 g
+karbohydrat: 48 g
+-hvorav sukkerarter: 45 g
+protein: 7,0 g
+salt: 0,8 g
+tiamin: 0,22 mg (20 %')
+riboflavin: 0,88 mg (63 %')
+folat: 53 µg (27 %')
+vitamin B12: 1,0 µg (40 %')
+pantotensyre: 2,3 mg (38 %')
+kalium: 1273 mg (64 %')
+kalsium: 341 mg (43 %')
+fosfor: 399 mg (57 %')
+magnesium: 71 mg (19 %')
+molybden: 22 µg (44 %')
+jod: 68 µg (45 %')
+
+tittel: TINE Lett 2 % (et godt alternativ til rømme)
+energi: 283 kJ (67 kcal)
+fett: 2,0 g
+-hvorav mettede fettsyrer: 1,3 g
+karbohydrat: 3,3 g
+-hvorav sukkerarter: 3,3 g
+protein: 9,0 g
+salt: 0,10 g
+kalsium: 130 mg (16 %')
+
+tittel: TINE Lettrømme 10 %
+energi: 492 kJ (119 kcal)
+fett: 10 g
+-hvorav mettede fettsyrer: 6,2 g
+karbohydrat: 4,1 g
+-hvorav sukkerarter: 4,1 g
+protein: 3,1 g
+salt: 0,10 g
+vitamin A: 125 µg (16 %')
+
+tittel: TINE Lettrømme Økologisk
+energi: 776 kJ (188 kcal)
+fett: 18 g
+-hvorav mettede fettsyrer: 11 g
+karbohydrat: 3,7 g
+-hvorav sukkerarter: 3,7 g
+protein: 2,8 g
+salt: 0,08 g
+vitamin A: 160 µg (20 %')
+
+tittel: TINE Lettrømme 18 %
+energi: 776 kJ (188 kcal)
+fett: 18 g
+-hvorav mettede fettsyrer: 11 g
+karbohydrat: 3,7 g
+-hvorav sukkerarter: 3,7 g
+protein: 2,8 g
+salt: 0,08 g
+vitamin A: 160 µg (20 %')
+
+tittel: TINE Melkeringe
+energi: 321 kJ (77 kcal)
+fett: 5,2 g
+-hvorav mettede fettsyrer: 3,4 g
+karbohydrat: 4,3 g
+-hvorav sukkerarter: 4,3 g
+protein: 3,2 g
+salt: 0,10 g
+
+tittel: TINE Rømmekolle
+energi: 492 kJ (119 kcal)
+fett: 10 g
+-hvorav mettede fettsyrer: 6,5 g
+karbohydrat: 4,1 g
+-hvorav sukkerarter: 4,1 g
+protein: 3,1 g
+salt: 0,10 g
+vitamin A: 125 µg (16 %')
+
+tittel: TINE Seterrømme
+energi: 1381 kJ (335 kcal)
+fett: 35 g
+-hvorav mettede fettsyrer: 22 g
+karbohydrat: 2,9 g
+-hvorav sukkerarter: 2,9 g
+protein: 2,2 g
+salt: 0,07 g
+vitamin A: 310 µg (39 %')
+
+tittel: TINE Revet Lettost 17% fett
+energi: 1176 kJ (282 kcal)
+fett: 17 g
+-hvorav mettede fettsyrer: 10 g
+karbohydrat: 0,2 g
+-hvorav sukkerarter: 0,2 g
+protein: 32 g
+salt: 1,0 g
+vitamin A: 160 µg (20 %')
+riboflavin: 0,38 mg (27 %')
+folat: 41 µg (20 %')
+vitamin B12: 2,6 µg (104 %')
+kalsium: 930 mg (116 %')
+fosfor: 680 mg (97 %')
+sink: 5,1 mg (51 %')
+selen: 12 µg (23 %')
+jod: 42 µg (28 %')
+
+tittel: TINE Revet Ost 4 oster
+energi: 1418 kJ (341 kcal)
+fett: 25 g
+-hvorav mettede fettsyrer: 16 g
+karbohydrat: 1,0 g
+-hvorav sukkerarter: 0,2 g
+protein: 28 g
+salt: 1,2 g
+vitamin A: 240 µg (30 %')
+riboflavin: 0,31 mg (22 %')
+folinsyre: 36 µg (18 %')
+vitamin B12: 2,8 µg (112 %')
+kalsium: 820 mg (103 %')
+fosfor: 590 mg (84 %')
+sink: 4,6 mg (46 %')
+selen: 11 µg (20 %')
+jod: 30 µg (20 %')
+
+tittel: TINE Revet Ost Original
+energi: 1475 kJ (355 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 28 g
+salt: 1,2 g
+vitamin A: 270 µg (34 %')
+riboflavin: 0,33 mg (24 %')
+folat: 31 µg (15 %')
+vitamin B12: 2,2 µg (87 %')
+kalsium: 780 mg (98 %')
+fosfor: 570 mg (81 %')
+sink: 4,3 mg (43 %')
+selen: 11 µg (19 %')
+jod: 39 µg (26 %')
+
+tittel: TINE Sjokomelk
+energi: 251 kJ (59 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 8,8 g
+-hvorav sukkerarter: 8,6 g
+protein: 3,3 g
+salt: 0,1 g
+riboflavin: 0,15 mg (10 %')
+vitamin B12: 0,5 µg (19 %')
+kalsium: 129 mg (16 %')
+jod: 18 µg (12 %')
+
+tittel: Kviteseidsmør
+energi: 3014 kJ (733 kcal)
+fett: 81 g
+-hvorav mettede fettsyrer: 53 g
+enumettede fettsyrer: 18 g
+flerumettede fettsyrer: 2 g
+karbohydrat: 0,5 g
+-hvorav sukkerarter: 0,5 g
+protein: 0,5 g
+salt: 2,5 g
+vitamin A: 772 µg (97 %')
+vitamin E: 2,1 mg (18 %')
+
+tittel: TINE GRILL Smør
+energi: 3042 kJ (727 kcal)
+fett: 80 g
+-hvorav mettede fettsyrer: 52 g
+karbohydrat: 3,0 g
+-hvorav sukkerarter: 0,6 g
+kostfiber: 0,8 g
+protein: 1,0 g
+salt: 1,5 g
+vitamin A: 762 µg (95 %')
+vitamin E: 2,0 mg (17 %')
+
+tittel: TINE Meierismør
+energi: 3051 kJ (742 kcal)
+fett: 82 g
+-hvorav mettede fettsyrer: 53 g
+enumettede fettsyrer: 19 g
+flerumettede fettsyrer: 2,0 g
+karbohydrat: 0,5 g
+-hvorav sukkerarter: 0,5 g
+protein: 0,5 g
+salt: 1,1 g
+vitamin A: 781 µg (98 %')
+vitamin D: 10 µg (200 %')
+vitamin E: 2,1 mg (18 %')
+
+tittel: TINE Smør Setertype
+energi: 3014 kJ (733 kcal)
+fett: 81 g
+-hvorav mettede fettsyrer: 53 g
+enumettede fettsyrer: 18 g
+flerumettede fettsyrer: 2 g
+karbohydrat: 0,5 g
+-hvorav sukkerarter: 0,5 g
+protein: 0,5 g
+salt: 2,5 g
+vitamin A: 772 µg (97 %')
+vitamin D: 10 µg (200 %')
+vitamin E: 2,1 mg (18 %')
+
+tittel: TINE Usaltet Smør
+energi: 3088 kJ (751 kcal)
+fett: 83 g
+-hvorav mettede fettsyrer: 54 g
+enumettede fettsyrer: 19 g
+flerumettede fettsyrer: 2 g
+karbohydrat: 0,5 g
+-hvorav sukkerarter: 0,5 g
+protein: 0,5 g
+salt: 0,03 g
+vitamin A: 791 µg (99 %')
+vitamin E: 2,2 mg (18 %')
+
+tittel: TINE Taffel Tomatost
+energi: 1301 kJ (313 kcal)
+fett: 24 g
+-hvorav mettede fettsyrer: 15 g
+karbohydrat: 0,3 g
+-hvorav sukkerarter: 0,3 g
+protein: 24 g
+salt: 2,8 g
+kalsium: 660 mg (82,5 %')
+
+tittel: TINE VGTR Boller
+energi: 649 kJ (155 kcal)
+fett: 6,1 g
+-hvorav mettede fettsyrer: 3,6 g
+karbohydrat: 8,8 g
+-hvorav sukkerarter: 3,6 g
+kostfiber: 4,4 g
+protein: 14,1 g
+salt: 0,77 g
+
+tittel: TINE VGTR Burger
+energi: 649 kJ (155 kcal)
+fett: 6,1 g
+-hvorav mettede fettsyrer: 3,6 g
+karbohydrat: 8,8 g
+-hvorav sukkerarter: 3,6 g
+kostfiber: 4,4 g
+protein: 14,1 g
+salt: 0,77 g
+
+tittel: TINE VGTR Deig
+energi: 649 kJ (155 kcal)
+fett: 6,1 g
+-hvorav mettede fettsyrer: 3,6 g
+karbohydrat: 8,8 g
+-hvorav sukkerarter: 3,6 g
+kostfiber: 4,4 g
+protein: 14,1 g
+salt: 0,77 g
+
+tittel: TINE Yoghurt Lime, Bringebær og Melon/Pasjonsfrukt
+energi: 357 kJ (85 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 10 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Appelsin
+energi: 355 kJ (84 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 10 g
+kostfiber: 0,1 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Gresk Pasjonsfrukt med granolatopping
+energi: 483 kJ (114 kcal)
+fett: 2,5 g
+-hvorav mettede fettsyrer: 1,2 g
+karbohydrat: 15 g
+-hvorav sukkerarter: 8,1 g
+kostfiber: 1,8 g
+protein: 7,8 g
+salt: 0,15 g
+
+tittel: TINE Yoghurt Gresk Vanilje med granolatopping
+energi: 476 kJ (113 kcal)
+fett: 2,5 g
+-hvorav mettede fettsyrer: 1,2 g
+karbohydrat: 15 g
+-hvorav sukkerarter: 7,8 g
+kostfiber: 1,8 g
+protein: 7,9 g
+salt: 0,15 g
+
+tittel: TINE Yoghurt Jordbær
+energi: 350 kJ (83 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 10 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Kirsebær
+energi: 348 kJ (83 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 9,8 g
+protein: 3,7 g
+salt: 0,1 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Kokos
+energi: 381 kJ (91 kcal)
+fett: 3,9 g
+-hvorav mettede fettsyrer: 2,7 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 10 g
+protein: 3,8 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Laktosefri Jordbær
+energi: 355 kJ (84 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 9,8 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Laktosefri Vanilje
+energi: 352 kJ (84 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 9,7 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Mango/Pasjonsfrukt
+energi: 357 kJ (85 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 10 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Melon/Pasjonsfrukt
+energi: 357 kJ (85 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 10 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Molte
+energi: 359 kJ (85 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 10 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Naturell
+energi: 287 kJ (69 kcal)
+fett: 3,4 g
+-hvorav mettede fettsyrer: 2,3 g
+karbohydrat: 5,6 g
+-hvorav sukkerarter: 5,6 g
+protein: 4,1 g
+salt: 0,13 g
+vitamin B12: 0,5 µg (20 %')
+kalsium: 160 mg (20 %')
+
+tittel: TINE Yoghurt Nyt Blåbær og Bringebær
+energi: 478 kJ (114 kcal)
+fett: 4,8 g
+-hvorav mettede fettsyrer: 3,0 g
+karbohydrat: 14 g
+-hvorav sukkerarter: 14 g
+protein: 3,2 g
+salt: 0,09 g
+kalsium: 115 mg (15 %')
+
+tittel: TINE Yoghurt Nyt Eple/Kanel og Pære
+energi: 514 kJ (122 kcal)
+fett: 4,8 g
+-hvorav mettede fettsyrer: 3,0 g
+karbohydrat: 17 g
+-hvorav sukkerarter: 17 g
+kostfiber: 0,2 g
+protein: 3,1 g
+salt: 0,1 g
+kalsium: 120 mg (15 %')
+
+tittel: TINE Yoghurt Nyt Julen
+energi: 532 kJ (127 kcal)
+fett: 5,5 g
+-hvorav mettede fettsyrer: 3,5 g
+karbohydrat: 16 g
+-hvorav sukkerarter: 15 g
+protein: 3,6 g
+salt: 0,13 g
+kalsium: 130 mg (16 %')
+
+tittel: TINE Yoghurt Nyt Lakris
+energi: 694 kJ (165 kcal)
+fett: 4,5 g
+-hvorav mettede fettsyrer: 2,9 g
+karbohydrat: 28 g
+-hvorav sukkerarter: 28 g
+protein: 2,9 g
+salt: 0,09 g
+kalsium: 110 mg (14 %')
+
+tittel: TINE Yoghurt Papaya/Pasjonsfrukt
+energi: 356 kJ (85 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 10 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Protein Naturell
+energi: 270 kJ (64 kcal)
+fett: 2,0 g
+-hvorav mettede fettsyrer: 1,3 g
+karbohydrat: 3,3 g
+-hvorav sukkerarter: 3,3 g
+protein: 8,5 g
+salt: 0,10 g   420 g vare gir ca.: energi 1134 kJ (269 kcal)
+fett: 8,4 g
+-hvorav mettede fettsyrer: 5,5 g
+karbohydrat: 13,9 g
+-hvorav sukkerarter: 13,9 g
+protein: 35,7 g
+salt: 0,42 g
+
+tittel: TINE Yoghurt Protein Pasjonsfrukt
+energi: 347 kJ (82 kcal)
+fett: 1,8 g
+-hvorav mettede fettsyrer: 1,2 g
+karbohydrat: 7,2 g
+-hvorav sukkerarter: 7,0 g
+protein: 9,2 g
+salt: 0,09 g   420 g vare gir ca.: energi 1457 kJ (344 kcal)
+fett: 7,6 g
+-hvorav mettede fettsyrer: 5,0 g
+karbohydrat: 30,2 g
+-hvorav sukkerarter: 29,4 g
+protein: 38,6 g
+salt: 0,38 g
+
+tittel: TINE Yoghurt Protein Vanilje
+energi: 345 kJ (82 kcal)
+fett: 1,8 g
+-hvorav mettede fettsyrer: 1,2 g
+karbohydrat: 7,1 g
+-hvorav sukkerarter: 7,0 g
+protein: 9,2 g
+salt: 0,09 g   420 g vare gir ca.: energi 1449 kJ (344 kcal)
+fett: 7,6 g
+-hvorav mettede fettsyrer: 5,0 g
+karbohydrat: 29,8 g
+-hvorav sukkerarter: 29,4 g
+protein: 38,6 g
+salt: 0,38 g
+
+tittel: TINE Yoghurt Sesong Høst/Vinter
+energi: 361 kJ (86 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 11 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Sitron
+energi: 354 kJ (84 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 10 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Skogsbær
+energi: 356 kJ (85 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 10 g
+protein: 3,8 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Sommerfrisk
+energi: 413 kJ (98 kcal)
+protein: 3,6 g
+karbohydrat: 13 g
+-hvorav: sukkerarter: 13 g
+fett: 3,4 g
+-hvorav: mettede fettsyrer: 2,1 g
+kostfiber: 0,1 g
+natrium: 0,04 g
+vitamin B12: 0,42 µg (42 %')
+kalsium: 120 mg (15 %')
+
+tittel: TINE Yoghurt Sviske
+energi: 378 kJ (90 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 12 g
+-hvorav sukkerarter: 12 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Sesong Vår/Sommer
+energi: 357 kJ (85 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2,0 g
+karbohydrat: 11 g
+-hvorav sukkerarter: 10 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: TINE Yoghurt Vanilje
+energi: 353 kJ (84 kcal)
+fett: 3,1 g
+-hvorav mettede fettsyrer: 2 g
+karbohydrat: 10 g
+-hvorav sukkerarter: 10 g
+protein: 3,7 g
+salt: 0,11 g
+vitamin B12: 0,4 µg (16 %')
+kalsium: 140 mg (17 %')
+
+tittel: Lett Tinemelk® Kaffe og Kakao
+energi: 188 kJ (45 kcal)
+fett: 1,3 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 4,7 g
+-hvorav sukkerarter: 4,5 g
+protein: 3,6 g
+salt: 0,10 g
+vitamin D: 0,4 µg (8 %')
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 189 mg (9 %')
+kalsium: 119 mg (15 %')
+fosfor: 118 mg (17 %')
+jod: 16 µg (11 %')
+
+tittel: Lett Tinemelk® Sjokolade
+energi: 188 kJ (45 kcal)
+fett: 1,3 g
+-hvorav mettede fettsyrer: 0,9 g
+karbohydrat: 4,6 g
+-hvorav sukkerarter: 4,5 g
+protein: 3,7 g
+salt: 0,10 g
+vitamin D: 0,4 µg (8 %')
+riboflavin: 0,15 mg (10 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 202 mg (10 %')
+kalsium: 120 mg (15 %')
+fosfor: 120 mg (17 %')
+jod: 16 µg (11 %')
+
+tittel: Tinemelk® Økologisk Helmelk 4,1 % fett
+energi: 284 kJ (68 kcal)
+fett: 4,1 g
+-hvorav mettede fettsyrer: 2,6 g
+karbohydrat: 4,5 g
+-hvorav sukkerarter: 4,5 g
+protein: 3,3 g
+salt: 0,1 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 170 mg (9 %')
+kalsium: 120 mg (15 %')
+fosfor: 100 mg (14 %')
+jod: 20 µg (14 %')
+
+tittel: Tinemelk® Økologisk Lettmelk 0,7 % fett
+energi: 164 kJ (39 kcal)
+fett: 0,7 g
+-hvorav mettede fettsyrer: 0,5 g
+karbohydrat: 4,7 g
+-hvorav sukkerarter: 4,7 g
+protein: 3,4 g
+salt: 0,10 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 170 mg (9 %')
+kalsium: 120 mg (15 %')
+fosfor: 100 mg (14 %')
+jod: 20 µg (13 %')
+
+tittel: Tinemelk® Økologisk Lettmelk 1,2 % fett
+energi: 182 kJ (43 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 4,7 g
+-hvorav sukkerarter: 4,7 g
+protein: 3,4 g
+salt: 0,1 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,4 µg (16 %')
+kalium: 170 mg (9 %')
+kalsium: 120 mg (15 %')
+fosfor: 100 mg (14 %')
+jod: 20 µg (13 %')
+
+tittel: TINE Langtidsholdbar Helmelk
+energi: 262 kJ (63 kcal)
+fett: 3,5 g
+-hvorav mettede fettsyrer: 2,3 g
+karbohydrat: 4,5 g
+-hvorav sukkerarter: 4,5 g
+protein: 3,3 g
+salt: 0,1 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 171 mg (9 %')
+kalsium: 134 mg (17 %')
+fosfor: 115 mg (16 %')
+jod: 19 µg (13 %')
+
+tittel: Tinemelk® Helmelk 3,5 % fett
+energi: 264 kJ (63 kcal)
+fett: 3,5 g
+-hvorav mettede fettsyrer: 2,3 g
+karbohydrat: 4,5 g
+-hvorav sukkerarter: 4,5 g
+protein: 3,4 g
+salt: 0,10 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,6 µg (24 %')
+biotin: 8 µg (16 %')
+kalium: 171 mg (9 %')
+kalsium: 130 mg (16 %')
+fosfor: 115 mg (17 %')
+jod: 16 µg (11 %')
+
+tittel: TINE Laktoseredusert Lettmelk
+energi: 180 kJ (43 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,7 g
+karbohydrat: 4,7 g
+-hvorav sukkerarter: 4,7 g
+protein: 3,3 g
+salt: 0,1 g
+vitamin D: 0,4 µg ( 8 %')
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 171 mg (9 %')
+kalsium: 134 mg (17 %')
+fosfor: 115 mg (17 %')
+jod: 19 µg (13 %')
+
+tittel: TINE Langtidsholdbar Lettmelk
+energi: 180 kJ (43 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,7 g
+karbohydrat: 4,7 g
+-hvorav sukkerarter: 4,7 g
+protein: 3,3 g
+salt: 0,1 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 171 mg (9 %')
+kalsium: 134 mg (17 %')
+fosfor: 115 mg (16 %')
+jod: 19 µg (13 %')
+
+tittel: Tinemelk® Lettmelk 0,5 % fett
+energi: 155 kJ (37 kcal)
+fett: 0,5 g
+-hvorav mettede fettsyrer: 0,3 g
+karbohydrat: 4,5 g
+-hvorav sukkerarter: 4,5 g
+protein: 3,5 g
+salt: 0,10 g
+vitamin D: 0,4 µg ( 8 %')
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,6 µg (24 %')
+biotin: 8 µg (16 %')
+kalium: 171 mg (9 %')
+kalsium: 130 mg (16 %')
+fosfor: 115 mg (17 %')
+jod: 16 µg (11 %')
+
+tittel: Tinemelk® Lettmelk 1 % fett
+energi: 173 kJ (41 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,6 g
+karbohydrat: 4,5 g
+-hvorav sukkerarter: 4,5 g
+protein: 3,5 g
+salt: 0,10 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,6 µg (24 %')
+biotin: 8 µg (16 %')
+kalium: 171 mg (9 %')
+kalsium: 130 mg (16 %')
+fosfor: 115 mg (17 %')
+jod: 16 µg (11 %')
+
+tittel: Lett Tinemelk® med bringebær fra Vik i Sogn
+energi: 179 kJ (42 kcal)
+fett: 1,2 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 4,5 g
+-hvorav sukkerarter: 4,4 g
+protein: 3,4 g
+salt: 0,10 g
+vitamin D: 0,4 µg (8 %')
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,5 µg (20 %')
+kalium: 168 mg (8 %')
+kalsium: 118 mg (15 %')
+fosfor: 113 mg (16 %')
+jod: 16 µg (10 %')
+
+tittel: Tinemelk® Fettfri skummet melk
+energi: 140 kJ (33 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,1 g
+karbohydrat: 4,5 g
+-hvorav sukkerarter: 4,5 g
+protein: 3,5 g
+salt: 0,10 g
+riboflavin: 0,15 mg (11 %')
+vitamin B12: 0,6 µg (24 %')
+biotin: 8 µg (16 %')
+kalium: 171 mg (9 %')
+kalsium: 130 mg (16 %')
+fosfor: 115 mg (17 %')
+jod: 16 µg (11 %')
+
+tittel: Vossarøykt Kvitost
+energi: 1458 kJ (351 kcal)
+fett: 27 g
+-hvorav mettede fettsyrer: 17 g
+karbohydrat: 0 g
+-hvorav sukkerarter: 0 g
+protein: 27 g
+salt: 1,2 g
+vitamin A: 300 µg (38 %')
+riboflavin: 0,31 mg (22 %')
+folat: 42 µg (21 %')
+vitamin B12: 2,4 µg (96 %')
+kalsium: 820 mg (103 %')
+fosfor: 590 mg (84 %')
+sink: 4,6 mg (46 %')
+selen: 11 µg (20,0 %')
+jod: 31 µg (20 %')
+
+tittel: YT® Proteinsmoothie Banan og Pasjonsfrukt
+energi: 254 kJ (60 kcal)
+fett: 1,3 g
+-hvorav mettede fettsyrer: 1,0 g
+karbohydrat: 5,3 g
+-hvorav sukkerarter: 4,9 g
+kostfiber: 0,5 g
+protein: 6,8 g
+salt: 0,10 g
+riboflavin: 0,13 mg (8 %')
+vitamin B12: 0,4 µg (17 %')
+kalsium: 115 mg (14 %')
+fosfor: 78 mg (10 %')
+jod: 16 µg (11 %')
+
+tittel: YT® Energibar Korn, frukt og bær
+energi: 1603 kJ (380 kcal)
+fett: 8,7 g
+-hvorav mettede fettsyrer: 3,5 g
+karbohydrat: 64 g
+-hvorav sukkerarter: 42 g
+kostfiber: 4,0 g
+protein: 8,9 g
+salt: 0,34 g
+vitamin B12: 0,8 µg (31 %')
+fosfor: 110 mg (16 %')
+kopper: 0,15 mg (15 %')
+
+tittel: YT® Mellommåltidsbar Søt og Salt Sjokolade
+energi: 1785 kJ (426 kcal)
+fett: 17 g
+-hvorav mettede fettsyrer: 3,8 g
+karbohydrat: 45 g
+-hvorav sukkerarter: 21 g
+kostfiber: 11 g
+protein: 21 g
+salt: 0,59 g   Pr.bar energi 893 kJ (213 kcal)
+fett: 8 g
+-hvorav mettede fettsyrer: 1,9 g
+karbohydrat: 23 g
+-hvorav sukkerarter: 10 g
+kostfiber: 5 g
+protein: 11 g
+salt: 0,30 g
+
+tittel: YT® Proteinbar Brownie
+energi: 1486 kJ (354 kcal)
+fett: 11 g
+-hvorav mettede fettsyrer: 5,4 g
+karbohydrat: 29 g
+-hvorav sukkerarter: 2,3 g
+polyoler (sukkeralkoholer): 25 g
+kostfiber: 2,7 g
+protein: 44 g
+salt: 0,90 g    energi 743 kJ (177 kcal)
+fett: 6 g
+-hvorav mettede fettsyrer: 2,7 g
+karbohydrat: 14 g
+-hvorav sukkerarter: 1,2 g
+polyoler (sukkeralkoholer): 12 g
+kostfiber: 1,4 g
+protein: 22 g
+salt: 0,45 g
+
+tittel: YT® Proteinbar Fudge
+energi: 1583 kJ (378 kcal)
+fett: 15 g
+-hvorav mettede fettsyrer: 8,0 g
+karbohydrat: 29 g
+-hvorav sukkerarter: 2,9 g
+polyoler (sukkeralkoholer): 23 g
+kostfiber: 4,1 g
+protein: 40 g
+salt: 1,23 g    energi 792 kJ (189 kcal)
+fett: 7 g
+-hvorav mettede fettsyrer: 4 g
+karbohydrat: 14 g
+-hvorav sukkerarter: 1,5 g
+polyoler (sukkeralkoholer): 12 g
+kostfiber: 2,1 g
+protein: 20 g
+salt: 0,62 g
+
+tittel: YT® Proteinpudding Banan & Vanilje
+energi: 305 kJ (72 kcal)
+fett: 1,3 g
+-hvorav mettede fettsyrer: 0,9 g
+karbohydrat: 4,6 g
+-hvorav sukkerarter: 4,1 g
+protein: 10 g
+salt: 0,19 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 172 mg (9 %')
+kalsium: 205 mg (26 %')
+fosfor: 81 mg (12 %')
+jod: 14 µg (10 %')
+
+tittel: YT® Proteinpudding Mango
+energi: 302 kJ (71 kcal)
+fett: 1,3 g
+-hvorav mettede fettsyrer: 0,9 g
+karbohydrat: 4,5 g
+-hvorav sukkerarter: 4,5 g
+protein: 10 g
+salt: 0,19 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 172 mg (9 %')
+kalsium: 205 mg (26 %')
+fosfor: 81 mg (12 %')
+jod: 14 µg (10 %')
+
+tittel: YT® Proteinpudding Salt Karamell
+energi: 303 kJ (72 kcal)
+fett: 1,3 g
+-hvorav mettede fettsyrer: 0,9 g
+karbohydrat: 4,6 g
+-hvorav sukkerarter: 4,5 g
+protein: 10 g
+salt: 0,27 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 172 mg (9 %')
+kalsium: 205 mg (26 %')
+fosfor: 81 mg (12 %')
+jod: 14 µg (10 %')
+
+tittel: YT® Proteinpudding Sjokolade
+energi: 313 kJ (74 kcal)
+fett: 1,5 g
+-hvorav mettede fettsyrer: 1,0 g
+karbohydrat: 4,7 g
+-hvorav sukkerarter: 4,1 g
+protein: 10 g
+salt: 0,19 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 239 mg (12 %')
+kalsium: 201 mg (25 %')
+fosfor: 93 mg (13 %')
+jod: 14 µg (10 %')
+
+tittel: YT® Proteinpudding Vanilje
+energi: 302 kJ (72 kcal)
+fett: 1,3 g
+-hvorav mettede fettsyrer: 0,9 g
+karbohydrat: 4,5 g
+-hvorav sukkerarter: 4,5 g
+protein: 10 g
+salt: 0,19 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 172 mg (9 %')
+kalsium: 205 mg (26 %')
+fosfor: 82 mg (12 %')
+jod: 14 µg (10 %')
+
+tittel: YT® Proteinshake Koffeinfri Kaffe Frappe
+energi: 267 kJ (63 kcal)
+fett: 0,8 g
+-hvorav mettede fettsyrer: 0,5 g
+karbohydrat: 4,9 g
+-hvorav sukkerarter: 4,4 g
+protein: 9,1 g
+salt: 0,23 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 171 mg (9 %')
+kalsium: 186 mg (23 %')
+fosfor: 83 mg (12 %')
+jod: 15 µg (10 %')
+
+tittel: YT® Proteinshake Mango
+energi: 263 kJ (62 kcal)
+fett: 0,8 g
+-hvorav mettede fettsyrer: 0,5 g
+karbohydrat: 4,6 g
+-hvorav sukkerarter: 4,2 g
+protein: 9,1 g
+salt: 0,23 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 172 mg (9 %')
+kalsium: 188 mg (24 %')
+fosfor: 83 mg (12 %')
+jod: 15 µg (10 %')
+
+tittel: YT® Proteinshake Sjokolade
+energi: 271 kJ (64 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,6 g
+karbohydrat: 4,7 g
+-hvorav sukkerarter: 4,1 g
+protein: 9,2 g
+salt: 0,26 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 224 mg (11 %')
+kalsium: 186 mg (23 %')
+fosfor: 92 mg (13 %')
+jod: 15 µg (10 %')
+
+tittel: YT® Proteinsmoothie Blåbær
+energi: 262 kJ (62 kcal)
+fett: 1,4 g
+-hvorav mettede fettsyrer: 1,0 g
+karbohydrat: 5,4 g
+-hvorav sukkerarter: 5,0 g
+kostfiber: 1,2 g
+protein: 6,9 g
+salt: 0,12 g
+riboflavin: 0,13 mg (8 %')
+vitamin B12: 0,5 µg (18 %')
+kalsium: 120 mg (15 %')
+fosfor: 80 mg (10 %')
+jod: 17 µg (11 %')
+
+tittel: YT® Proteinvann Jordbær & Granateple
+energi: 70 kJ (17 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,1 g
+karbohydrat: 0,1 g
+-hvorav sukkerarter: 0,1 g
+protein: 4,0 g
+salt: 0,02 g   330 ml vare gir ca.: energi 231 kJ (56 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,1 g
+karbohydrat: 0,1 g
+-hvorav sukkerarter: 0,1 g
+protein: 13,2 g
+salt: 0,07 g
+
+tittel: YT® Proteinvann Sitron & Lime
+energi: 70 kJ (17 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,1 g
+karbohydrat: 0,1 g
+-hvorav sukkerarter: 0,1 g
+protein: 4,0 g
+salt: 0,02 g   330 ml vare gir ca.: energi 231 kJ (56 kcal)
+fett: 0,1 g
+-hvorav mettede fettsyrer: 0,1 g
+karbohydrat: 0,1 g
+-hvorav sukkerarter: 0,1 g
+protein: 13,2 g
+salt: 0,07 g
+
+tittel: YT® Restitusjonsbar Sjokolade/Peanøtt
+energi: 1588 kJ (376 kcal)
+fett: 8,1 g
+-hvorav mettede fettsyrer: 4,5 g
+karbohydrat: 50 g
+-hvorav sukkerarter: 29 g
+kostfiber: 0,6 g
+protein: 29 g
+salt: 0,32 g   65 g energi 1032 kJ (244 kcal)
+fett: 5,3 g
+-hvorav mettede fettsyrer: 2,9 g
+karbohydrat: 32 g
+-hvorav sukkerarter: 19 g
+kostfiber: 0,4 g
+protein: 19 g
+salt: 0,21 g
+
+tittel: YT® Restitusjonsbar Karamell
+energi: 1588 kJ (376 kcal)
+fett: 8,0 g
+-hvorav mettede fettsyrer: 4,4 g
+karbohydrat: 48 g
+-hvorav sukkerarter: 30 g
+polyoler (sukkeralkoholer): 6,2 g
+kostfiber: 0,6 g
+protein: 30 g
+salt: 0,35 g
+
+tittel: YT® Restitusjonsbar Sjokolade/Banan
+energi: 1587 kJ (376 kcal)
+fett: 8,1 g
+-hvorav mettede fettsyrer: 4,5 g
+karbohydrat: 49 g
+-hvorav sukkerarter: 30 g
+kostfiber: 0,6 g
+protein: 29 g
+salt: 0,32 g
+
+tittel: YT® Restitusjonsdrikk Banan/Jordbær
+energi: 275 kJ (65 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,8 g
+karbohydrat: 8,4 g
+-hvorav sukkerarter: 8,1 g
+protein: 5,6 g
+salt: 0,18 g
+riboflavin: 0,13 mg (9 %')
+vitamin B12: 0,4 µg (17 %')
+kalium: 151 mg (8 %')
+kalsium: 138 mg (17 %')
+fosfor: 97 mg (14 %')
+jod: 14 µg (9 %')
+
+tittel: YT® Restitusjonsdrikk Kakao
+energi: 283 kJ (67 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,7 g
+karbohydrat: 8,7 g
+-hvorav sukkerarter: 8,4 g
+protein: 5,7 g
+salt: 0,18 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 212 mg (11 %')
+kalsium: 143 mg (18 %')
+fosfor: 114 mg (16 %')
+jod: 15 µg (10 %')
+
+tittel: YT® Restitusjonsdrikk Laktosefri og koffeinfri Kaffe Latte
+energi: 280 kJ (66 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,7 g
+karbohydrat: 8,7 g
+-hvorav sukkerarter: 6,4 g
+protein: 5,7 g
+salt: 0,18 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 163 mg (8 %')
+kalsium: 141 mg (18 %')
+fosfor: 106 mg (15 %')
+jod: 15 µg (10 %')
+
+tittel: YT® Restitusjonsdrikk Laktoseredusert med sjokolade- og kokossmak
+energi: 285 kJ (67 kcal)
+fett: 1,0 g
+-hvorav mettede fettsyrer: 0,7 g
+karbohydrat: 8,5 g
+-hvorav sukkerarter: 8,0 g
+protein: 6,0 g
+salt: 0,18 g
+riboflavin: 0,14 mg (10 %')
+vitamin B12: 0,5 µg (18 %')
+kalium: 207 mg (10 %')
+kalsium: 146 mg (18 %')
+fosfor: 113 mg (16 %')
+jod: 15 µg (10 %')
+
+tittel: YT® Sportsdrikk Appelsin
+energi: 102 kJ (24 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 6,0 g
+-hvorav sukkerarter: 4,0 g
+protein: 0 g
+salt: 0,15 g   Pr flaske ca.: energi 510 kJ (120 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 30 g
+-hvorav sukkerarter: 20 g
+protein: 0 g
+salt: 0,75 g
+
+tittel: YT® Sportsdrikk Sitrus
+energi: 102 kJ (24 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 6,0 g
+-hvorav sukkerarter: 4,0 g
+protein: 0 g
+salt: 0,15 g   Pr flaske ca.: energi 510 kJ (120 kcal)
+fett: 0 g
+-hvorav mettede fettsyrer: 0 g
+karbohydrat: 30 g
+-hvorav sukkerarter: 20 g
+protein: 0 g
+salt: 0,75 g
+

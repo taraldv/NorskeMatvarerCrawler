@@ -18,7 +18,7 @@ vector<string> Nettside::getContentFromNodeSet(xmlNodeSetPtr set) {
         for (int i = 0; i < set->nodeNr; i++) {
             const xmlNode *node = set->nodeTab[i]->xmlChildrenNode;
             string tempString = (string)((char *)node->content);
-			delete node;
+            delete node;
             vektor.push_back(tempString);
         }
     }
@@ -45,7 +45,7 @@ void Nettside::fiksURLs(vector<string> &vektorAlias) {
     }
 }
 
-/* fjerner alle URL som IKKE har tine i seg || stringCheck */
+/* fjerner alle URL som IKKE har 'base' i seg || stringCheck */
 void Nettside::onlyKeepUsefulLinks(vector<string> &vektorAlias) {
     for (vector<string>::iterator it = vektorAlias.end() - 1;
          it != vektorAlias.begin() - 1; it--) {
@@ -67,16 +67,15 @@ bool Nettside::malformedURL(string url) {
 string *Nettside::getTableRowCellContent(xmlNode *row) {
     /* heap alloc */
     string *data = new string[2];
-    xmlNode *rowTDNode = row->children;
+    ;
     int index = 0;
-    while (rowTDNode != row->last) {
+    for (xmlNode *rowTDNode = row->children; rowTDNode;
+         rowTDNode = rowTDNode->next) {
         if (rowTDNode->type == 1 && index < 2) {
             data[index] = (char *)xmlNodeGetContent(rowTDNode);
             index++;
         }
-        rowTDNode = rowTDNode->next;
     }
-    delete row;
     return data;
 }
 
@@ -85,6 +84,7 @@ vector<Table> Nettside::getTables() {
 
     merged.insert(merged.end(), newLinks.begin(), newLinks.end());
     merged.insert(merged.end(), visitedLinks.begin(), visitedLinks.end());
+    removeDuplicateStrings(merged);
 
     cout << "URLs: " << merged.size() << endl;
 
@@ -95,21 +95,25 @@ vector<Table> Nettside::getTables() {
         htmlDocPtr doc = req.getXMLDoc();
         if (doc) {
             Parser *par = new Parser(doc);
-            char *text = getTitle(par);
+            if (par) {
+                char *text = getTitle(par);
 
-            /* sjekker om siden har en tittel */
-            if (text) {
-                string tittel = (string)text;
-                delete text;
-                vector<string *> data = getTableData(par);
+                /* sjekker om siden har en tittel */
+                if (text) {
+                    string tittel = (string)text;
+                     cout << "tittel: " << tittel << endl;
+                    delete text;
 
-                /* sjekker om siden har en tabell */
-                if (data.size() > 0) {
-                    Table table(tittel, data);
-                    tables.push_back(table);
+                    vector<string *> data = getTableData(par);
+
+                    // sjekker om siden har en tabell
+                    if (data.size() > 0) {
+                        Table table(tittel, data);
+                        tables.push_back(table);
+                    }
                 }
+                delete par;
             }
-            delete par;
         }
     }
     return tables;
@@ -134,18 +138,13 @@ void Nettside::runCrawler(int numberOfIterations) {
             /* hvis ikke besøkt, henter html dokument, legges til besøkt liste
              * og sletter */
             Request req(tempURL);
-            htmlDocPtr doc = req.getXMLDoc();
-
-            Parser *par = new Parser(doc);
+            Parser *par = new Parser(req.getXMLDoc());
             xmlNodeSetPtr set = par->getRegexNodes((xmlChar *)"//a/@href");
-            delete par;
 
             visitedLinks.push_back(tempURL);
             newLinks.pop_back();
 
             vector<string> newURLs = getContentFromNodeSet(set);
-			xmlXPathFreeNodeSet(set);
-
 
             /* fikser links før de legges til sum*/
             removeDuplicateStrings(newURLs);
@@ -153,6 +152,9 @@ void Nettside::runCrawler(int numberOfIterations) {
             onlyKeepUsefulLinks(newURLs);
             sumNyeLinks.insert(sumNyeLinks.end(), newURLs.begin(),
                                newURLs.end());
+
+            xmlXPathFreeNodeSet(set);
+            // delete par;
         }
         removeDuplicateStrings(sumNyeLinks);
         /* her skal newLinks være tom, så vi legger til sumNyeLinks */

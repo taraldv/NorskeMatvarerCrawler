@@ -34,7 +34,7 @@ bool QMeieriene::stringCheck(string s) {
 
 vector<string *> QMeieriene::getTableData(Parser *parser) {
     xmlNodeSetPtr tableRows =
-        parser->getRegexNodes((xmlChar *)"//tr[@class='nutrient-table__row']");
+        parser->getRegexNodes((xmlChar *)"//div[@id='collapseOne']//tr");
     vector<string *> vArr;
     if (tableRows) {
         xmlNodePtr *rowArray = tableRows->nodeTab;
@@ -43,15 +43,13 @@ vector<string *> QMeieriene::getTableData(Parser *parser) {
             /* string arr med størrelse 2, forklaring og verdi */
             string *k = getTableRowCellContent(rowArray[i]);
             if (k) {
+                // cout << k[0] << endl;
+                // cout << k[1] << endl;
                 vArr.push_back(k);
             }
-            // cout << k[0] << endl;
-            // cout << k[1] << endl;
-            // delete[] k;
         }
-        delete rowArray;
     }
-    delete tableRows;
+    xmlXPathFreeNodeSet(tableRows);
     return vArr;
 }
 
@@ -61,21 +59,30 @@ char *QMeieriene::getTitle(Parser *parser) {
         parser->getRegexNodes((xmlChar *)"//div[@class='page-header']");
     if (titleDiv) {
         xmlNodePtr *arr = titleDiv->nodeTab;
-        xmlNode *pageHeaderDiv = arr[0];
-        if (pageHeaderDiv) {
-            // cout << pageHeaderDiv->name << endl;
-            xmlNode *children = pageHeaderDiv->children;
-            string temp = "";
-            while (children != pageHeaderDiv->last) {
-                if (children->type == 1) {
-                    cout << children->name << endl;
-                    char *tekst = (char *)xmlNodeGetContent(children);
-                    temp += (string)tekst;
-					delete tekst;
+        if (arr) {
+            xmlNode *pageHeaderDiv = arr[0];
+            if (pageHeaderDiv) {
+                // cout << pageHeaderDiv->name << endl;
+                xmlNode *children = pageHeaderDiv->children;
+                string temp = "";
+                while (children != pageHeaderDiv->last) {
+                    if (children->type == 1) {
+                        // cout << children->name << endl;
+                        char *tekst = (char *)xmlNodeGetContent(children);
+                        // cout << sizeof(tekst) << endl;
+                        // cout << tekst << endl;
+                        temp += (string)tekst;
+                        delete tekst;
+                    }
+                    children = children->next;
                 }
-                children = children->next;
+
+                /*
+                fra string til char * gjorde SkyrBlåbær om til SkyrBl0
+                xmlCharStrdup fikset dette på en eller annen måte
+                */
+                return (char *)xmlCharStrdup(temp.data());
             }
-			return &temp[0u];
         }
     }
     return NULL;

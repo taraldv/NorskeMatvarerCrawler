@@ -3,7 +3,7 @@
 using namespace std;
 
 string Table::fixString(string s) {
-    const char *search = "()abcdefghijklmnopqrstuvwxyzøæå0123456789-";
+    const char *search = "()abcdefghijklmnopqrstuvwxyzøæå0123456789-ABCDEFGHIJKLMNOPQRSTUVWXYZØÆÅ";
     size_t startIndex = s.find_first_of(search);
     size_t lastIndex = s.find_last_of(search);
     if (startIndex != string::npos && lastIndex != string::npos) {

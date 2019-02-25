@@ -51,9 +51,9 @@ vector<string *> Tine::getTableData(Parser *parser) {
             // cout << k[1] << endl;
             // delete[] k;
         }
-        delete rowArray;
+        //xmlFree(rowArray);
     }
-    delete tableRows;
+	xmlXPathFreeNodeSet(tableRows);
     return vArr;
 }
 
@@ -66,7 +66,9 @@ char *Tine::getTitle(Parser *parser) {
         if (h1Title->nodeNr) {
             xmlNode *titleNode = arr[0]->xmlChildrenNode;
             /* xmlNodeGetContent kan også bli NULL */
-            return (char *)xmlNodeGetContent(titleNode);
+			char * output = (char *)xmlNodeGetContent(titleNode);
+			xmlXPathFreeNodeSet(h1Title);
+            return output;
         }
     }
     return NULL;

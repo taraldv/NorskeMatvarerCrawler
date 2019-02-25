@@ -36,21 +36,23 @@ void writeTables(vector<Table> tables, string filNavn) {
 }
 
 int main(void) {
-    QMeieriene q;
-    // q.runCrawler(4);
-    vector<Table> tables = q.getTables();
+
+    /*vector<string> visited = q.getvisitedLinks();
+    vector<string> newLinks = q.getNewLinks();
+    writeVector(visited, "visited.txt");
+    writeVector(newLinks, "new.txt");*/
+
+    Tine t;
+    t.runCrawler(5);
+    vector<Table> tables = t.getTables();
     cout << "Tables: " << tables.size() << endl;
     writeTables(tables, "qTabell.txt");
 
-    // vector<string> visited = q.getvisitedLinks();
-    // vector<string> newLinks = q.getNewLinks();
-    // cout << vektor.size() << endl;
-    // writeVector(visited, "visited.txt");
-    // writeVector(newLinks, "new.txt");
-
-    /*Tine t;
-    t.runCrawler(5);
-    writeTables(t.getTables(),"tineData.txt");*/
+    /* QMeieriene q;
+       q.runCrawler(5);
+       vector<Table> tables = q.getTables();
+       cout << "Tables: " << tables.size() << endl;
+       writeTables(tables, "qTabell.txt");*/
 
     return 0;
 }
