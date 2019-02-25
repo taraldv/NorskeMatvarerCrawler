@@ -14,7 +14,7 @@ class Nettside {
     std::vector<std::string> newLinks;
     std::string base;
     std::string baseURL;
-    std::string *getTableRowCellContent(xmlNode *row);
+    virtual std::string *getTableRowCellContent(xmlNode *row);
 
   private:
     std::vector<std::string> visitedLinks;

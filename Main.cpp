@@ -6,6 +6,8 @@
 #include <vector>
 
 #include "http/Table.h"
+#include "nettsider/Kolonial.h"
+#include "nettsider/Meny.h"
 #include "nettsider/QMeieriene.h"
 #include "nettsider/Tine.h"
 
@@ -37,22 +39,28 @@ void writeTables(vector<Table> tables, string filNavn) {
 
 int main(void) {
 
-    /*vector<string> visited = q.getvisitedLinks();
-    vector<string> newLinks = q.getNewLinks();
+    Meny m;
+    //m.runCrawler(2);
+    vector<Table> tables = m.getTables();
+    cout << "Tables: " << tables.size() << endl;
+    writeTables(tables, "menyData.txt");
+
+   /* vector<string> visited = m.getvisitedLinks();
+    vector<string> newLinks = m.getNewLinks();
     writeVector(visited, "visited.txt");
     writeVector(newLinks, "new.txt");*/
 
-    Tine t;
+    /*Tine t;
     t.runCrawler(5);
     vector<Table> tables = t.getTables();
     cout << "Tables: " << tables.size() << endl;
-    writeTables(tables, "qTabell.txt");
+    writeTables(tables, "tineData.txt");*/
 
-    /* QMeieriene q;
-       q.runCrawler(5);
-       vector<Table> tables = q.getTables();
-       cout << "Tables: " << tables.size() << endl;
-       writeTables(tables, "qTabell.txt");*/
+    /*QMeieriene q;
+    q.runCrawler(5);
+    vector<Table> tables = q.getTables();
+    cout << "Tables: " << tables.size() << endl;
+    writeTables(tables, "qTabell.txt");*/
 
     return 0;
 }
